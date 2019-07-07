@@ -1,0 +1,42 @@
+b *0x400819
+b *0x400869
+b *0x4008b9
+b *0x400909
+b *0x400649
+b *0x400699
+b *0x400703
+b *0x400753
+disp/c *0x601048 ^ $eax
+r hoge
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c

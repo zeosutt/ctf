@@ -1,0 +1,27 @@
+46,12, 6, 0,34,30,19,20, 1,42
+KH,5C,3H,2C,TH,9H,6S,7C,2D,QH
+             1        0
+
+
+
+
+7C TH 8H 5S AH TD 2D 6C 8S KS
+20 34 26 15 50 33  1 16 27 47
+
+
+
+
+
+
+
+
+
+for i in {1545542872..1545548400}; do
+    piyo=$(LD_PRELOAD=./hook.so ./generate_random_hands $i <<< $i)
+    num=$(echo $piyo | grep -Po '(?<=e":)\d+')
+    if [ $num -lt 167 ] ; then
+        echo $piyo $(date -d "@$(echo $piyo | grep -Po '(?<=d":)\d+')")
+    fi
+done
+
+

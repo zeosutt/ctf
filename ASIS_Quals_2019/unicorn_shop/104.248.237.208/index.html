@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="all-ALL"><head>
+	<title>Unicorn Shop</title>
+	<meta charset="utf-8"> <!-- important! -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head><body>
+	<div class="container">
+		
+		<h1>Unicorn Shop</h1>
+		<div class="container-fluid" style="background-image:url('/static/p_unicorn.jpg');background-size:contain;background-repeat:no-repeat;background-position:center center;height:300px;"></div>
+		<p>Welcome to the Unicorn shop.</p>
+    <p> “Money has never made man happy, nor will it; there is nothing in its nature to produce happiness. The more of it one has the more one wants.”­ – Benjamin Franklin</p>
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">Item ID</th>
+					<th scope="col">Price</th>
+					<th scope="col">English</th>
+					<th scope="col">Spanish</th>
+					<th scope="col">German</th>
+					<th scope="col">Russian</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr><th scope="row">1</th><th scope="row">2</th><td>Black and white Unicorn</td><td>Unicornio blanco y negro</td><td>Schwarz und Weiß Einhorn</td><td>черно-белый единорог</td></tr>
+				<tr><th scope="row">2</th><th scope="row">5</th><td>Unicorn Family</td><td>Familia unicornio</td><td>Einhorn Familie</td><td>Единорог Семья</td></tr>
+				<tr><th scope="row">3</th><th scope="row">8</th><td>Warrior Unicorn</td><td>Guerrero unicornio</td><td>CKrieger-Einhorn</td><td>Воин Единорог</td></tr>
+				<tr><th scope="row">4</th><th scope="row"><s>1337</s> 1069.6 (20% discount!)</th><td>Ultra Unicorn</td><td>Ultra unicornio</td><td>Ultra Einhorn</td><td>Ультра Единорог</td></tr>
+			</tbody>
+		</table>
+    <script src="https://code.jquery.com/jquery-3.4.0.slim.min.js"></script>
+		<h2>Purchase Unicorn</h2>
+		<form method="POST" action="/purchase">
+			<div class="form-group">
+				<label for="inputMoney">Price</label>
+				<input type="text" class="form-control" id="inputMoney" name="imoney" aria-help="money-help" placeholder="Enter Price" onChange="checkInput(this)" onKeyUp="checkInput(this)">
+        <script type="text/javascript">
+
+          function checkInput(f){
+            var field = $(f);
+            field.val(field.val().replace(/[^a-z0-9]/gi,''));
+          }
+        </script>
+				<small id="money-help" class="form-text text-muted">We accept numeric denominations in any standard! We'll never share your $$$ with anyone else.</small>
+			</div>
+			<div class="form-group">
+				<label for="inputID">Item ID</label>
+				<input type="text" class="form-control" id="inputID" name="id" placeholder="Item ID">
+			</div>
+			<button type="submit" class="btn btn-primary">Purchase!</button>
+		</form>
+
+	</div>
+	
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body></html>

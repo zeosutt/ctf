@@ -1,0 +1,4974 @@
+0x413:	add    esp,0x8
+0x412:	add    rsp,0x8
+0x4cf:	nop
+0x4ce:	xchg   ax,ax
+0x4cd:	add    BYTE PTR [rsi-0x70],ah
+0x4cc:	sub    eax,DWORD PTR [rax]; 	xchg   ax,ax
+0x58e:	add    dh,bl
+0x686:	pop    rdi
+0x685:	pop    r15
+0x684:	pop    rsi; 	pop    r15
+0x683:	pop    r14; 	pop    r15
+0xa5f:	add    bl,dh
+0xa98:	pop    rbp
+0xa96:	add    BYTE PTR [rax],al; 	pop    rbp
+0xa95:	add    BYTE PTR [rax],r8b; 	pop    rbp
+0xad8:	pop    rbp
+0xad5:	nop    DWORD PTR [rax]; 	pop    rbp
+0xb0d:	pop    rbp
+0xb0b:	add    BYTE PTR [rcx],al; 	pop    rbp
+0xb5e:	pop    rbp
+0xb5d:	nop; 	pop    rbp
+0xb5b:	add    BYTE PTR [rax],al; 	nop; 	pop    rbp
+0xbac:	leave  
+0xbab:	nop; 	leave  
+0xba9:	add    BYTE PTR [rax],al; 	nop; 	leave  
+0xbbf:	pop    rbp
+0xbbe:	nop; 	pop    rbp
+0xbbc:	add    BYTE PTR [rax],al; 	nop; 	pop    rbp
+0xc2c:	leave  
+0xc2b:	add    cl,cl
+0xc2a:	add    BYTE PTR [rax],al; 	leave  
+0xc29:	add    BYTE PTR [rax],al; 	add    cl,cl
+0xdf8:	pop    rbx
+0xdf6:	add    BYTE PTR [rax],al; 	pop    rbx
+0x1077:	add    BYTE PTR [rax-0x39],cl
+0x1090:	adc    BYTE PTR [rax-0x7d],cl
+0x108f:	push   rbx; 	adc    BYTE PTR [rax-0x7d],cl
+0x1573:	add    BYTE PTR [rax],al
+0x18df:	pop    rdi
+0x18de:	pop    r15
+0x18dd:	pop    rsi; 	pop    r15
+0x18dc:	pop    r14; 	pop    r15
+0x1943:	fisttp WORD PTR [rax-0x7d]
+0x197b:	fisttp WORD PTR [rax-0x7d]
+0x1992:	pop    rdi
+0x1991:	pop    r15
+0x1990:	pop    rsi; 	pop    r15
+0x198f:	pop    r14; 	pop    r15
+0x1add:	dec    DWORD PTR [rax-0x77]
+0x1adc:	clc    ; 	dec    DWORD PTR [rax-0x77]
+0x1c07:	pop    rbp
+0x1c06:	pop    rbx; 	pop    rbp
+0x1c05:	or     BYTE PTR [rbx+0x5d],bl
+0x1d4a:	pop    rdi
+0x1d49:	pop    r15
+0x1d48:	pop    rsi; 	pop    r15
+0x1d47:	pop    r14; 	pop    r15
+0x1db3:	pop    rsp
+0x2616:	pop    rbp
+0x2615:	pop    rdi; 	pop    rbp
+0x2614:	pop    r15; 	pop    rbp
+0x2613:	pop    rsi; 	pop    r15; 	pop    rbp
+0x27a6:	ror    BYTE PTR [rdi],0x84
+0x2d33:	xchg   DWORD PTR [rax-0x7d],ecx
+0x3073:	dec    DWORD PTR [rax-0x39]
+0x33c5:	pop    rbp
+0x33c4:	pop    rdi; 	pop    rbp
+0x33c3:	pop    r15; 	pop    rbp
+0x33c2:	pop    rsi; 	pop    r15; 	pop    rbp
+0x389f:	add    BYTE PTR [rax-0x77],cl
+0x39ca:	pop    rdi
+0x39c9:	pop    r15
+0x39c8:	pop    rsi; 	pop    r15
+0x39c7:	pop    r14; 	pop    r15
+0x3ce6:	pop    rdi
+0x3ce5:	pop    r15
+0x3ce4:	pop    rsi; 	pop    r15
+0x3ce3:	pop    r14; 	pop    r15
+0x3f1d:	sbb    ecx,DWORD PTR [rcx-0x7d]
+0x47cf:	dec    DWORD PTR [rax-0x7d]
+0x49a7:	dec    DWORD PTR [rax-0x7d]
+0x4a63:	sub    BYTE PTR [rax-0x7d],cl
+0x4aa8:	sub    BYTE PTR [rax-0x7d],cl
+0x51af:	adc    DWORD PTR [rax-0x7d],ecx
+0x526d:	pop    rbp
+0x526c:	pop    rdi; 	pop    rbp
+0x526b:	pop    r15; 	pop    rbp
+0x526a:	pop    rsi; 	pop    r15; 	pop    rbp
+0x56c3:	pop    rdi
+0x56c2:	pop    r15
+0x56c1:	pop    rsi; 	pop    r15
+0x56c0:	pop    r14; 	pop    r15
+0x59d3:	ror    BYTE PTR [rax+0x1],1
+0x5a73:	ror    BYTE PTR [rax+0x1],1
+0x5b14:	pop    rdi
+0x5b13:	pop    r15
+0x5b12:	pop    rsi; 	pop    r15
+0x5b11:	pop    r14; 	pop    r15
+0x5c80:	xor    cl,ch
+0x5e05:	pop    rsp
+0x5e04:	pop    r12
+0x5e03:	pop    rbp; 	pop    r12
+0x5e02:	pop    rbx; 	pop    rbp; 	pop    r12
+0x5e23:	pop    rsp
+0x5e22:	pop    r12
+0x5e21:	pop    rbp; 	pop    r12
+0x5e20:	rcr    BYTE PTR [rbp+0x41],0x5c
+0x5f3a:	pop    rdi
+0x5f39:	pop    r15
+0x5f38:	pop    rsi; 	pop    r15
+0x5f37:	pop    r14; 	pop    r15
+0x5f9c:	add    DWORD PTR [rax-0x77],ecx
+0x5faf:	add    BYTE PTR [rax-0x7d],cl
+0x61cf:	add    bl,dh
+0x6413:	pop    rdi
+0x6412:	pop    r15
+0x6411:	pop    rsi; 	pop    r15
+0x6410:	pop    r14; 	pop    r15
+0x6807:	pop    rdi
+0x6806:	pop    r15
+0x6805:	pop    rsi; 	pop    r15
+0x6804:	pop    r14; 	pop    r15
+0x9d67:	pop    rdi
+0x9d66:	pop    r15
+0x9d65:	pop    rsi; 	pop    r15
+0x9d64:	pop    r14; 	pop    r15
+0xbcd7:	or     al,ch
+0xcad7:	or     al,ch
+0xd340:	sub    BYTE PTR [rax-0x7d],cl
+0xd39d:	pop    rdi
+0xd39c:	pop    r15
+0xd39b:	pop    rsi; 	pop    r15
+0xd39a:	pop    r14; 	pop    r15
+0xd521:	dec    DWORD PTR [rax-0x7d]
+0xda7f:	add    BYTE PTR [rax-0x7d],cl
+0xdafc:	pop    rbp
+0xdafb:	pop    r13
+0xdafa:	pop    rsp; 	pop    r13
+0xdaf9:	pop    r12; 	pop    r13
+0xdb49:	fpatan 
+0xdc42:	add    BYTE PTR [rax],al
+0xdc40:	sbb    BYTE PTR [rcx],al; 	add    BYTE PTR [rax],al
+0xe16e:	or     BYTE PTR [rax+0x39],cl
+0xe16d:	or     BYTE PTR [r8+0x39],cl
+0xe1cb:	add    BYTE PTR [rax-0x7d],cl
+0xe1ca:	add    BYTE PTR [r8-0x7d],r9b
+0xe263:	add    BYTE PTR [rax-0x7d],cl
+0xe262:	add    BYTE PTR [r8-0x7d],r9b
+0xe2c3:	add    BYTE PTR [rax-0x7d],cl
+0xe2c2:	add    BYTE PTR [r8-0x7d],r9b
+0xe449:	scas   eax,DWORD PTR es:[rdi]
+0xe446:	dec    BYTE PTR [rcx+0xf]; 	scas   eax,DWORD PTR es:[rdi]
+0xe61c:	pop    rbp
+0xe61b:	pop    rdi; 	pop    rbp
+0xe61a:	pop    r15; 	pop    rbp
+0xe619:	pop    rsi; 	pop    r15; 	pop    rbp
+0xe806:	pop    rdi
+0xe805:	pop    r15
+0xe804:	pop    rsi; 	pop    r15
+0xe803:	pop    r14; 	pop    r15
+0xeaa1:	cmp    DWORD PTR [rax-0x39],ecx
+0xeaaf:	add    BYTE PTR [rax+0x39],cl
+0xeac1:	add    ecx,DWORD PTR [rbp+rcx*4+0x64]
+0xead1:	adc    ecx,DWORD PTR [rax-0x7d]
+0xebd6:	pop    rbp
+0xebd5:	pop    rbx; 	pop    rbp
+0xebd4:	or     BYTE PTR [rbx+0x5d],bl
+0xec2d:	xor    eax,eax
+0xecea:	pop    rsp
+0xece9:	pop    r12
+0xece8:	pop    rbp; 	pop    r12
+0xece7:	pop    rbx; 	pop    rbp; 	pop    r12
+0xedeb:	pop    rsp
+0xedea:	pop    r12
+0xede9:	pop    rbp; 	pop    r12
+0xede8:	pop    rbx; 	pop    rbp; 	pop    r12
+0xeea8:	pop    rdi
+0xeea7:	pop    r15
+0xeea6:	pop    rsi; 	pop    r15
+0xeea5:	pop    r14; 	pop    r15
+0xeecf:	add    BYTE PTR [rax-0x7d],cl
+0xef06:	add    DWORD PTR [rax-0x7d],ecx
+0xef8b:	scas   eax,DWORD PTR es:[rdi]
+0xeffb:	add    BYTE PTR [rax-0x7d],cl
+0xf06c:	pop    rdi
+0xf06b:	pop    r15
+0xf06a:	pop    rsi; 	pop    r15
+0xf069:	pop    r14; 	pop    r15
+0xf1d5:	add    BYTE PTR [rax-0x7d],cl
+0xf298:	xor    eax,eax
+0xf296:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0xf3f4:	pop    rdi
+0xf3f3:	pop    r15
+0xf3f2:	pop    rsi; 	pop    r15
+0xf3f1:	pop    r14; 	pop    r15
+0xf5f4:	pop    rdi
+0xf5f3:	pop    r15
+0xf5f2:	pop    rsi; 	pop    r15
+0xf5f1:	pop    r14; 	pop    r15
+0xf7c8:	add    BYTE PTR [rax],al
+0xf7c6:	fadd   DWORD PTR [rax]; 	add    BYTE PTR [rax],al
+0xf879:	add    BYTE PTR [rax],al
+0xf877:	fadd   DWORD PTR [rax]; 	add    BYTE PTR [rax],al
+0xf907:	add    BYTE PTR [rax-0x7d],cl
+0xf95f:	pop    rbp
+0xf95e:	pop    rsi; 	pop    rbp
+0xf95d:	pop    r14; 	pop    rbp
+0xf95c:	pop    rbp; 	pop    r14; 	pop    rbp
+0xfb6d:	pop    rbx
+0xfb6b:	add    BYTE PTR [rax],al; 	pop    rbx
+0xfb70:	pushf  
+0xfcfd:	pop    rbp
+0xfcfc:	pop    rbx; 	pop    rbp
+0xfcfb:	add    BYTE PTR [rbx+0x5d],bl
+0xfcfa:	add    BYTE PTR [rax],al; 	pop    rbx; 	pop    rbp
+0xfdc3:	pop    rsp
+0xfdc2:	pop    r12
+0xfdc1:	pop    rbp; 	pop    r12
+0xfdc0:	pop    rbx; 	pop    rbp; 	pop    r12
+0x10094:	pop    rbp
+0x10093:	pop    rbx; 	pop    rbp
+0x10092:	rcr    BYTE PTR [rbx+0x5d],1
+0x10091:	mov    eax,edx; 	pop    rbx; 	pop    rbp
+0x10146:	add    bl,dh
+0x10144:	add    DWORD PTR [rax],eax; 	add    bl,dh
+0x10183:	add    BYTE PTR [rax-0x77],cl
+0x101f3:	pop    rsi
+0x101f2:	pop    r14
+0x101f1:	pop    rbp; 	pop    r14
+0x101f0:	pop    r13; 	pop    r14
+0x1022b:	pop    rsi
+0x1022a:	pop    r14
+0x10229:	pop    rbp; 	pop    r14
+0x10228:	pop    r13; 	pop    r14
+0x10292:	add    BYTE PTR [rax-0x77],cl
+0x1030a:	pop    rbp
+0x10309:	pop    r13
+0x10308:	pop    rsp; 	pop    r13
+0x10307:	pop    r12; 	pop    r13
+0x10345:	pop    rbp
+0x10344:	pop    r13
+0x10343:	pop    rsp; 	pop    r13
+0x10342:	pop    r12; 	pop    r13
+0x103a8:	add    BYTE PTR [rax-0x77],cl
+0x1045e:	cmp    BYTE PTR [rax+0x39],cl
+0x1045d:	push   rbp; 	cmp    BYTE PTR [rax+0x39],cl
+0x10487:	or     cl,BYTE PTR [rax-0x7d]
+0x104ef:	pop    rbp
+0x104ee:	pop    r13
+0x104ed:	pop    rsp; 	pop    r13
+0x104ec:	pop    r12; 	pop    r13
+0x10656:	pop    rbp
+0x10655:	pop    r13
+0x10654:	pop    rsp; 	pop    r13
+0x10653:	pop    r12; 	pop    r13
+0x10700:	pop    rbp
+0x106ff:	pop    r13
+0x106fe:	pop    rsp; 	pop    r13
+0x106fd:	pop    r12; 	pop    r13
+0x10877:	pop    rsp
+0x10876:	pop    r12
+0x10875:	pop    rbp; 	pop    r12
+0x10874:	pop    rbx; 	pop    rbp; 	pop    r12
+0x109c1:	pop    rdi
+0x109c0:	pop    r15
+0x109bf:	pop    rsi; 	pop    r15
+0x109be:	pop    r14; 	pop    r15
+0x110f4:	pop    rdi
+0x110f3:	pop    r15
+0x110f2:	pop    rsi; 	pop    r15
+0x110f1:	pop    r14; 	pop    r15
+0x1118e:	ror    BYTE PTR [rax+0x29],1
+0x111a2:	add    BYTE PTR [rax+0x1],cl
+0x112cd:	dec    DWORD PTR [rax+0x29]
+0x113d0:	ror    BYTE PTR [rax-0x77],1
+0x1156a:	and    BYTE PTR [rax+0x1],cl
+0x11569:	rex.RXB and BYTE PTR [r8+0x1],r9b
+0x11603:	adc    BYTE PTR [rax+0x1],cl
+0x11602:	rex.RXB adc BYTE PTR [r8+0x1],r9b
+0x11627:	ret    0x2948
+0x11626:	scas   eax,DWORD PTR es:[rdi]; 	ret    0x2948
+0x11632:	or     BYTE PTR [rax+0x29],cl
+0x11631:	rex.RXB or BYTE PTR [r8+0x29],r9b
+0x11707:	scas   eax,DWORD PTR es:[rdi]
+0x11704:	add    cl,BYTE PTR [rax+0xf]; 	scas   eax,DWORD PTR es:[rdi]
+0x11840:	pop    rbx
+0x1183e:	add    BYTE PTR [rax],al; 	pop    rbx
+0x11909:	pop    rbp
+0x11908:	pop    rbx; 	pop    rbp
+0x11907:	sbb    BYTE PTR [rbx+0x5d],bl
+0x11b38:	pop    rdi
+0x11b37:	pop    r15
+0x11b36:	pop    rsi; 	pop    r15
+0x11b35:	pop    r14; 	pop    r15
+0x11c85:	pop    rbp
+0x11c84:	pop    rbx; 	pop    rbp
+0x11c82:	mov    eax,ebp; 	pop    rbx; 	pop    rbp
+0x11d1d:	pop    rbp
+0x11d1c:	pop    rbx; 	pop    rbp
+0x11d1b:	call   FWORD PTR [rbx+0x5d]
+0x11f7d:	pop    rsp
+0x11f7c:	pop    r12
+0x11f7b:	pop    rbp; 	pop    r12
+0x11f7a:	pop    rbx; 	pop    rbp; 	pop    r12
+0x11f99:	pop    rsp
+0x11f98:	pop    r12
+0x11f97:	pop    rbp; 	pop    r12
+0x11f96:	pop    rbx; 	pop    rbp; 	pop    r12
+0x121c8:	fmul   DWORD PTR [rax-0x77]
+0x12209:	pop    rdi
+0x12208:	pop    r15
+0x12207:	pop    rsi; 	pop    r15
+0x12206:	pop    r14; 	pop    r15
+0x12220:	add    BYTE PTR [rax+0x29],cl
+0x12342:	add    BYTE PTR [rax-0x77],cl
+0x123bf:	cmp    BYTE PTR [rax+0x29],cl
+0x12410:	pop    rsi
+0x1240f:	pop    r14
+0x1240e:	pop    rbp; 	pop    r14
+0x1240d:	pop    r13; 	pop    r14
+0x127e0:	pop    rbp
+0x127df:	pop    rdi; 	pop    rbp
+0x127de:	pop    r15; 	pop    rbp
+0x127dd:	pop    rsi; 	pop    r15; 	pop    rbp
+0x12919:	add    dh,bl
+0x12917:	add    BYTE PTR [rdx+rax*1-0xd],dh
+0x1299a:	pop    rsp
+0x12999:	pop    r12
+0x12998:	pop    rbp; 	pop    r12
+0x12997:	pop    rbx; 	pop    rbp; 	pop    r12
+0x129b4:	pop    rsp
+0x129b3:	pop    r12
+0x129b2:	pop    rbp; 	pop    r12
+0x129b1:	pop    rbx; 	pop    rbp; 	pop    r12
+0x129c5:	clc    
+0x129c4:	mov    eax,edi
+0x129c3:	mov    rax,rdi
+0x129c2:	add    BYTE PTR [rax-0x77],cl; 	clc    
+0x12a26:	pop    rbp
+0x12a25:	pop    rbx; 	pop    rbp
+0x12a24:	sbb    BYTE PTR [rbx+0x5d],bl
+0x12a9d:	pop    rbx
+0x12a9b:	mov    eax,ebx; 	pop    rbx
+0x12a9a:	mov    rax,rbx; 	pop    rbx
+0x12af0:	pop    rbx
+0x12aee:	mov    eax,ebx; 	pop    rbx
+0x12aed:	mov    rax,rbx; 	pop    rbx
+0x12b1b:	pop    rbx
+0x12b19:	add    BYTE PTR [rax],al; 	pop    rbx
+0x12c76:	pop    rsi
+0x12c75:	pop    r14
+0x12c74:	pop    rbp; 	pop    r14
+0x12c73:	pop    r13; 	pop    r14
+0x12c81:	mov    dh,0x2
+0x12c80:	movzx  eax,BYTE PTR [rdx]
+0x12c7f:	add    BYTE PTR [rdi],cl; 	mov    dh,0x2
+0x12caf:	pop    rsi
+0x12cae:	pop    r14
+0x12cad:	pop    rbp; 	pop    r14
+0x12cac:	pop    r13; 	pop    r14
+0x12e84:	pop    rbx
+0x12e82:	xor    eax,eax; 	pop    rbx
+0x12e98:	pop    rbx
+0x12f8e:	pop    rdi
+0x12f8d:	pop    r15
+0x12f8c:	pop    rsi; 	pop    r15
+0x12f8b:	pop    r14; 	pop    r15
+0x131f4:	pop    rdi
+0x131f3:	pop    r15
+0x131f2:	pop    rsi; 	pop    r15
+0x131f1:	pop    r14; 	pop    r15
+0x1373c:	pop    rbp
+0x1373b:	pop    r13
+0x1373a:	pop    rsp; 	pop    r13
+0x13739:	pop    r12; 	pop    r13
+0x13994:	pop    rdi
+0x13993:	pop    r15
+0x13992:	pop    rsi; 	pop    r15
+0x13991:	pop    r14; 	pop    r15
+0x13c08:	pop    rsi
+0x13c07:	pop    r14
+0x13c06:	pop    rbp; 	pop    r14
+0x13c05:	pop    r13; 	pop    r14
+0x13c72:	pop    rsi
+0x13c71:	pop    r14
+0x13c70:	pop    rbp; 	pop    r14
+0x13c6f:	pop    r13; 	pop    r14
+0x13cbc:	pop    rsi
+0x13cbb:	pop    r14
+0x13cba:	pop    rbp; 	pop    r14
+0x13cb9:	pop    r13; 	pop    r14
+0x13d05:	pop    rsi
+0x13d04:	pop    r14
+0x13d03:	pop    rbp; 	pop    r14
+0x13d02:	pop    r13; 	pop    r14
+0x13dac:	pop    rsp
+0x13dab:	pop    r12
+0x13daa:	pop    rbp; 	pop    r12
+0x13da9:	pop    rbx; 	pop    rbp; 	pop    r12
+0x13dc8:	pop    rsp
+0x13dc7:	pop    r12
+0x13dc6:	pop    rbp; 	pop    r12
+0x13dc5:	pop    rbx; 	pop    rbp; 	pop    r12
+0x13ed3:	pop    rdi
+0x13ed2:	pop    r15
+0x13ed1:	pop    rsi; 	pop    r15
+0x13ed0:	pop    r14; 	pop    r15
+0x1425a:	pop    rbp
+0x14259:	pop    r13
+0x14258:	pop    rsp; 	pop    r13
+0x14257:	pop    r12; 	pop    r13
+0x143d0:	pop    rbp
+0x143cf:	pop    r13
+0x143ce:	pop    rsp; 	pop    r13
+0x143cd:	pop    r12; 	pop    r13
+0x1465a:	pop    rbp
+0x14659:	pop    rbx; 	pop    rbp
+0x14658:	or     BYTE PTR [rbx+0x5d],bl
+0x1468a:	pop    rbp
+0x14689:	pop    rbx; 	pop    rbp
+0x14688:	or     BYTE PTR [rbx+0x5d],bl
+0x1472a:	pop    rsp
+0x14729:	pop    r12
+0x14728:	pop    rbp; 	pop    r12
+0x14727:	pop    rbx; 	pop    rbp; 	pop    r12
+0x147f9:	pop    rbp
+0x147f8:	pop    r13
+0x147f7:	pop    rsp; 	pop    r13
+0x147f6:	pop    r12; 	pop    r13
+0x14812:	pop    rbp
+0x14811:	pop    r13
+0x14810:	pop    rsp; 	pop    r13
+0x1480f:	pop    r12; 	pop    r13
+0x14820:	xor    eax,eax
+0x1481f:	nop; 	xor    eax,eax
+0x1481e:	scas   eax,DWORD PTR es:[rdi]; 	nop; 	xor    eax,eax
+0x14836:	or     ebx,esi
+0x14936:	pop    rdi
+0x14935:	pop    r15
+0x14934:	pop    rsi; 	pop    r15
+0x14933:	pop    r14; 	pop    r15
+0x14ae7:	pop    rsp
+0x14ae6:	pop    r12
+0x14ae5:	pop    rbp; 	pop    r12
+0x14ae4:	pop    rbx; 	pop    rbp; 	pop    r12
+0x14bbe:	pop    rsi
+0x14bbd:	pop    r14
+0x14bbc:	pop    rbp; 	pop    r14
+0x14bbb:	pop    r13; 	pop    r14
+0x15587:	pop    rsp
+0x15586:	pop    r12
+0x15585:	pop    rbp; 	pop    r12
+0x15584:	pop    rbx; 	pop    rbp; 	pop    r12
+0x15664:	pop    rax
+0x15662:	add    ch,al; 	pop    rax
+0x15661:	cli    ; 	add    ch,al; 	pop    rax
+0x157d7:	pop    rbp
+0x157d6:	pop    rbx; 	pop    rbp
+0x157d5:	sbb    BYTE PTR [rbx+0x5d],bl
+0x158ba:	pop    rdi
+0x158b9:	pop    r15
+0x158b8:	pop    rsi; 	pop    r15
+0x158b7:	pop    r14; 	pop    r15
+0x15a4d:	add    bl,dh
+0x15a4b:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x15e8f:	pop    rdi
+0x15e8e:	pop    r15
+0x15e8d:	pop    rsi; 	pop    r15
+0x15e8c:	pop    r14; 	pop    r15
+0x16182:	pop    rbp
+0x16181:	pop    rbx; 	pop    rbp
+0x16180:	cmp    BYTE PTR [rbx+0x5d],bl
+0x1645f:	pop    rbp
+0x1645e:	pop    rbx; 	pop    rbp
+0x1645d:	cmp    BYTE PTR [rbx+0x5d],bl
+0x16507:	mov    DWORD PTR [rdi+0x8],eax
+0x16506:	mov    QWORD PTR [rdi+0x8],rax
+0x16537:	mov    DWORD PTR [rdi+0x8],eax
+0x16536:	mov    QWORD PTR [rdi+0x8],rax
+0x165bb:	pop    rbp
+0x165ba:	pop    rbx; 	pop    rbp
+0x165b9:	or     BYTE PTR [rbx+0x5d],bl
+0x16628:	pop    rbx
+0x16626:	add    BYTE PTR [rax],al; 	pop    rbx
+0x16789:	pop    rbp
+0x16788:	pop    rbx; 	pop    rbp
+0x16787:	or     BYTE PTR [rbx+0x5d],bl
+0x16798:	pop    rbp
+0x16797:	pop    rbx; 	pop    rbp
+0x16796:	or     BYTE PTR [rbx+0x5d],bl
+0x169c0:	pop    rbp
+0x169bf:	pop    rbx; 	pop    rbp
+0x169be:	or     BYTE PTR [rbx+0x5d],bl
+0x16a68:	pop    rbp
+0x16a67:	pop    rbx; 	pop    rbp
+0x16a66:	or     BYTE PTR [rbx+0x5d],bl
+0x16ad2:	pop    rbx
+0x16acf:	add    esp,0x20; 	pop    rbx
+0x16b06:	or     ebx,esi
+0x16b04:	add    BYTE PTR [rcx+rcx*1-0xd],dh
+0x16b45:	pop    rsp
+0x16b44:	pop    r12
+0x16b43:	pop    rbp; 	pop    r12
+0x16b42:	pop    rbx; 	pop    rbp; 	pop    r12
+0x16c0b:	pop    rbp
+0x16c0a:	pop    rbx; 	pop    rbp
+0x16c09:	or     BYTE PTR [rbx+0x5d],bl
+0x16ce3:	pop    rdi
+0x16ce2:	pop    r15
+0x16ce1:	pop    rsi; 	pop    r15
+0x16ce0:	pop    r14; 	pop    r15
+0x16ce8:	xor    eax,eax
+0x16cfd:	add    DWORD PTR [rax+0x39],ecx
+0x16edc:	pop    rdi
+0x16edb:	pop    r15
+0x16eda:	pop    rsi; 	pop    r15
+0x16ed9:	pop    r14; 	pop    r15
+0x170db:	pop    rbp
+0x170da:	pop    r13
+0x170d9:	pop    rsp; 	pop    r13
+0x170d8:	pop    r12; 	pop    r13
+0x1720a:	pop    rsp
+0x17209:	pop    r12
+0x17208:	pop    rbp; 	pop    r12
+0x17207:	pop    rbx; 	pop    rbp; 	pop    r12
+0x172ea:	add    BYTE PTR [rax],al
+0x172e8:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x173ba:	add    BYTE PTR [rax],al
+0x173b8:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x174ab:	add    bl,dh
+0x174a9:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x175d4:	add    BYTE PTR [rax],al
+0x175d2:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x175f4:	add    BYTE PTR [rax],al
+0x175f2:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x17600:	xor    eax,eax
+0x175fe:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x17684:	pop    rbp
+0x17683:	pop    rbx; 	pop    rbp
+0x17682:	cmp    BYTE PTR [rbx+0x5d],bl
+0x1798f:	pop    rbp
+0x1798e:	pop    rbx; 	pop    rbp
+0x1798d:	sbb    BYTE PTR [rbx+0x5d],bl
+0x179e7:	pop    rbp
+0x179e6:	pop    rbx; 	pop    rbp
+0x179e5:	or     BYTE PTR [rbx+0x5d],bl
+0x17a28:	pop    rbp
+0x17a27:	pop    rbx; 	pop    rbp
+0x17a26:	or     BYTE PTR [rbx+0x5d],bl
+0x17a6f:	add    al,0x3a
+0x17a6e:	lea    eax,[rdx+rdi*1]
+0x17a6d:	repnz lea eax,[rdx+rdi*1]
+0x17a7c:	lea    eax,[rax-0x1]
+0x17a7b:	lea    eax,[r8-0x1]
+0x17d12:	pop    rdi
+0x17d11:	pop    r15
+0x17d10:	pop    rsi; 	pop    r15
+0x17d0f:	pop    r14; 	pop    r15
+0x17fc0:	pop    rsi
+0x17fbf:	pop    r14
+0x17fbe:	pop    rbp; 	pop    r14
+0x17fbd:	pop    r13; 	pop    r14
+0x18254:	pop    rbp
+0x18253:	pop    r13
+0x18252:	pop    rsp; 	pop    r13
+0x18251:	pop    r12; 	pop    r13
+0x182c3:	pop    rsp
+0x182c2:	pop    r12
+0x182c1:	pop    rbp; 	pop    r12
+0x182c0:	pop    rbx; 	pop    rbp; 	pop    r12
+0x18398:	mov    DWORD PTR [rdx],eax
+0x18397:	mov    QWORD PTR [rdx],rax
+0x183a3:	sub    eax,DWORD PTR [rsi+0x10]
+0x183cb:	sub    eax,edx
+0x183d6:	sub    eax,edx
+0x184df:	pop    rbx
+0x184dd:	add    BYTE PTR [rax],al; 	pop    rbx
+0x184e7:	add    bl,dh
+0x184e5:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x18541:	pop    rdi
+0x18540:	pop    r15
+0x1853f:	pop    rsi; 	pop    r15
+0x1853e:	pop    r14; 	pop    r15
+0x186a0:	xor    eax,eax
+0x1869e:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x186bf:	add    bl,dh
+0x186bd:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x186d5:	sub    al,BYTE PTR [rax]
+0x186e0:	xor    eax,eax
+0x186de:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x186f1:	mov    eax,DWORD PTR [rdi+0x68]
+0x186f0:	mov    rax,QWORD PTR [rdi+0x68]
+0x18702:	clc    
+0x18701:	mov    eax,edi
+0x18700:	mov    rax,rdi
+0x186ff:	add    BYTE PTR [rax-0x77],cl; 	clc    
+0x1876d:	add    BYTE PTR [rcx],al
+0x187b9:	add    bl,dh
+0x187b7:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x187d4:	add    BYTE PTR [rax],al
+0x187d2:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x18810:	mov    dh,0x0
+0x1880f:	movzx  eax,BYTE PTR [rax]
+0x1880e:	and    DWORD PTR [rdi],ecx; 	mov    dh,0x0
+0x1884f:	neg    eax
+0x189ac:	pop    rdi
+0x189ab:	pop    r15
+0x189aa:	pop    rsi; 	pop    r15
+0x189a9:	pop    r14; 	pop    r15
+0x18b09:	pop    rdi
+0x18b08:	pop    r15
+0x18b07:	pop    rsi; 	pop    r15
+0x18b06:	pop    r14; 	pop    r15
+0x18cbb:	pop    rsi
+0x18cba:	pop    r14
+0x18cb9:	pop    rbp; 	pop    r14
+0x18cb8:	pop    r13; 	pop    r14
+0x18d67:	pop    rsi
+0x18d66:	pop    r14
+0x18d65:	pop    rbp; 	pop    r14
+0x18d64:	pop    r13; 	pop    r14
+0x18f26:	pop    rbp
+0x18f25:	pop    r13
+0x18f24:	pop    rsp; 	pop    r13
+0x18f23:	pop    r12; 	pop    r13
+0x18f8e:	dec    DWORD PTR [rax-0x77]
+0x18fd3:	pop    rbp
+0x18fd2:	pop    r13
+0x18fd1:	pop    rsp; 	pop    r13
+0x18fd0:	pop    r12; 	pop    r13
+0x19025:	dec    DWORD PTR [rax-0x77]
+0x19063:	pop    rsp
+0x19062:	pop    r12
+0x19061:	pop    rbp; 	pop    r12
+0x19060:	pop    rbx; 	pop    rbp; 	pop    r12
+0x1908e:	sub    eax,DWORD PTR [rdi+0x18]
+0x1908d:	sub    rax,QWORD PTR [rdi+0x18]
+0x190a9:	sub    al,BYTE PTR [rax]
+0x190b9:	sub    al,BYTE PTR [rax]
+0x190f8:	add    bl,dh
+0x19109:	sub    al,BYTE PTR [rax]
+0x19119:	sub    al,BYTE PTR [rax]
+0x19157:	adc    BYTE PTR [rcx-0x7d],al
+0x19156:	adc    BYTE PTR [rcx-0x7d],al
+0x191e1:	sbb    BYTE PTR [rax+0x39],cl
+0x191e0:	push   rdi; 	sbb    BYTE PTR [rax+0x39],cl
+0x19208:	pop    rbp
+0x19207:	pop    rbx; 	pop    rbp
+0x19206:	adc    BYTE PTR [rbx+0x5d],bl
+0x19205:	rex.RXB adc BYTE PTR [r11+0x5d],r11b
+0x19223:	sub    al,BYTE PTR [rax]
+0x19243:	sub    al,BYTE PTR [rax]
+0x1926c:	add    bl,dh
+0x19282:	sub    al,BYTE PTR [rax]
+0x19298:	sub    al,BYTE PTR [rax]
+0x19438:	pop    rsi
+0x19437:	pop    r14
+0x19436:	pop    rbp; 	pop    r14
+0x19435:	pop    r13; 	pop    r14
+0x195c2:	dec    DWORD PTR [rax-0x77]
+0x195c1:	clc    ; 	dec    DWORD PTR [rax-0x77]
+0x19607:	pop    rbp
+0x19606:	pop    r13
+0x19605:	pop    rsp; 	pop    r13
+0x19604:	pop    r12; 	pop    r13
+0x196dc:	dec    DWORD PTR [rax-0x77]
+0x196db:	clc    ; 	dec    DWORD PTR [rax-0x77]
+0x19728:	add    BYTE PTR [rax],al
+0x19726:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x19771:	add    bl,dh
+0x1976f:	add    BYTE PTR [rdx],ch; 	add    bl,dh
+0x199a6:	ror    BYTE PTR [rdi],0x84
+0x199ac:	add    BYTE PTR [rax+0x1],cl
+0x19c87:	pop    rdi
+0x19c86:	pop    r15
+0x19c85:	pop    rsi; 	pop    r15
+0x19c84:	pop    r14; 	pop    r15
+0x19d5b:	pop    rsp
+0x19d5a:	pop    r12
+0x19d59:	pop    rbp; 	pop    r12
+0x19d58:	pop    rbx; 	pop    rbp; 	pop    r12
+0x19d65:	pop    rsp
+0x19d64:	pop    r12
+0x19d63:	pop    rbp; 	pop    r12
+0x19d62:	rcr    BYTE PTR [rbp+0x41],0x5c
+0x19fe6:	pop    rbx
+0x19fe3:	add    esp,0x20; 	pop    rbx
+0x1a190:	pop    rbp
+0x1a18f:	pop    rbx; 	pop    rbp
+0x1a18e:	rcr    BYTE PTR [rbx+0x5d],1
+0x1a18d:	mov    eax,edx; 	pop    rbx; 	pop    rbp
+0x1a7d8:	add    esp,0x8
+0x1a7d7:	add    rsp,0x8
+0x1a7e1:	mov    eax,edx
+0x1a7e0:	mov    rax,rdx
+0x1a947:	pop    rbp
+0x1a946:	pop    rbx; 	pop    rbp
+0x1a945:	or     BYTE PTR [rbx+0x5d],bl
+0x1abd9:	pop    rsp
+0x1abd8:	pop    r12
+0x1abd7:	pop    rbp; 	pop    r12
+0x1abd6:	clc    ; 	pop    rbp; 	pop    r12
+0x1ac3f:	add    BYTE PTR [rax+0x1],cl
+0x1ac49:	add    BYTE PTR [rax+0x39],cl
+0x1adef:	fmul   DWORD PTR [rax+0x39]
+0x1adf8:	add    dh,dh
+0x1adf6:	add    al,BYTE PTR [rax]; 	add    dh,dh
+0x1ae61:	add    BYTE PTR [rax+0x39],cl
+0x1b04e:	pop    rsi
+0x1b04d:	pop    r14
+0x1b04c:	pop    rbp; 	pop    r14
+0x1b04b:	pop    r13; 	pop    r14
+0x1b0ef:	add    bl,dh
+0x1b0ee:	add    bl,sil
+0x1b5c1:	pop    rdi
+0x1b5c0:	pop    r15
+0x1b5bf:	pop    rsi; 	pop    r15
+0x1b5be:	pop    r14; 	pop    r15
+0x1ba81:	add    BYTE PTR [rax+0x39],cl
+0x1c276:	dec    DWORD PTR [rcx-0x7b]
+0x1c337:	add    BYTE PTR [rax+0x39],cl
+0x1c4d4:	pop    rdi
+0x1c4d3:	pop    r15
+0x1c4d2:	pop    rsi; 	pop    r15
+0x1c4d1:	pop    r14; 	pop    r15
+0x1cc7a:	pop    rdi
+0x1cc79:	pop    r15
+0x1cc78:	pop    rsi; 	pop    r15
+0x1cc77:	pop    r14; 	pop    r15
+0x1ce97:	add    BYTE PTR [rcx-0x7d],cl
+0x1d1df:	add    BYTE PTR [rax-0x17],dl
+0x1dc61:	add    DWORD PTR [rax+0x39],ecx
+0x1dc93:	ror    BYTE PTR [rax+0x39],1
+0x1dc9f:	pop    rbx
+0x1dc9e:	lock pop rbx
+0x1dc9d:	mov    eax,esi; 	pop    rbx
+0x1dc9c:	mov    rax,rsi; 	pop    rbx
+0x1dcd1:	mov    eax,esi
+0x1dcd0:	mov    rax,rsi
+0x1ddba:	pop    rdi
+0x1ddb9:	pop    r15
+0x1ddb8:	pop    rsi; 	pop    r15
+0x1ddb7:	pop    r14; 	pop    r15
+0x1e000:	pop    rsi
+0x1dfff:	pop    r14
+0x1dffe:	pop    rbp; 	pop    r14
+0x1dffd:	pop    r13; 	pop    r14
+0x1e69a:	pop    rdi
+0x1e699:	pop    r15
+0x1e698:	pop    rsi; 	pop    r15
+0x1e697:	pop    r14; 	pop    r15
+0x1ed54:	pop    rbx
+0x1ed53:	stos   DWORD PTR es:[rdi],eax; 	pop    rbx
+0x1ed52:	stos   QWORD PTR es:[rdi],rax; 	pop    rbx
+0x1ed51:	rep stos QWORD PTR es:[rdi],rax; 	pop    rbx
+0x1f02a:	add    DWORD PTR [rax+0x39],ecx
+0x1f060:	ror    BYTE PTR [rax+0x39],1
+0x1f07a:	pop    rdi
+0x1f079:	pop    r15
+0x1f078:	pop    rsi; 	pop    r15
+0x1f077:	pop    r14; 	pop    r15
+0x1f2a1:	add    BYTE PTR [rax+0x39],cl
+0x1f41a:	pop    rbp
+0x1f419:	pop    rbx; 	pop    rbp
+0x1f418:	rcr    BYTE PTR [rbx+0x5d],1
+0x1f417:	mov    eax,edx; 	pop    rbx; 	pop    rbp
+0x1f492:	pop    rbp
+0x1f491:	pop    rbx; 	pop    rbp
+0x1f490:	rcr    BYTE PTR [rbx+0x5d],1
+0x1f48f:	mov    eax,edx; 	pop    rbx; 	pop    rbp
+0x1f743:	add    bl,dh
+0x1f741:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x1f7ef:	add    bl,dh
+0x1f7ed:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x1f84a:	sub    DWORD PTR [rax],eax
+0x1f848:	adc    al,0xa0; 	sub    DWORD PTR [rax],eax
+0x1f858:	add    BYTE PTR [rax],al
+0x1f856:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x1f9fa:	pop    rbp
+0x1f9f9:	pop    rbx; 	pop    rbp
+0x1f9f8:	rcr    BYTE PTR [rbx+0x5d],1
+0x1f9f7:	mov    eax,edx; 	pop    rbx; 	pop    rbp
+0x1fa4a:	pop    rbp
+0x1fa49:	pop    rbx; 	pop    rbp
+0x1fa48:	rcr    BYTE PTR [rbx+0x5d],1
+0x1fa47:	mov    eax,edx; 	pop    rbx; 	pop    rbp
+0x1fefe:	pop    rsi
+0x1fefd:	pop    r14
+0x1fefc:	pop    rbp; 	pop    r14
+0x1fefb:	pop    r13; 	pop    r14
+0x20289:	pop    rdi
+0x20288:	pop    r15
+0x20287:	pop    rsi; 	pop    r15
+0x20286:	pop    r14; 	pop    r15
+0x207b1:	add    BYTE PTR [rax+0x39],cl
+0x20928:	or     BYTE PTR [rcx-0x77],cl
+0x20927:	or     BYTE PTR [rcx-0x77],cl
+0x210ec:	pop    rdi
+0x210eb:	pop    r15
+0x210ea:	pop    rsi; 	pop    r15
+0x210e9:	pop    r14; 	pop    r15
+0x214fc:	pop    rdi
+0x214fb:	pop    r15
+0x214fa:	pop    rsi; 	pop    r15
+0x214f9:	pop    r14; 	pop    r15
+0x219fa:	pop    rsi
+0x219f9:	pop    r14
+0x219f8:	pop    rbp; 	pop    r14
+0x219f7:	pop    r13; 	pop    r14
+0x21efa:	pop    rsi
+0x21ef9:	pop    r14
+0x21ef8:	pop    rbp; 	pop    r14
+0x21ef7:	pop    r13; 	pop    r14
+0x22377:	pop    rsi
+0x22376:	pop    r14
+0x22375:	pop    rbp; 	pop    r14
+0x22374:	pop    r13; 	pop    r14
+0x22665:	dec    DWORD PTR [rax-0x77]
+0x226ee:	ror    BYTE PTR [rdi],0x84
+0x22726:	pop    rbp
+0x22725:	pop    r13
+0x22724:	pop    rsp; 	pop    r13
+0x22723:	pop    r12; 	pop    r13
+0x227df:	ror    BYTE PTR [rdi],0x85
+0x22b6a:	jne    0x22aef
+0x22bdb:	pop    rdi
+0x22bda:	pop    r15
+0x22bd9:	pop    rsi; 	pop    r15
+0x22bd8:	pop    r14; 	pop    r15
+0x22df6:	lea    eax,[rdx-0x10]
+0x22df5:	lea    rax,[rdx-0x10]
+0x22e0a:	cmovne eax,ecx
+0x22e09:	cmovne rax,rcx
+0x22e10:	xor    eax,eax
+0x22e0f:	nop; 	xor    eax,eax
+0x22e0e:	xchg   ax,ax; 	xor    eax,eax
+0x22e7a:	sub    eax,0x10
+0x22e79:	sub    rax,0x10
+0x22f9d:	pop    rsi
+0x22f9c:	pop    r14
+0x22f9b:	pop    rbp; 	pop    r14
+0x22f9a:	pop    r13; 	pop    r14
+0x231a4:	pop    rdi
+0x231a3:	pop    r15
+0x231a2:	pop    rsi; 	pop    r15
+0x231a1:	pop    r14; 	pop    r15
+0x232a4:	pop    rbp
+0x232a3:	pop    rbx; 	pop    rbp
+0x232a2:	rcr    BYTE PTR [rbx+0x5d],1
+0x232a1:	mov    eax,edx; 	pop    rbx; 	pop    rbp
+0x2330f:	or     ecx,DWORD PTR [rax+0x63]
+0x23523:	add    BYTE PTR [rax],al
+0x2354f:	pop    rbp
+0x2354e:	pop    r13
+0x2354d:	pop    rsp; 	pop    r13
+0x2354c:	pop    r12; 	pop    r13
+0x236a5:	push   rdi
+0x236a3:	shr    al,0x57
+0x2378d:	pop    rdi
+0x2378b:	fsubrp st(0),st; 	pop    rdi
+0x237a3:	add    BYTE PTR [rax],al
+0x237d7:	add    esp,0x8
+0x237d6:	add    rsp,0x8
+0x23896:	cmovne eax,edx
+0x23895:	cmovne rax,rdx
+0x238df:	pop    rbp
+0x238de:	pop    rbx; 	pop    rbp
+0x238dc:	xor    eax,eax; 	pop    rbx; 	pop    rbp
+0x2390f:	cmove  eax,edx
+0x2390e:	cmove  rax,rdx
+0x23e25:	pop    rdi
+0x23e24:	pop    r15
+0x23e23:	pop    rsi; 	pop    r15
+0x23e22:	pop    r14; 	pop    r15
+0x23ec7:	add    DWORD PTR [rax-0x7d],ecx
+0x23f6b:	pop    rdi
+0x23f6a:	pop    r15
+0x23f69:	pop    rsi; 	pop    r15
+0x23f68:	pop    r14; 	pop    r15
+0x2424c:	or     ecx,DWORD PTR [rax-0x7d]
+0x24426:	cmove  eax,edx
+0x24425:	cmove  rax,rdx
+0x2444f:	cmove  eax,edx
+0x2444e:	cmove  rax,rdx
+0x244b1:	add    BYTE PTR [rsi+rax*8-0xd],dh
+0x2450f:	cmovne eax,edx
+0x2450e:	cmovne rax,rdx
+0x24555:	cmovne eax,edx
+0x24554:	cmovne rax,rdx
+0x24576:	cmovne eax,edx
+0x24575:	cmovne rax,rdx
+0x245c4:	cmovne eax,edx
+0x245c3:	cmovne rax,rdx
+0x24615:	cmovne eax,edx
+0x24614:	cmovne rax,rdx
+0x2466f:	cmovne eax,edx
+0x2466e:	cmovne rax,rdx
+0x246b5:	cmovne eax,edx
+0x246b4:	cmovne rax,rdx
+0x246d6:	cmovne eax,edx
+0x246d5:	cmovne rax,rdx
+0x247af:	cmovne eax,edx
+0x247ae:	cmovne rax,rdx
+0x247f5:	cmovne eax,edx
+0x247f4:	cmovne rax,rdx
+0x24816:	cmovne eax,edx
+0x24815:	cmovne rax,rdx
+0x2483f:	cmove  eax,edx
+0x2483e:	cmove  rax,rdx
+0x2486f:	cmove  eax,edx
+0x2486e:	cmove  rax,rdx
+0x25c9c:	sub    eax,ecx
+0x25c9a:	add    al,0x17; 	sub    eax,ecx
+0x25c9f:	xor    eax,eax
+0x25c9e:	ret    ; 	xor    eax,eax
+0x25c9d:	enter  0x31c3,0xc0
+0x25cb6:	sub    eax,ecx
+0x25cb4:	mov    dh,0x7; 	sub    eax,ecx
+0x25d07:	sub    eax,edx
+0x25d05:	adc    al,0x16; 	sub    eax,edx
+0x25e75:	sub    eax,edx
+0x25e73:	adc    al,0xa; 	sub    eax,edx
+0x25f3b:	sub    eax,edx
+0x25f39:	adc    al,0xa; 	sub    eax,edx
+0x25f60:	sub    eax,ecx
+0x25f5f:	shr    BYTE PTR [rcx],0xc8
+0x25f5e:	xor    eax,eax; 	sub    eax,ecx
+0x271ac:	sub    eax,ecx
+0x271aa:	add    al,0x17; 	sub    eax,ecx
+0x271af:	xor    eax,eax
+0x271ae:	ret    ; 	xor    eax,eax
+0x271ad:	enter  0x31c3,0xc0
+0x271c6:	sub    eax,ecx
+0x271c4:	mov    dh,0x7; 	sub    eax,ecx
+0x28a01:	sub    eax,ecx
+0x289ff:	add    al,0x17; 	sub    eax,ecx
+0x28a04:	xor    eax,eax
+0x28a03:	ret    ; 	xor    eax,eax
+0x28a02:	enter  0x31c3,0xc0
+0x28a16:	sub    eax,ecx
+0x28a14:	mov    dh,0x7; 	sub    eax,ecx
+0x2a161:	sub    eax,ecx
+0x2a15f:	add    al,0x17; 	sub    eax,ecx
+0x2a164:	xor    eax,eax
+0x2a163:	ret    ; 	xor    eax,eax
+0x2a162:	enter  0x31c3,0xc0
+0x2a176:	sub    eax,ecx
+0x2a174:	mov    dh,0x7; 	sub    eax,ecx
+0x2a2ec:	sub    eax,edx
+0x2a2ea:	adc    al,0xe; 	sub    eax,edx
+0x2b11d:	sub    eax,edx
+0x2b11c:	xchg   edx,eax; 	sub    eax,edx
+0x2b141:	sub    eax,ecx
+0x2b13f:	add    al,0x17; 	sub    eax,ecx
+0x2b144:	xor    eax,eax
+0x2b143:	ret    ; 	xor    eax,eax
+0x2b142:	enter  0x31c3,0xc0
+0x2b156:	sub    eax,ecx
+0x2b154:	mov    dh,0x7; 	sub    eax,ecx
+0x2b1e9:	add    eax,ecx
+0x2b1e8:	add    rax,rcx
+0x2b1e7:	clc    ; 	add    rax,rcx
+0x2b244:	xlat   BYTE PTR ds:[rbx]
+0x2b241:	fldenv [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x2b2ae:	xlat   BYTE PTR ds:[rbx]
+0x2b2ab:	fldenv [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x2b2c3:	xlat   BYTE PTR ds:[rbx]
+0x2b2c0:	fldenv [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x2b351:	xlat   BYTE PTR ds:[rbx]
+0x2b34e:	xor    BYTE PTR [rsi+0xf],ah; 	xlat   BYTE PTR ds:[rbx]
+0x2b363:	lea    eax,[rdi+rax*1+0x30]
+0x2b3a9:	xlat   BYTE PTR ds:[rbx]
+0x2b3a6:	fldenv [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x2b3cd:	xor    eax,eax
+0x2b3cb:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2b3f9:	xor    eax,eax
+0x2b3f8:	push   rdi; 	xor    eax,eax
+0x2b3f7:	jne    0x2b450; 	xor    eax,eax
+0x2b406:	cmp    al,dh
+0x2b405:	cmp    al,r14b
+0x2b404:	lea    eax,[rax+rdi*1-0x10]
+0x2b415:	clc    
+0x2b414:	add    eax,edi
+0x2b413:	add    rax,rdi
+0x2b412:	ror    BYTE PTR [rax+0x1],0xf8
+0x2b426:	cmp    BYTE PTR [rax],dl
+0x2b425:	cmp    BYTE PTR [rax],r10b
+0x2b424:	lea    eax,[rax+rdi*1+0x10]
+0x2b436:	cmp    BYTE PTR [rax],ah
+0x2b435:	cmp    BYTE PTR [rax],r12b
+0x2b434:	lea    eax,[rax+rdi*1+0x20]
+0x2b44a:	clc    
+0x2b449:	add    eax,edi
+0x2b448:	add    rax,rdi
+0x2b447:	cmp    BYTE PTR [rax+0x1],cl; 	clc    
+0x2b459:	lea    eax,[rdi+rax*1+0x10]
+0x2b469:	lea    eax,[rdi+rax*1+0x20]
+0x2b479:	lea    eax,[rdi+rax*1+0x30]
+0x2b480:	xor    eax,eax
+0x2b47f:	nop; 	xor    eax,eax
+0x2b47e:	xchg   ax,ax; 	xor    eax,eax
+0x2b4f1:	add    eax,ecx
+0x2b4f0:	add    rax,rcx
+0x2b4ef:	clc    ; 	add    rax,rcx
+0x2b544:	xlat   BYTE PTR ds:[rbx]
+0x2b541:	fldenv [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x2b5a4:	xlat   BYTE PTR ds:[rbx]
+0x2b5a1:	fldenv [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x2b5b9:	xlat   BYTE PTR ds:[rbx]
+0x2b5b6:	fldenv [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x2b62f:	xlat   BYTE PTR ds:[rbx]
+0x2b62c:	xor    BYTE PTR [rsi+0xf],ah; 	xlat   BYTE PTR ds:[rbx]
+0x2b63d:	lea    eax,[rdi+rax*1+0x30]
+0x2b656:	cmp    al,dh
+0x2b655:	cmp    al,r14b
+0x2b654:	lea    eax,[rax+rdi*1-0x10]
+0x2b665:	clc    
+0x2b664:	add    eax,edi
+0x2b663:	add    rax,rdi
+0x2b662:	ror    BYTE PTR [rax+0x1],0xf8
+0x2b676:	cmp    BYTE PTR [rax],dl
+0x2b675:	cmp    BYTE PTR [rax],r10b
+0x2b674:	lea    eax,[rax+rdi*1+0x10]
+0x2b686:	cmp    BYTE PTR [rax],ah
+0x2b685:	cmp    BYTE PTR [rax],r12b
+0x2b684:	lea    eax,[rax+rdi*1+0x20]
+0x2b718:	vzeroupper 
+0x2b717:	enter  0xf8c5,0x77
+0x2b83e:	vzeroupper 
+0x2b877:	vzeroupper 
+0x2b88c:	vzeroupper 
+0x2b88b:	clc    ; 	vzeroupper 
+0x2b8a0:	vzeroupper 
+0x2b89f:	clc    ; 	vzeroupper 
+0x2b8c0:	vzeroupper 
+0x2b8bf:	clc    ; 	vzeroupper 
+0x2b8e0:	vzeroupper 
+0x2b8df:	clc    ; 	vzeroupper 
+0x2b8f3:	xor    eax,eax
+0x2b907:	vzeroupper 
+0x2b906:	clc    ; 	vzeroupper 
+0x2b91b:	vzeroupper 
+0x2b91a:	clc    ; 	vzeroupper 
+0x2b92b:	vzeroupper 
+0x2b92a:	clc    ; 	vzeroupper 
+0x2b942:	xlat   BYTE PTR ds:[rbx]
+0x2b941:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x2b93f:	rol    ch,1; 	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x2b959:	vzeroupper 
+0x2b958:	clc    ; 	vzeroupper 
+0x2b9af:	vzeroupper 
+0x2b9ae:	enter  0xf8c5,0x77
+0x2ba47:	vzeroupper 
+0x2ba46:	clc    ; 	vzeroupper 
+0x2ba5b:	vzeroupper 
+0x2ba5a:	clc    ; 	vzeroupper 
+0x2ba6b:	vzeroupper 
+0x2ba6a:	clc    ; 	vzeroupper 
+0x2ba82:	xlat   BYTE PTR ds:[rbx]
+0x2ba81:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x2ba7f:	rol    ch,1; 	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x2ba99:	vzeroupper 
+0x2ba98:	clc    ; 	vzeroupper 
+0x2bb76:	sub    eax,edx
+0x2bb74:	mov    dh,0x16; 	sub    eax,edx
+0x2bb7d:	and    cl,BYTE PTR [rcx-0x77]
+0x2bb9c:	sub    eax,edx
+0x2bb9a:	mov    dh,0xd2; 	sub    eax,edx
+0x2bba0:	xor    eax,eax
+0x2bb9f:	nop; 	xor    eax,eax
+0x2bb9e:	ret    ; 	nop; 	xor    eax,eax
+0x2bf6d:	vzeroupper 
+0x2bfac:	vzeroupper 
+0x2bfbe:	vzeroupper 
+0x2bff9:	or     eax,0x1
+0x2bffd:	nop    DWORD PTR [rax]
+0x2bffc:	ret    ; 	nop    DWORD PTR [rax]
+0x2c028:	sub    eax,ecx
+0x2c036:	sub    eax,ecx
+0x2c034:	mov    dh,0xe; 	sub    eax,ecx
+0x2c040:	xor    eax,eax
+0x2c03e:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2c0e4:	enter  0xfffe,0xff
+0x2c1f5:	vzeroupper 
+0x2c218:	xlat   BYTE PTR ds:[rbx]
+0x2c217:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x2c215:	sub    al,ch; 	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x2c236:	vzeroupper 
+0x2c250:	vzeroupper 
+0x2c270:	vzeroupper 
+0x2c2b6:	sub    eax,ecx
+0x2c2b4:	mov    dh,0xe; 	sub    eax,ecx
+0x2cd2d:	cmp    BYTE PTR [rdi],dl
+0x2ce57:	xor    eax,eax
+0x2ce55:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2ce7f:	xor    eax,eax
+0x2ce7d:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2cf0b:	sub    eax,edx
+0x2cf32:	xor    eax,eax
+0x2cf30:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2cf56:	sub    eax,edx
+0x2cfee:	sub    eax,ecx
+0x2cfec:	add    BYTE PTR [rax],al; 	sub    eax,ecx
+0x2d022:	xor    eax,eax
+0x2d020:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d059:	sub    eax,ecx
+0x2d057:	add    BYTE PTR [rax],al; 	sub    eax,ecx
+0x2d0e1:	xor    eax,eax
+0x2d0df:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d112:	xor    eax,eax
+0x2d110:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d13c:	xor    eax,eax
+0x2d13a:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d158:	sub    eax,ecx
+0x2d1da:	xor    eax,eax
+0x2d1d8:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d25d:	xor    eax,eax
+0x2d25b:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d2dd:	xor    eax,eax
+0x2d2db:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d35d:	xor    eax,eax
+0x2d35b:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d3dd:	xor    eax,eax
+0x2d3db:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d465:	sub    eax,ecx
+0x2d58b:	xor    eax,eax
+0x2d589:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d61b:	xor    eax,eax
+0x2d619:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d63e:	push   rdi
+0x2d63d:	outs   dx,DWORD PTR ds:[rsi]; 	push   rdi
+0x2d6ae:	xor    eax,eax
+0x2d6ac:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d74e:	xor    eax,eax
+0x2d74c:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d7ee:	xor    eax,eax
+0x2d7ec:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x2d85f:	xor    eax,eax
+0x2d85d:	jne    0x2d883; 	xor    eax,eax
+0x2d8a9:	sub    eax,ecx
+0x2d8a7:	add    BYTE PTR [rax],al; 	sub    eax,ecx
+0x2d8bb:	sub    eax,ecx
+0x2d8b9:	add    BYTE PTR [rax],al; 	sub    eax,ecx
+0x2de05:	and    BYTE PTR [rbp+rcx*4+0x1d],cl
+0x2f20b:	clc    
+0x2f20a:	rex.WRXB clc 
+0x2f209:	mov    DWORD PTR [rdi-0x8],ecx
+0x2f208:	mov    QWORD PTR [rdi-0x8],rcx
+0x2f249:	clc    
+0x2f248:	push   rdi; 	clc    
+0x2f247:	mov    DWORD PTR [rdi-0x8],edx
+0x2f246:	mov    QWORD PTR [rdi-0x8],rdx
+0x2f281:	clc    
+0x2f280:	rex.WRXB clc 
+0x2f27f:	mov    DWORD PTR [rdi-0x8],ecx
+0x2f27e:	mov    QWORD PTR [rdi-0x8],rcx
+0x2f2bf:	clc    
+0x2f2be:	push   rdi; 	clc    
+0x2f2bd:	mov    DWORD PTR [rdi-0x8],edx
+0x2f2bc:	mov    QWORD PTR [rdi-0x8],rdx
+0x2f2f7:	clc    
+0x2f2f6:	push   rdi; 	clc    
+0x2f2f5:	mov    DWORD PTR [rdi-0x8],edx
+0x2f2f4:	mov    QWORD PTR [rdi-0x8],rdx
+0x2f31f:	clc    
+0x2f31e:	push   rdi; 	clc    
+0x2f31d:	mov    DWORD PTR [rdi-0x8],edx
+0x2f31c:	mov    QWORD PTR [rdi-0x8],rdx
+0x2f347:	clc    
+0x2f346:	push   rdi; 	clc    
+0x2f345:	mov    DWORD PTR [rdi-0x8],edx
+0x2f344:	mov    QWORD PTR [rdi-0x8],rdx
+0x2f35f:	clc    
+0x2f35e:	push   rdi; 	clc    
+0x2f35d:	mov    DWORD PTR [rdi-0x8],edx
+0x2f35c:	mov    QWORD PTR [rdi-0x8],rdx
+0x2f377:	clc    
+0x2f376:	push   rdi; 	clc    
+0x2f375:	mov    DWORD PTR [rdi-0x8],edx
+0x2f374:	mov    QWORD PTR [rdi-0x8],rdx
+0x2f3c1:	cld    
+0x2f3c0:	push   rdi; 	cld    
+0x2f3bf:	mov    DWORD PTR [rdi-0x4],edx
+0x2f409:	cld    
+0x2f408:	push   rdi; 	cld    
+0x2f407:	mov    DWORD PTR [rdi-0x4],edx
+0x2f447:	cld    
+0x2f446:	push   rdi; 	cld    
+0x2f445:	mov    DWORD PTR [rdi-0x4],edx
+0x2f47f:	cld    
+0x2f47e:	push   rdi; 	cld    
+0x2f47d:	mov    DWORD PTR [rdi-0x4],edx
+0x2f4bb:	mov    BYTE PTR [rdi-0x1],dl
+0x2f4e3:	mov    BYTE PTR [rdi-0x1],dl
+0x2f50b:	mov    BYTE PTR [rdi-0x1],dl
+0x2f525:	cld    
+0x2f524:	push   rdi; 	cld    
+0x2f523:	mov    DWORD PTR [rdi-0x4],edx
+0x2f53d:	cld    
+0x2f53c:	push   rdi; 	cld    
+0x2f53b:	mov    DWORD PTR [rdi-0x4],edx
+0x2f543:	mov    BYTE PTR [rdi-0x1],dl
+0x2f591:	cld    
+0x2f590:	push   rdi; 	cld    
+0x2f58f:	mov    DWORD PTR [rdi-0x4],edx
+0x2f5e1:	cld    
+0x2f5e0:	push   rdi; 	cld    
+0x2f5df:	mov    DWORD PTR [rdi-0x4],edx
+0x2f627:	cld    
+0x2f626:	push   rdi; 	cld    
+0x2f625:	mov    DWORD PTR [rdi-0x4],edx
+0x2f65f:	cld    
+0x2f65e:	push   rdi; 	cld    
+0x2f65d:	mov    DWORD PTR [rdi-0x4],edx
+0x2f69d:	cld    
+0x2f69c:	push   rdi; 	cld    
+0x2f69b:	mov    DWORD PTR [rdi-0x4],edx
+0x2f6c5:	cld    
+0x2f6c4:	push   rdi; 	cld    
+0x2f6c3:	mov    DWORD PTR [rdi-0x4],edx
+0x2f6ed:	cld    
+0x2f6ec:	push   rdi; 	cld    
+0x2f6eb:	mov    DWORD PTR [rdi-0x4],edx
+0x2f705:	cld    
+0x2f704:	push   rdi; 	cld    
+0x2f703:	mov    DWORD PTR [rdi-0x4],edx
+0x2f71d:	cld    
+0x2f71c:	push   rdi; 	cld    
+0x2f71b:	mov    DWORD PTR [rdi-0x4],edx
+0x2f725:	mov    DWORD PTR [rdi-0x2],edx
+0x2f724:	mov    WORD PTR [rdi-0x2],dx
+0x2f771:	cld    
+0x2f770:	push   rdi; 	cld    
+0x2f76f:	mov    DWORD PTR [rdi-0x4],edx
+0x2f76e:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f7c1:	cld    
+0x2f7c0:	push   rdi; 	cld    
+0x2f7bf:	mov    DWORD PTR [rdi-0x4],edx
+0x2f7be:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f807:	cld    
+0x2f806:	push   rdi; 	cld    
+0x2f805:	mov    DWORD PTR [rdi-0x4],edx
+0x2f804:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f83f:	cld    
+0x2f83e:	push   rdi; 	cld    
+0x2f83d:	mov    DWORD PTR [rdi-0x4],edx
+0x2f83c:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f87d:	cld    
+0x2f87c:	push   rdi; 	cld    
+0x2f87b:	mov    DWORD PTR [rdi-0x4],edx
+0x2f87a:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f8a5:	cld    
+0x2f8a4:	push   rdi; 	cld    
+0x2f8a3:	mov    DWORD PTR [rdi-0x4],edx
+0x2f8a2:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f8cd:	cld    
+0x2f8cc:	push   rdi; 	cld    
+0x2f8cb:	mov    DWORD PTR [rdi-0x4],edx
+0x2f8ca:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f8e5:	cld    
+0x2f8e4:	push   rdi; 	cld    
+0x2f8e3:	mov    DWORD PTR [rdi-0x4],edx
+0x2f8e2:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f8fd:	cld    
+0x2f8fc:	push   rdi; 	cld    
+0x2f8fb:	mov    DWORD PTR [rdi-0x4],edx
+0x2f8fa:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f90d:	mov    DWORD PTR [rdi-0x2],ecx
+0x2f90c:	mov    WORD PTR [rdi-0x2],cx
+0x2f961:	cld    
+0x2f960:	push   rdi; 	cld    
+0x2f95f:	mov    DWORD PTR [rdi-0x4],edx
+0x2f95e:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f9a9:	cld    
+0x2f9a8:	push   rdi; 	cld    
+0x2f9a7:	mov    DWORD PTR [rdi-0x4],edx
+0x2f9a6:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2f9e7:	cld    
+0x2f9e6:	push   rdi; 	cld    
+0x2f9e5:	mov    DWORD PTR [rdi-0x4],edx
+0x2f9e4:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2fa1f:	cld    
+0x2fa1e:	push   rdi; 	cld    
+0x2fa1d:	mov    DWORD PTR [rdi-0x4],edx
+0x2fa1c:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2fa5d:	cld    
+0x2fa5c:	push   rdi; 	cld    
+0x2fa5b:	mov    DWORD PTR [rdi-0x4],edx
+0x2fa5a:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2fa85:	cld    
+0x2fa84:	push   rdi; 	cld    
+0x2fa83:	mov    DWORD PTR [rdi-0x4],edx
+0x2fa82:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2faad:	cld    
+0x2faac:	push   rdi; 	cld    
+0x2faab:	mov    DWORD PTR [rdi-0x4],edx
+0x2faaa:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2fac5:	cld    
+0x2fac4:	push   rdi; 	cld    
+0x2fac3:	mov    DWORD PTR [rdi-0x4],edx
+0x2fac2:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2fadd:	cld    
+0x2fadc:	push   rdi; 	cld    
+0x2fadb:	mov    DWORD PTR [rdi-0x4],edx
+0x2fada:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2fae5:	cld    
+0x2fae4:	push   rdi; 	cld    
+0x2fae3:	mov    DWORD PTR [rdi-0x4],edx
+0x2fae2:	cld    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x2fb19:	jg     0x2fb6a
+0x2fb33:	clc    
+0x2fb32:	push   rdi; 	clc    
+0x2fb31:	mov    DWORD PTR [rdi-0x8],edx
+0x2fb30:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fb7b:	clc    
+0x2fb7a:	push   rdi; 	clc    
+0x2fb79:	mov    DWORD PTR [rdi-0x8],edx
+0x2fb78:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fb9f:	jg     0x2fbe8
+0x2fbb9:	clc    
+0x2fbb8:	push   rdi; 	clc    
+0x2fbb7:	mov    DWORD PTR [rdi-0x8],edx
+0x2fbb6:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fbf5:	clc    
+0x2fbf4:	push   rdi; 	clc    
+0x2fbf3:	mov    DWORD PTR [rdi-0x8],edx
+0x2fbf2:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fc2f:	clc    
+0x2fc2e:	push   rdi; 	clc    
+0x2fc2d:	mov    DWORD PTR [rdi-0x8],edx
+0x2fc2c:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fc67:	clc    
+0x2fc66:	push   rdi; 	clc    
+0x2fc65:	mov    DWORD PTR [rdi-0x8],edx
+0x2fc64:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fc8f:	clc    
+0x2fc8e:	push   rdi; 	clc    
+0x2fc8d:	mov    DWORD PTR [rdi-0x8],edx
+0x2fc8c:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fcb7:	clc    
+0x2fcb6:	push   rdi; 	clc    
+0x2fcb5:	mov    DWORD PTR [rdi-0x8],edx
+0x2fcb4:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fccf:	clc    
+0x2fcce:	push   rdi; 	clc    
+0x2fccd:	mov    DWORD PTR [rdi-0x8],edx
+0x2fccc:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fceb:	cld    
+0x2fcea:	rex.WRXB cld 
+0x2fce9:	mov    DWORD PTR [rdi-0x4],ecx
+0x2fce8:	sti    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x2fd33:	clc    
+0x2fd32:	push   rdi; 	clc    
+0x2fd31:	mov    DWORD PTR [rdi-0x8],edx
+0x2fd30:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fd7b:	clc    
+0x2fd7a:	push   rdi; 	clc    
+0x2fd79:	mov    DWORD PTR [rdi-0x8],edx
+0x2fd78:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fdb9:	clc    
+0x2fdb8:	push   rdi; 	clc    
+0x2fdb7:	mov    DWORD PTR [rdi-0x8],edx
+0x2fdb6:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fdf1:	clc    
+0x2fdf0:	push   rdi; 	clc    
+0x2fdef:	mov    DWORD PTR [rdi-0x8],edx
+0x2fdee:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fe2f:	clc    
+0x2fe2e:	push   rdi; 	clc    
+0x2fe2d:	mov    DWORD PTR [rdi-0x8],edx
+0x2fe2c:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fe67:	clc    
+0x2fe66:	push   rdi; 	clc    
+0x2fe65:	mov    DWORD PTR [rdi-0x8],edx
+0x2fe64:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fe8f:	clc    
+0x2fe8e:	push   rdi; 	clc    
+0x2fe8d:	mov    DWORD PTR [rdi-0x8],edx
+0x2fe8c:	mov    QWORD PTR [rdi-0x8],rdx
+0x2feb7:	clc    
+0x2feb6:	push   rdi; 	clc    
+0x2feb5:	mov    DWORD PTR [rdi-0x8],edx
+0x2feb4:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fecf:	clc    
+0x2fece:	push   rdi; 	clc    
+0x2fecd:	mov    DWORD PTR [rdi-0x8],edx
+0x2fecc:	mov    QWORD PTR [rdi-0x8],rdx
+0x2feeb:	cld    
+0x2feea:	rex.WRXB cld 
+0x2fee9:	mov    DWORD PTR [rdi-0x4],ecx
+0x2fee8:	cli    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x2ff33:	clc    
+0x2ff32:	push   rdi; 	clc    
+0x2ff31:	mov    DWORD PTR [rdi-0x8],edx
+0x2ff30:	mov    QWORD PTR [rdi-0x8],rdx
+0x2ff7b:	clc    
+0x2ff7a:	push   rdi; 	clc    
+0x2ff79:	mov    DWORD PTR [rdi-0x8],edx
+0x2ff78:	mov    QWORD PTR [rdi-0x8],rdx
+0x2ffb9:	clc    
+0x2ffb8:	push   rdi; 	clc    
+0x2ffb7:	mov    DWORD PTR [rdi-0x8],edx
+0x2ffb6:	mov    QWORD PTR [rdi-0x8],rdx
+0x2fff1:	clc    
+0x2fff0:	push   rdi; 	clc    
+0x2ffef:	mov    DWORD PTR [rdi-0x8],edx
+0x2ffee:	mov    QWORD PTR [rdi-0x8],rdx
+0x3002f:	clc    
+0x3002e:	push   rdi; 	clc    
+0x3002d:	mov    DWORD PTR [rdi-0x8],edx
+0x3002c:	mov    QWORD PTR [rdi-0x8],rdx
+0x30067:	clc    
+0x30066:	push   rdi; 	clc    
+0x30065:	mov    DWORD PTR [rdi-0x8],edx
+0x30064:	mov    QWORD PTR [rdi-0x8],rdx
+0x3008f:	clc    
+0x3008e:	push   rdi; 	clc    
+0x3008d:	mov    DWORD PTR [rdi-0x8],edx
+0x3008c:	mov    QWORD PTR [rdi-0x8],rdx
+0x300b7:	clc    
+0x300b6:	push   rdi; 	clc    
+0x300b5:	mov    DWORD PTR [rdi-0x8],edx
+0x300b4:	mov    QWORD PTR [rdi-0x8],rdx
+0x300cf:	clc    
+0x300ce:	push   rdi; 	clc    
+0x300cd:	mov    DWORD PTR [rdi-0x8],edx
+0x300cc:	mov    QWORD PTR [rdi-0x8],rdx
+0x300eb:	cld    
+0x300ea:	rex.WRXB cld 
+0x300e9:	mov    DWORD PTR [rdi-0x4],ecx
+0x300e8:	stc    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x31bdb:	clc    
+0x31bda:	rex.WRXB clc 
+0x31bd9:	mov    DWORD PTR [rdi-0x8],ecx
+0x31bd8:	mov    QWORD PTR [rdi-0x8],rcx
+0x31c19:	clc    
+0x31c18:	push   rdi; 	clc    
+0x31c17:	mov    DWORD PTR [rdi-0x8],edx
+0x31c16:	mov    QWORD PTR [rdi-0x8],rdx
+0x31c51:	clc    
+0x31c50:	rex.WRXB clc 
+0x31c4f:	mov    DWORD PTR [rdi-0x8],ecx
+0x31c4e:	mov    QWORD PTR [rdi-0x8],rcx
+0x31c8f:	clc    
+0x31c8e:	push   rdi; 	clc    
+0x31c8d:	mov    DWORD PTR [rdi-0x8],edx
+0x31c8c:	mov    QWORD PTR [rdi-0x8],rdx
+0x31cc7:	clc    
+0x31cc6:	push   rdi; 	clc    
+0x31cc5:	mov    DWORD PTR [rdi-0x8],edx
+0x31cc4:	mov    QWORD PTR [rdi-0x8],rdx
+0x31cef:	clc    
+0x31cee:	push   rdi; 	clc    
+0x31ced:	mov    DWORD PTR [rdi-0x8],edx
+0x31cec:	mov    QWORD PTR [rdi-0x8],rdx
+0x31d17:	clc    
+0x31d16:	push   rdi; 	clc    
+0x31d15:	mov    DWORD PTR [rdi-0x8],edx
+0x31d14:	mov    QWORD PTR [rdi-0x8],rdx
+0x31d2f:	clc    
+0x31d2e:	push   rdi; 	clc    
+0x31d2d:	mov    DWORD PTR [rdi-0x8],edx
+0x31d2c:	mov    QWORD PTR [rdi-0x8],rdx
+0x31d47:	clc    
+0x31d46:	push   rdi; 	clc    
+0x31d45:	mov    DWORD PTR [rdi-0x8],edx
+0x31d44:	mov    QWORD PTR [rdi-0x8],rdx
+0x31d91:	cld    
+0x31d90:	push   rdi; 	cld    
+0x31d8f:	mov    DWORD PTR [rdi-0x4],edx
+0x31dd9:	cld    
+0x31dd8:	push   rdi; 	cld    
+0x31dd7:	mov    DWORD PTR [rdi-0x4],edx
+0x31e17:	cld    
+0x31e16:	push   rdi; 	cld    
+0x31e15:	mov    DWORD PTR [rdi-0x4],edx
+0x31e4f:	cld    
+0x31e4e:	push   rdi; 	cld    
+0x31e4d:	mov    DWORD PTR [rdi-0x4],edx
+0x31e8b:	mov    BYTE PTR [rdi-0x1],dl
+0x31eb3:	mov    BYTE PTR [rdi-0x1],dl
+0x31edb:	mov    BYTE PTR [rdi-0x1],dl
+0x31ef5:	cld    
+0x31ef4:	push   rdi; 	cld    
+0x31ef3:	mov    DWORD PTR [rdi-0x4],edx
+0x31f0d:	cld    
+0x31f0c:	push   rdi; 	cld    
+0x31f0b:	mov    DWORD PTR [rdi-0x4],edx
+0x31f13:	mov    BYTE PTR [rdi-0x1],dl
+0x31f61:	cld    
+0x31f60:	push   rdi; 	cld    
+0x31f5f:	mov    DWORD PTR [rdi-0x4],edx
+0x31fb1:	cld    
+0x31fb0:	push   rdi; 	cld    
+0x31faf:	mov    DWORD PTR [rdi-0x4],edx
+0x31ff7:	cld    
+0x31ff6:	push   rdi; 	cld    
+0x31ff5:	mov    DWORD PTR [rdi-0x4],edx
+0x3202f:	cld    
+0x3202e:	push   rdi; 	cld    
+0x3202d:	mov    DWORD PTR [rdi-0x4],edx
+0x3206d:	cld    
+0x3206c:	push   rdi; 	cld    
+0x3206b:	mov    DWORD PTR [rdi-0x4],edx
+0x32095:	cld    
+0x32094:	push   rdi; 	cld    
+0x32093:	mov    DWORD PTR [rdi-0x4],edx
+0x320bd:	cld    
+0x320bc:	push   rdi; 	cld    
+0x320bb:	mov    DWORD PTR [rdi-0x4],edx
+0x320d5:	cld    
+0x320d4:	push   rdi; 	cld    
+0x320d3:	mov    DWORD PTR [rdi-0x4],edx
+0x320ed:	cld    
+0x320ec:	push   rdi; 	cld    
+0x320eb:	mov    DWORD PTR [rdi-0x4],edx
+0x320f5:	mov    DWORD PTR [rdi-0x2],edx
+0x320f4:	mov    WORD PTR [rdi-0x2],dx
+0x32141:	cld    
+0x32140:	push   rdi; 	cld    
+0x3213f:	mov    DWORD PTR [rdi-0x4],edx
+0x3213e:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x32191:	cld    
+0x32190:	push   rdi; 	cld    
+0x3218f:	mov    DWORD PTR [rdi-0x4],edx
+0x3218e:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x321d7:	cld    
+0x321d6:	push   rdi; 	cld    
+0x321d5:	mov    DWORD PTR [rdi-0x4],edx
+0x321d4:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x3220f:	cld    
+0x3220e:	push   rdi; 	cld    
+0x3220d:	mov    DWORD PTR [rdi-0x4],edx
+0x3220c:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x3224d:	cld    
+0x3224c:	push   rdi; 	cld    
+0x3224b:	mov    DWORD PTR [rdi-0x4],edx
+0x3224a:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x32275:	cld    
+0x32274:	push   rdi; 	cld    
+0x32273:	mov    DWORD PTR [rdi-0x4],edx
+0x32272:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x3229d:	cld    
+0x3229c:	push   rdi; 	cld    
+0x3229b:	mov    DWORD PTR [rdi-0x4],edx
+0x3229a:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x322b5:	cld    
+0x322b4:	push   rdi; 	cld    
+0x322b3:	mov    DWORD PTR [rdi-0x4],edx
+0x322b2:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x322cd:	cld    
+0x322cc:	push   rdi; 	cld    
+0x322cb:	mov    DWORD PTR [rdi-0x4],edx
+0x322ca:	cmc    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x322dd:	mov    DWORD PTR [rdi-0x2],ecx
+0x322dc:	mov    WORD PTR [rdi-0x2],cx
+0x32331:	cld    
+0x32330:	push   rdi; 	cld    
+0x3232f:	mov    DWORD PTR [rdi-0x4],edx
+0x3232e:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x32379:	cld    
+0x32378:	push   rdi; 	cld    
+0x32377:	mov    DWORD PTR [rdi-0x4],edx
+0x32376:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x323b7:	cld    
+0x323b6:	push   rdi; 	cld    
+0x323b5:	mov    DWORD PTR [rdi-0x4],edx
+0x323b4:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x323ef:	cld    
+0x323ee:	push   rdi; 	cld    
+0x323ed:	mov    DWORD PTR [rdi-0x4],edx
+0x323ec:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x3242d:	cld    
+0x3242c:	push   rdi; 	cld    
+0x3242b:	mov    DWORD PTR [rdi-0x4],edx
+0x3242a:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x32455:	cld    
+0x32454:	push   rdi; 	cld    
+0x32453:	mov    DWORD PTR [rdi-0x4],edx
+0x32452:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x3247d:	cld    
+0x3247c:	push   rdi; 	cld    
+0x3247b:	mov    DWORD PTR [rdi-0x4],edx
+0x3247a:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x32495:	cld    
+0x32494:	push   rdi; 	cld    
+0x32493:	mov    DWORD PTR [rdi-0x4],edx
+0x32492:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x324ad:	cld    
+0x324ac:	push   rdi; 	cld    
+0x324ab:	mov    DWORD PTR [rdi-0x4],edx
+0x324aa:	hlt    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x324b5:	cld    
+0x324b4:	push   rdi; 	cld    
+0x324b3:	mov    DWORD PTR [rdi-0x4],edx
+0x324b2:	cld    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x324e9:	jg     0x3253a
+0x32503:	clc    
+0x32502:	push   rdi; 	clc    
+0x32501:	mov    DWORD PTR [rdi-0x8],edx
+0x32500:	mov    QWORD PTR [rdi-0x8],rdx
+0x3254b:	clc    
+0x3254a:	push   rdi; 	clc    
+0x32549:	mov    DWORD PTR [rdi-0x8],edx
+0x32548:	mov    QWORD PTR [rdi-0x8],rdx
+0x3256f:	jg     0x325b8
+0x32589:	clc    
+0x32588:	push   rdi; 	clc    
+0x32587:	mov    DWORD PTR [rdi-0x8],edx
+0x32586:	mov    QWORD PTR [rdi-0x8],rdx
+0x325c5:	clc    
+0x325c4:	push   rdi; 	clc    
+0x325c3:	mov    DWORD PTR [rdi-0x8],edx
+0x325c2:	mov    QWORD PTR [rdi-0x8],rdx
+0x325ff:	clc    
+0x325fe:	push   rdi; 	clc    
+0x325fd:	mov    DWORD PTR [rdi-0x8],edx
+0x325fc:	mov    QWORD PTR [rdi-0x8],rdx
+0x32637:	clc    
+0x32636:	push   rdi; 	clc    
+0x32635:	mov    DWORD PTR [rdi-0x8],edx
+0x32634:	mov    QWORD PTR [rdi-0x8],rdx
+0x3265f:	clc    
+0x3265e:	push   rdi; 	clc    
+0x3265d:	mov    DWORD PTR [rdi-0x8],edx
+0x3265c:	mov    QWORD PTR [rdi-0x8],rdx
+0x32687:	clc    
+0x32686:	push   rdi; 	clc    
+0x32685:	mov    DWORD PTR [rdi-0x8],edx
+0x32684:	mov    QWORD PTR [rdi-0x8],rdx
+0x3269f:	clc    
+0x3269e:	push   rdi; 	clc    
+0x3269d:	mov    DWORD PTR [rdi-0x8],edx
+0x3269c:	mov    QWORD PTR [rdi-0x8],rdx
+0x326bb:	cld    
+0x326ba:	rex.WRXB cld 
+0x326b9:	mov    DWORD PTR [rdi-0x4],ecx
+0x326b8:	sti    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x32703:	clc    
+0x32702:	push   rdi; 	clc    
+0x32701:	mov    DWORD PTR [rdi-0x8],edx
+0x32700:	mov    QWORD PTR [rdi-0x8],rdx
+0x3274b:	clc    
+0x3274a:	push   rdi; 	clc    
+0x32749:	mov    DWORD PTR [rdi-0x8],edx
+0x32748:	mov    QWORD PTR [rdi-0x8],rdx
+0x32789:	clc    
+0x32788:	push   rdi; 	clc    
+0x32787:	mov    DWORD PTR [rdi-0x8],edx
+0x32786:	mov    QWORD PTR [rdi-0x8],rdx
+0x327c1:	clc    
+0x327c0:	push   rdi; 	clc    
+0x327bf:	mov    DWORD PTR [rdi-0x8],edx
+0x327be:	mov    QWORD PTR [rdi-0x8],rdx
+0x327ff:	clc    
+0x327fe:	push   rdi; 	clc    
+0x327fd:	mov    DWORD PTR [rdi-0x8],edx
+0x327fc:	mov    QWORD PTR [rdi-0x8],rdx
+0x32837:	clc    
+0x32836:	push   rdi; 	clc    
+0x32835:	mov    DWORD PTR [rdi-0x8],edx
+0x32834:	mov    QWORD PTR [rdi-0x8],rdx
+0x3285f:	clc    
+0x3285e:	push   rdi; 	clc    
+0x3285d:	mov    DWORD PTR [rdi-0x8],edx
+0x3285c:	mov    QWORD PTR [rdi-0x8],rdx
+0x32887:	clc    
+0x32886:	push   rdi; 	clc    
+0x32885:	mov    DWORD PTR [rdi-0x8],edx
+0x32884:	mov    QWORD PTR [rdi-0x8],rdx
+0x3289f:	clc    
+0x3289e:	push   rdi; 	clc    
+0x3289d:	mov    DWORD PTR [rdi-0x8],edx
+0x3289c:	mov    QWORD PTR [rdi-0x8],rdx
+0x328bb:	cld    
+0x328ba:	rex.WRXB cld 
+0x328b9:	mov    DWORD PTR [rdi-0x4],ecx
+0x328b8:	cli    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x32903:	clc    
+0x32902:	push   rdi; 	clc    
+0x32901:	mov    DWORD PTR [rdi-0x8],edx
+0x32900:	mov    QWORD PTR [rdi-0x8],rdx
+0x3294b:	clc    
+0x3294a:	push   rdi; 	clc    
+0x32949:	mov    DWORD PTR [rdi-0x8],edx
+0x32948:	mov    QWORD PTR [rdi-0x8],rdx
+0x32989:	clc    
+0x32988:	push   rdi; 	clc    
+0x32987:	mov    DWORD PTR [rdi-0x8],edx
+0x32986:	mov    QWORD PTR [rdi-0x8],rdx
+0x329c1:	clc    
+0x329c0:	push   rdi; 	clc    
+0x329bf:	mov    DWORD PTR [rdi-0x8],edx
+0x329be:	mov    QWORD PTR [rdi-0x8],rdx
+0x329ff:	clc    
+0x329fe:	push   rdi; 	clc    
+0x329fd:	mov    DWORD PTR [rdi-0x8],edx
+0x329fc:	mov    QWORD PTR [rdi-0x8],rdx
+0x32a37:	clc    
+0x32a36:	push   rdi; 	clc    
+0x32a35:	mov    DWORD PTR [rdi-0x8],edx
+0x32a34:	mov    QWORD PTR [rdi-0x8],rdx
+0x32a5f:	clc    
+0x32a5e:	push   rdi; 	clc    
+0x32a5d:	mov    DWORD PTR [rdi-0x8],edx
+0x32a5c:	mov    QWORD PTR [rdi-0x8],rdx
+0x32a87:	clc    
+0x32a86:	push   rdi; 	clc    
+0x32a85:	mov    DWORD PTR [rdi-0x8],edx
+0x32a84:	mov    QWORD PTR [rdi-0x8],rdx
+0x32a9f:	clc    
+0x32a9e:	push   rdi; 	clc    
+0x32a9d:	mov    DWORD PTR [rdi-0x8],edx
+0x32a9c:	mov    QWORD PTR [rdi-0x8],rdx
+0x32abb:	cld    
+0x32aba:	rex.WRXB cld 
+0x32ab9:	mov    DWORD PTR [rdi-0x4],ecx
+0x32ab8:	stc    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x34a6c:	movq   QWORD PTR [rdi-0x10],mm0
+0x34adc:	movq   QWORD PTR [rdi-0x10],mm1
+0x34aff:	clc    
+0x34afe:	rex.WRXB clc 
+0x34afd:	mov    DWORD PTR [rdi-0x8],ecx
+0x34afc:	mov    QWORD PTR [rdi-0x8],rcx
+0x34b6c:	movq   QWORD PTR [rdi-0x10],mm1
+0x34b8f:	clc    
+0x34b8e:	rex.WRXB clc 
+0x34b8d:	mov    DWORD PTR [rdi-0x8],ecx
+0x34b8c:	mov    QWORD PTR [rdi-0x8],rcx
+0x34bdf:	jg     0x34c28
+0x34bfc:	movq   QWORD PTR [rdi-0x10],mm1
+0x34c1f:	clc    
+0x34c1e:	rex.WRXB clc 
+0x34c1d:	mov    DWORD PTR [rdi-0x8],ecx
+0x34c1c:	mov    QWORD PTR [rdi-0x8],rcx
+0x34c8c:	movq   QWORD PTR [rdi-0x10],mm1
+0x34cad:	cld    
+0x34cac:	rex.WRXB cld 
+0x34cab:	mov    DWORD PTR [rdi-0x4],ecx
+0x34caa:	hlt    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x34d0c:	movq   QWORD PTR [rdi-0x10],mm1
+0x34d2d:	cld    
+0x34d2c:	rex.WRXB cld 
+0x34d2b:	mov    DWORD PTR [rdi-0x4],ecx
+0x34d2a:	cmc    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x34d8c:	movq   QWORD PTR [rdi-0x10],mm1
+0x34dad:	cld    
+0x34dac:	rex.WRXB cld 
+0x34dab:	mov    DWORD PTR [rdi-0x4],ecx
+0x34e0c:	movq   QWORD PTR [rdi-0x10],mm1
+0x34e2d:	cld    
+0x34e2c:	rex.WRXB cld 
+0x34e2b:	mov    DWORD PTR [rdi-0x4],ecx
+0x34e8c:	movq   QWORD PTR [rdi-0x10],mm1
+0x34ea7:	clc    
+0x34ea6:	push   rdi; 	clc    
+0x34ea5:	mov    DWORD PTR [rdi-0x8],edx
+0x34ea4:	mov    QWORD PTR [rdi-0x8],rdx
+0x34f0c:	movq   QWORD PTR [rdi-0x10],mm1
+0x34f2b:	cld    
+0x34f2a:	rex.WRXB cld 
+0x34f29:	mov    DWORD PTR [rdi-0x4],ecx
+0x34f28:	stc    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x34f8c:	movq   QWORD PTR [rdi-0x10],mm1
+0x34fab:	cld    
+0x34faa:	rex.WRXB cld 
+0x34fa9:	mov    DWORD PTR [rdi-0x4],ecx
+0x34fa8:	cli    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x3500c:	movq   QWORD PTR [rdi-0x10],mm1
+0x3502b:	cld    
+0x3502a:	rex.WRXB cld 
+0x35029:	mov    DWORD PTR [rdi-0x4],ecx
+0x35028:	sti    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x3508c:	movq   QWORD PTR [rdi-0x10],mm1
+0x350a5:	cld    
+0x350a4:	push   rdi; 	cld    
+0x350a3:	mov    DWORD PTR [rdi-0x4],edx
+0x350a2:	cld    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x3510c:	movq   QWORD PTR [rdi-0x10],mm1
+0x3512d:	mov    DWORD PTR [rdi-0x2],ecx
+0x3512c:	mov    WORD PTR [rdi-0x2],cx
+0x3519c:	movq   QWORD PTR [rdi-0x10],mm1
+0x351b5:	mov    DWORD PTR [rdi-0x2],edx
+0x351b4:	mov    WORD PTR [rdi-0x2],dx
+0x3521c:	movq   QWORD PTR [rdi-0x10],mm1
+0x35234:	mov    BYTE PTR [rdi-0x1],dl
+0x3528c:	jg     0x35295
+0x3528b:	movq   QWORD PTR [rdi],mm0
+0x3528a:	movdqu XMMWORD PTR [rdi],xmm0
+0x352e6:	jg     0x352f7
+0x352e5:	movq   QWORD PTR [rdi],mm1
+0x352e4:	movdqu XMMWORD PTR [rdi],xmm1
+0x352fc:	mov    DWORD PTR [rdi],ecx
+0x352fb:	mov    QWORD PTR [rdi],rcx
+0x35356:	jg     0x35367
+0x35355:	movq   QWORD PTR [rdi],mm1
+0x35354:	movdqu XMMWORD PTR [rdi],xmm1
+0x3536c:	mov    DWORD PTR [rdi],ecx
+0x3536b:	mov    QWORD PTR [rdi],rcx
+0x353c6:	jg     0x353d7
+0x353c5:	movq   QWORD PTR [rdi],mm1
+0x353c4:	movdqu XMMWORD PTR [rdi],xmm1
+0x353dc:	mov    DWORD PTR [rdi],ecx
+0x353db:	mov    QWORD PTR [rdi],rcx
+0x35436:	jg     0x35447
+0x35435:	movq   QWORD PTR [rdi],mm1
+0x35434:	movdqu XMMWORD PTR [rdi],xmm1
+0x3544c:	mov    DWORD PTR [rdi],ecx
+0x3544b:	mov    QWORD PTR [rdi],rcx
+0x3544a:	add    al,0x48; 	mov    DWORD PTR [rdi],ecx
+0x354a6:	jg     0x354b7
+0x354a5:	movq   QWORD PTR [rdi],mm1
+0x354a4:	movdqu XMMWORD PTR [rdi],xmm1
+0x354bc:	mov    DWORD PTR [rdi],ecx
+0x354bb:	mov    QWORD PTR [rdi],rcx
+0x35516:	jg     0x35527
+0x35515:	movq   QWORD PTR [rdi],mm1
+0x35514:	movdqu XMMWORD PTR [rdi],xmm1
+0x3552c:	mov    DWORD PTR [rdi],ecx
+0x3552b:	mov    QWORD PTR [rdi],rcx
+0x35586:	jg     0x35597
+0x35585:	movq   QWORD PTR [rdi],mm1
+0x35584:	movdqu XMMWORD PTR [rdi],xmm1
+0x3559c:	mov    DWORD PTR [rdi],ecx
+0x3559b:	mov    QWORD PTR [rdi],rcx
+0x355f6:	jg     0x35607
+0x355f5:	movq   QWORD PTR [rdi],mm1
+0x355f4:	movdqu XMMWORD PTR [rdi],xmm1
+0x35604:	mov    DWORD PTR [rdi],edx
+0x35603:	mov    QWORD PTR [rdi],rdx
+0x35666:	jg     0x35677
+0x35665:	movq   QWORD PTR [rdi],mm1
+0x35664:	movdqu XMMWORD PTR [rdi],xmm1
+0x35678:	mov    DWORD PTR [rdi],ecx
+0x356d6:	jg     0x356e7
+0x356d5:	movq   QWORD PTR [rdi],mm1
+0x356d4:	movdqu XMMWORD PTR [rdi],xmm1
+0x356e8:	mov    DWORD PTR [rdi],ecx
+0x35746:	jg     0x35757
+0x35745:	movq   QWORD PTR [rdi],mm1
+0x35744:	movdqu XMMWORD PTR [rdi],xmm1
+0x35758:	mov    DWORD PTR [rdi],ecx
+0x357b6:	jg     0x357c7
+0x357b5:	movq   QWORD PTR [rdi],mm1
+0x357b4:	movdqu XMMWORD PTR [rdi],xmm1
+0x357c2:	mov    DWORD PTR [rdi],edx
+0x357c0:	mov    edx,DWORD PTR [rsi]; 	mov    DWORD PTR [rdi],edx
+0x35826:	jg     0x35837
+0x35825:	movq   QWORD PTR [rdi],mm1
+0x35824:	movdqu XMMWORD PTR [rdi],xmm1
+0x3583c:	mov    DWORD PTR [rdi],ecx
+0x3583b:	mov    WORD PTR [rdi],cx
+0x35896:	jg     0x358a7
+0x35895:	movq   QWORD PTR [rdi],mm1
+0x35894:	movdqu XMMWORD PTR [rdi],xmm1
+0x358a4:	mov    DWORD PTR [rdi],edx
+0x358a3:	mov    WORD PTR [rdi],dx
+0x35906:	jg     0x35917
+0x35905:	movq   QWORD PTR [rdi],mm1
+0x35904:	movdqu XMMWORD PTR [rdi],xmm1
+0x35913:	mov    BYTE PTR [rdi],dl
+0x35911:	mov    dh,0x16; 	mov    BYTE PTR [rdi],dl
+0x3758c:	movq   QWORD PTR [rdi-0x10],mm0
+0x375fc:	movq   QWORD PTR [rdi-0x10],mm1
+0x3761f:	clc    
+0x3761e:	rex.WRXB clc 
+0x3761d:	mov    DWORD PTR [rdi-0x8],ecx
+0x3761c:	mov    QWORD PTR [rdi-0x8],rcx
+0x3768c:	movq   QWORD PTR [rdi-0x10],mm1
+0x376af:	clc    
+0x376ae:	rex.WRXB clc 
+0x376ad:	mov    DWORD PTR [rdi-0x8],ecx
+0x376ac:	mov    QWORD PTR [rdi-0x8],rcx
+0x376ff:	jg     0x37748
+0x3771c:	movq   QWORD PTR [rdi-0x10],mm1
+0x3773f:	clc    
+0x3773e:	rex.WRXB clc 
+0x3773d:	mov    DWORD PTR [rdi-0x8],ecx
+0x3773c:	mov    QWORD PTR [rdi-0x8],rcx
+0x377ac:	movq   QWORD PTR [rdi-0x10],mm1
+0x377cd:	cld    
+0x377cc:	rex.WRXB cld 
+0x377cb:	mov    DWORD PTR [rdi-0x4],ecx
+0x377ca:	hlt    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x3782c:	movq   QWORD PTR [rdi-0x10],mm1
+0x3784d:	cld    
+0x3784c:	rex.WRXB cld 
+0x3784b:	mov    DWORD PTR [rdi-0x4],ecx
+0x3784a:	cmc    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x378ac:	movq   QWORD PTR [rdi-0x10],mm1
+0x378cd:	cld    
+0x378cc:	rex.WRXB cld 
+0x378cb:	mov    DWORD PTR [rdi-0x4],ecx
+0x3792c:	movq   QWORD PTR [rdi-0x10],mm1
+0x3794d:	cld    
+0x3794c:	rex.WRXB cld 
+0x3794b:	mov    DWORD PTR [rdi-0x4],ecx
+0x379ac:	movq   QWORD PTR [rdi-0x10],mm1
+0x379c7:	clc    
+0x379c6:	push   rdi; 	clc    
+0x379c5:	mov    DWORD PTR [rdi-0x8],edx
+0x379c4:	mov    QWORD PTR [rdi-0x8],rdx
+0x37a2c:	movq   QWORD PTR [rdi-0x10],mm1
+0x37a4b:	cld    
+0x37a4a:	rex.WRXB cld 
+0x37a49:	mov    DWORD PTR [rdi-0x4],ecx
+0x37a48:	stc    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x37aac:	movq   QWORD PTR [rdi-0x10],mm1
+0x37acb:	cld    
+0x37aca:	rex.WRXB cld 
+0x37ac9:	mov    DWORD PTR [rdi-0x4],ecx
+0x37ac8:	cli    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x37b2c:	movq   QWORD PTR [rdi-0x10],mm1
+0x37b4b:	cld    
+0x37b4a:	rex.WRXB cld 
+0x37b49:	mov    DWORD PTR [rdi-0x4],ecx
+0x37b48:	sti    ; 	mov    DWORD PTR [rdi-0x4],ecx
+0x37bac:	movq   QWORD PTR [rdi-0x10],mm1
+0x37bc5:	cld    
+0x37bc4:	push   rdi; 	cld    
+0x37bc3:	mov    DWORD PTR [rdi-0x4],edx
+0x37bc2:	cld    ; 	mov    DWORD PTR [rdi-0x4],edx
+0x37c2c:	movq   QWORD PTR [rdi-0x10],mm1
+0x37c4d:	mov    DWORD PTR [rdi-0x2],ecx
+0x37c4c:	mov    WORD PTR [rdi-0x2],cx
+0x37cbc:	movq   QWORD PTR [rdi-0x10],mm1
+0x37cd5:	mov    DWORD PTR [rdi-0x2],edx
+0x37cd4:	mov    WORD PTR [rdi-0x2],dx
+0x37d3c:	movq   QWORD PTR [rdi-0x10],mm1
+0x37d54:	mov    BYTE PTR [rdi-0x1],dl
+0x37dac:	jg     0x37db5
+0x37dab:	movq   QWORD PTR [rdi],mm0
+0x37daa:	movdqu XMMWORD PTR [rdi],xmm0
+0x37e06:	jg     0x37e17
+0x37e05:	movq   QWORD PTR [rdi],mm1
+0x37e04:	movdqu XMMWORD PTR [rdi],xmm1
+0x37e1c:	mov    DWORD PTR [rdi],ecx
+0x37e1b:	mov    QWORD PTR [rdi],rcx
+0x37e76:	jg     0x37e87
+0x37e75:	movq   QWORD PTR [rdi],mm1
+0x37e74:	movdqu XMMWORD PTR [rdi],xmm1
+0x37e8c:	mov    DWORD PTR [rdi],ecx
+0x37e8b:	mov    QWORD PTR [rdi],rcx
+0x37ee6:	jg     0x37ef7
+0x37ee5:	movq   QWORD PTR [rdi],mm1
+0x37ee4:	movdqu XMMWORD PTR [rdi],xmm1
+0x37efc:	mov    DWORD PTR [rdi],ecx
+0x37efb:	mov    QWORD PTR [rdi],rcx
+0x37f56:	jg     0x37f67
+0x37f55:	movq   QWORD PTR [rdi],mm1
+0x37f54:	movdqu XMMWORD PTR [rdi],xmm1
+0x37f6c:	mov    DWORD PTR [rdi],ecx
+0x37f6b:	mov    QWORD PTR [rdi],rcx
+0x37f6a:	add    al,0x48; 	mov    DWORD PTR [rdi],ecx
+0x37fc6:	jg     0x37fd7
+0x37fc5:	movq   QWORD PTR [rdi],mm1
+0x37fc4:	movdqu XMMWORD PTR [rdi],xmm1
+0x37fdc:	mov    DWORD PTR [rdi],ecx
+0x37fdb:	mov    QWORD PTR [rdi],rcx
+0x38036:	jg     0x38047
+0x38035:	movq   QWORD PTR [rdi],mm1
+0x38034:	movdqu XMMWORD PTR [rdi],xmm1
+0x3804c:	mov    DWORD PTR [rdi],ecx
+0x3804b:	mov    QWORD PTR [rdi],rcx
+0x380a6:	jg     0x380b7
+0x380a5:	movq   QWORD PTR [rdi],mm1
+0x380a4:	movdqu XMMWORD PTR [rdi],xmm1
+0x380bc:	mov    DWORD PTR [rdi],ecx
+0x380bb:	mov    QWORD PTR [rdi],rcx
+0x38116:	jg     0x38127
+0x38115:	movq   QWORD PTR [rdi],mm1
+0x38114:	movdqu XMMWORD PTR [rdi],xmm1
+0x38124:	mov    DWORD PTR [rdi],edx
+0x38123:	mov    QWORD PTR [rdi],rdx
+0x38186:	jg     0x38197
+0x38185:	movq   QWORD PTR [rdi],mm1
+0x38184:	movdqu XMMWORD PTR [rdi],xmm1
+0x38198:	mov    DWORD PTR [rdi],ecx
+0x381f6:	jg     0x38207
+0x381f5:	movq   QWORD PTR [rdi],mm1
+0x381f4:	movdqu XMMWORD PTR [rdi],xmm1
+0x38208:	mov    DWORD PTR [rdi],ecx
+0x38266:	jg     0x38277
+0x38265:	movq   QWORD PTR [rdi],mm1
+0x38264:	movdqu XMMWORD PTR [rdi],xmm1
+0x38278:	mov    DWORD PTR [rdi],ecx
+0x382d6:	jg     0x382e7
+0x382d5:	movq   QWORD PTR [rdi],mm1
+0x382d4:	movdqu XMMWORD PTR [rdi],xmm1
+0x382e2:	mov    DWORD PTR [rdi],edx
+0x382e0:	mov    edx,DWORD PTR [rsi]; 	mov    DWORD PTR [rdi],edx
+0x38346:	jg     0x38357
+0x38345:	movq   QWORD PTR [rdi],mm1
+0x38344:	movdqu XMMWORD PTR [rdi],xmm1
+0x3835c:	mov    DWORD PTR [rdi],ecx
+0x3835b:	mov    WORD PTR [rdi],cx
+0x383b6:	jg     0x383c7
+0x383b5:	movq   QWORD PTR [rdi],mm1
+0x383b4:	movdqu XMMWORD PTR [rdi],xmm1
+0x383c4:	mov    DWORD PTR [rdi],edx
+0x383c3:	mov    WORD PTR [rdi],dx
+0x38426:	jg     0x38437
+0x38425:	movq   QWORD PTR [rdi],mm1
+0x38424:	movdqu XMMWORD PTR [rdi],xmm1
+0x38433:	mov    BYTE PTR [rdi],dl
+0x38431:	mov    dh,0x16; 	mov    BYTE PTR [rdi],dl
+0x38507:	jns    0x38508
+0x38506:	adc    DWORD PTR [rcx-0x1],edi
+0x38505:	adc    QWORD PTR [rcx-0x1],rdi
+0x38542:	adc    DWORD PTR [rcx-0x1],ebx
+0x38541:	adc    QWORD PTR [rcx-0x1],rbx
+0x385b3:	clc    
+0x385b2:	rex.WB clc 
+0x385b1:	mov    DWORD PTR [rcx-0x8],ecx
+0x385b0:	mov    QWORD PTR [r9-0x8],rcx
+0x385c4:	cld    
+0x385c3:	rex.WB cld 
+0x385c2:	mov    DWORD PTR [rcx-0x4],ecx
+0x385c1:	mov    DWORD PTR [r9-0x4],ecx
+0x385d7:	mov    DWORD PTR [rcx-0x2],ecx
+0x385d6:	mov    DWORD PTR [r9-0x2],ecx
+0x385e2:	mov    BYTE PTR [rdi],cl
+0x385e0:	mov    cl,BYTE PTR [rsi]; 	mov    BYTE PTR [rdi],cl
+0x38741:	jns    0x38742
+0x38740:	adc    DWORD PTR [rcx-0x1],edi
+0x3873f:	adc    QWORD PTR [rcx-0x1],rdi
+0x388a8:	jns    0x388b1
+0x388a7:	adc    DWORD PTR [rcx+0x7],edi
+0x388a6:	adc    QWORD PTR [rcx+0x7],rdi
+0x38a0b:	clc    
+0x38a0a:	jg     0x38a04
+0x38a09:	adc    DWORD PTR [rdi-0x8],edi
+0x38a08:	adc    QWORD PTR [rdi-0x8],rdi
+0x3adc9:	sub    eax,ecx
+0x3adc7:	add    al,0x82; 	sub    eax,ecx
+0x3adcc:	xor    eax,eax
+0x3adcb:	ret    ; 	xor    eax,eax
+0x3adca:	enter  0x31c3,0xc0
+0x3ade3:	sub    eax,ecx
+0x3ade1:	add    al,0x82; 	sub    eax,ecx
+0x3cf19:	sub    eax,ecx
+0x3cf17:	add    al,0x82; 	sub    eax,ecx
+0x3cf1c:	xor    eax,eax
+0x3cf1b:	ret    ; 	xor    eax,eax
+0x3cf1a:	enter  0x31c3,0xc0
+0x3cf33:	sub    eax,ecx
+0x3cf31:	add    al,0x82; 	sub    eax,ecx
+0x3d1c0:	sub    eax,edx
+0x3d1bf:	xchg   ecx,eax; 	sub    eax,edx
+0x3d1be:	adc    al,0x91; 	sub    eax,edx
+0x3ea95:	sub    eax,edx
+0x3ea93:	add    al,0x81; 	sub    eax,edx
+0x3eac9:	sub    eax,ecx
+0x3eac7:	add    al,0x82; 	sub    eax,ecx
+0x3eacc:	xor    eax,eax
+0x3eacb:	ret    ; 	xor    eax,eax
+0x3eaca:	enter  0x31c3,0xc0
+0x3eae3:	sub    eax,ecx
+0x3eae1:	add    al,0x82; 	sub    eax,ecx
+0x3ecf0:	sub    eax,edx
+0x3ecef:	xchg   ecx,eax; 	sub    eax,edx
+0x3ecee:	adc    al,0x91; 	sub    eax,edx
+0x40105:	sub    eax,edx
+0x40103:	add    al,0x81; 	sub    eax,edx
+0x40139:	sub    eax,ecx
+0x40137:	add    al,0x82; 	sub    eax,ecx
+0x4013c:	xor    eax,eax
+0x4013b:	ret    ; 	xor    eax,eax
+0x4013a:	enter  0x31c3,0xc0
+0x40153:	sub    eax,ecx
+0x40151:	add    al,0x82; 	sub    eax,ecx
+0x401b3:	cmovne eax,edx
+0x401b2:	cmovne rax,rdx
+0x40201:	enter  0xf66,0xeb
+0x402a9:	xlat   BYTE PTR ds:[rbx]
+0x402d1:	cmovne eax,edx
+0x402d0:	cmovne rax,rdx
+0x40306:	xlat   BYTE PTR ds:[rbx]
+0x4031f:	xlat   BYTE PTR ds:[rbx]
+0x4031c:	fsub   QWORD PTR [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x403c8:	add    al,0x7
+0x403c7:	lea    eax,[rdi+rax*1]
+0x403c6:	lea    rax,[rdi+rax*1]
+0x40419:	enter  0xf66,0xeb
+0x404c9:	xlat   BYTE PTR ds:[rbx]
+0x404e6:	add    al,0x7
+0x404e5:	lea    eax,[rdi+rax*1]
+0x404e4:	lea    rax,[rdi+rax*1]
+0x40516:	xlat   BYTE PTR ds:[rbx]
+0x4052f:	xlat   BYTE PTR ds:[rbx]
+0x4052c:	fsub   QWORD PTR [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x40617:	vzeroupper 
+0x40731:	vzeroupper 
+0x40752:	vzeroupper 
+0x40772:	vzeroupper 
+0x40792:	xlat   BYTE PTR ds:[rbx]
+0x40791:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x4078f:	mov    al,0xc5; 	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x407b0:	vzeroupper 
+0x4083d:	vzeroupper 
+0x4083c:	clc    ; 	vzeroupper 
+0x40957:	vzeroupper 
+0x40956:	clc    ; 	vzeroupper 
+0x4096b:	vzeroupper 
+0x4096a:	clc    ; 	vzeroupper 
+0x4097b:	vzeroupper 
+0x4097a:	clc    ; 	vzeroupper 
+0x40992:	xlat   BYTE PTR ds:[rbx]
+0x40991:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x4098f:	rol    ch,1; 	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x409a9:	vzeroupper 
+0x409a8:	clc    ; 	vzeroupper 
+0x409e6:	bsf    eax,edx
+0x40a33:	bsf    eax,edx
+0x40a32:	bsf    rax,rdx
+0x40a90:	bsf    eax,edx
+0x40a8f:	bsf    rax,rdx
+0x40b4a:	clc    
+0x40b49:	sub    eax,edi
+0x40b48:	sub    rax,rdi
+0x40b47:	ror    BYTE PTR [rax+0x29],1; 	clc    
+0x40ba2:	vzeroupper 
+0x40c5a:	vzeroupper 
+0x40c6e:	vzeroupper 
+0x40c8e:	vzeroupper 
+0x40cbe:	xlat   BYTE PTR ds:[rbx]
+0x40cbd:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x40cbb:	fcmovnb st,st(5); 	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x40cdc:	vzeroupper 
+0x40dba:	clc    
+0x40db9:	mov    eax,edi
+0x40db8:	mov    rax,rdi
+0x40e99:	mov    eax,edx
+0x40e98:	mov    rax,rdx
+0x410b6:	ror    BYTE PTR [rdi],0x85
+0x41127:	xlat   BYTE PTR ds:[rbx]
+0x41124:	fsub   DWORD PTR [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x424d8:	clc    
+0x424d7:	mov    eax,edi
+0x424d6:	mov    rax,rdi
+0x424d5:	add    cl,BYTE PTR [rax-0x77]; 	clc    
+0x42530:	clc    
+0x4252f:	mov    eax,edi
+0x4252e:	mov    rax,rdi
+0x4252d:	or     BYTE PTR [rax-0x77],cl; 	clc    
+0x42546:	clc    
+0x42545:	mov    eax,edi
+0x42544:	mov    rax,rdi
+0x42543:	add    cl,BYTE PTR [rax-0x77]; 	clc    
+0x42558:	clc    
+0x42557:	mov    eax,edi
+0x42556:	mov    rax,rdi
+0x42555:	add    cl,BYTE PTR [rax-0x77]; 	clc    
+0x4256e:	clc    
+0x4256d:	mov    eax,edi
+0x4256c:	mov    rax,rdi
+0x4256b:	add    cl,BYTE PTR [rax-0x77]; 	clc    
+0x42576:	clc    
+0x42575:	mov    eax,edi
+0x42574:	mov    rax,rdi
+0x42573:	add    cl,BYTE PTR [rax-0x77]; 	clc    
+0x4258c:	clc    
+0x4258b:	mov    eax,edi
+0x4258a:	mov    rax,rdi
+0x42589:	add    al,0x48; 	mov    eax,edi
+0x4259e:	clc    
+0x4259d:	mov    eax,edi
+0x4259c:	mov    rax,rdi
+0x4259b:	add    al,0x48; 	mov    eax,edi
+0x425ac:	clc    
+0x425ab:	mov    eax,edi
+0x425aa:	mov    rax,rdi
+0x425a9:	add    ecx,DWORD PTR [rax-0x77]; 	clc    
+0x425be:	clc    
+0x425bd:	mov    eax,edi
+0x425bc:	mov    rax,rdi
+0x425ce:	clc    
+0x425cd:	mov    eax,edi
+0x425cc:	mov    rax,rdi
+0x425de:	clc    
+0x425dd:	mov    eax,edi
+0x425dc:	mov    rax,rdi
+0x425ee:	clc    
+0x425ed:	mov    eax,edi
+0x425ec:	mov    rax,rdi
+0x425eb:	or     BYTE PTR [rax-0x77],cl; 	clc    
+0x42600:	clc    
+0x425ff:	mov    eax,edi
+0x425fe:	mov    rax,rdi
+0x42620:	clc    
+0x4261f:	mov    eax,edi
+0x4261e:	mov    rax,rdi
+0x42640:	clc    
+0x4263f:	mov    eax,edi
+0x4263e:	mov    rax,rdi
+0x42866:	ror    BYTE PTR [rdi],0x85
+0x428d7:	xlat   BYTE PTR ds:[rbx]
+0x428d4:	fsub   DWORD PTR [rsi+0xf]; 	xlat   BYTE PTR ds:[rbx]
+0x43c87:	lea    eax,[rdx+0x7]
+0x43c86:	lea    rax,[rdx+0x7]
+0x43cdf:	lea    eax,[rdx+0xf]
+0x43cde:	lea    rax,[rdx+0xf]
+0x43cf5:	lea    eax,[rdx]
+0x43cf4:	lea    rax,[rdx]
+0x43d07:	lea    eax,[rdx+0x1]
+0x43d06:	lea    rax,[rdx+0x1]
+0x43d1d:	lea    eax,[rdx+0x2]
+0x43d1c:	lea    rax,[rdx+0x2]
+0x43d35:	lea    eax,[rdx+0x3]
+0x43d34:	lea    rax,[rdx+0x3]
+0x43d4b:	lea    eax,[rdx+0x4]
+0x43d4a:	lea    rax,[rdx+0x4]
+0x43d5d:	lea    eax,[rdx+0x5]
+0x43d5c:	lea    rax,[rdx+0x5]
+0x43d7b:	lea    eax,[rdx+0x6]
+0x43d7a:	lea    rax,[rdx+0x6]
+0x43d8d:	lea    eax,[rdx+0x8]
+0x43d8c:	lea    rax,[rdx+0x8]
+0x43dad:	lea    eax,[rdx+0x9]
+0x43dac:	lea    rax,[rdx+0x9]
+0x43dcd:	lea    eax,[rdx+0xa]
+0x43dcc:	lea    rax,[rdx+0xa]
+0x43ded:	lea    eax,[rdx+0xb]
+0x43dec:	lea    rax,[rdx+0xb]
+0x43e0f:	lea    eax,[rdx+0xc]
+0x43e0e:	lea    rax,[rdx+0xc]
+0x43e2f:	lea    eax,[rdx+0xd]
+0x43e2e:	lea    rax,[rdx+0xd]
+0x43e4f:	lea    eax,[rdx+0xe]
+0x43e4e:	lea    rax,[rdx+0xe]
+0x441c0:	mov    BYTE PTR [rdi],dh
+0x441be:	add    BYTE PTR [rax],al; 	mov    BYTE PTR [rdi],dh
+0x441d4:	mov    DWORD PTR [rdi],edx
+0x441d3:	mov    WORD PTR [rdi],dx
+0x441e7:	ja     0x441eb
+0x441e6:	mov    BYTE PTR [rdi+0x2],dh
+0x441f2:	mov    DWORD PTR [rdi],edx
+0x441f0:	mov    edx,DWORD PTR [rsi]; 	mov    DWORD PTR [rdi],edx
+0x44205:	mov    DWORD PTR [rdi],ecx
+0x44203:	ja     0x44209; 	mov    DWORD PTR [rdi],ecx
+0x44219:	mov    DWORD PTR [rdi+0x4],edx
+0x44218:	mov    WORD PTR [rdi+0x4],dx
+0x44227:	mov    DWORD PTR [rdi+0x3],edx
+0x44234:	mov    DWORD PTR [rdi],edx
+0x44233:	mov    QWORD PTR [rdi],rdx
+0x44247:	mov    DWORD PTR [rdi],ecx
+0x44246:	mov    QWORD PTR [rdi],rcx
+0x4425b:	mov    DWORD PTR [rdi+0x8],edx
+0x4425a:	mov    WORD PTR [rdi+0x8],dx
+0x44269:	mov    DWORD PTR [rdi+0x7],edx
+0x44279:	mov    DWORD PTR [rdi+0x8],edx
+0x4428b:	mov    DWORD PTR [rdi+0x5],edx
+0x4428a:	mov    QWORD PTR [rdi+0x5],rdx
+0x4429b:	mov    DWORD PTR [rdi+0x6],edx
+0x4429a:	mov    QWORD PTR [rdi+0x6],rdx
+0x442ab:	mov    DWORD PTR [rdi+0x7],edx
+0x442aa:	mov    QWORD PTR [rdi+0x7],rdx
+0x442b6:	jg     0x442bf
+0x442b5:	movq   QWORD PTR [rdi],mm0
+0x442b4:	movdqu XMMWORD PTR [rdi],xmm0
+0x442c9:	ja     0x442db
+0x442c8:	mov    BYTE PTR [rdi+0x10],dh
+0x442dd:	mov    DWORD PTR [rdi+0x10],ecx
+0x442dc:	mov    WORD PTR [rdi+0x10],cx
+0x442fb:	mov    DWORD PTR [rdi+0xf],ecx
+0x4430b:	mov    DWORD PTR [rdi+0x10],ecx
+0x4431f:	ja     0x44335
+0x4431e:	mov    BYTE PTR [rdi+0x14],dh
+0x4433d:	mov    DWORD PTR [rdi+0xe],ecx
+0x4433c:	mov    QWORD PTR [rdi+0xe],rcx
+0x4435d:	mov    DWORD PTR [rdi+0xf],ecx
+0x4435c:	mov    QWORD PTR [rdi+0xf],rcx
+0x4437d:	mov    DWORD PTR [rdi+0x10],ecx
+0x4437c:	mov    QWORD PTR [rdi+0x10],rcx
+0x443a1:	ja     0x443bb
+0x443a0:	mov    BYTE PTR [rdi+0x18],dh
+0x443c5:	mov    DWORD PTR [rdi+0x18],ecx
+0x443c4:	mov    WORD PTR [rdi+0x18],cx
+0x443e3:	mov    DWORD PTR [rdi+0x17],ecx
+0x44403:	mov    DWORD PTR [rdi+0x18],ecx
+0x4441e:	movq   QWORD PTR [rdi+0xd],mm2
+0x4443e:	movq   QWORD PTR [rdi+0xe],mm2
+0x4445e:	movq   QWORD PTR [rdi+0xf],mm2
+0x4447e:	movq   QWORD PTR [rdi+0x10],mm2
+0x447e3:	lea    eax,[rdi]
+0x447e2:	lea    rax,[rdi]
+0x447f7:	lea    eax,[rdi+0x1]
+0x447f6:	lea    rax,[rdi+0x1]
+0x4480a:	lea    eax,[rdi+0x2]
+0x44809:	lea    rax,[rdi+0x2]
+0x44815:	lea    eax,[rdi+0x3]
+0x44814:	lea    rax,[rdi+0x3]
+0x44828:	lea    eax,[rdi+0x4]
+0x44827:	lea    rax,[rdi+0x4]
+0x4483d:	lea    eax,[rdi+0x5]
+0x4483c:	lea    rax,[rdi+0x5]
+0x4485b:	lea    eax,[rdi+0x6]
+0x4485a:	lea    rax,[rdi+0x6]
+0x44867:	lea    eax,[rdi+0x7]
+0x44866:	lea    rax,[rdi+0x7]
+0x4487a:	lea    eax,[rdi+0x8]
+0x44879:	lea    rax,[rdi+0x8]
+0x4488f:	lea    eax,[rdi+0x9]
+0x4488e:	lea    rax,[rdi+0x9]
+0x448ad:	lea    eax,[rdi+0xa]
+0x448ac:	lea    rax,[rdi+0xa]
+0x448cd:	lea    eax,[rdi+0xb]
+0x448cc:	lea    rax,[rdi+0xb]
+0x448ef:	lea    eax,[rdi+0xc]
+0x448ee:	lea    rax,[rdi+0xc]
+0x4490f:	lea    eax,[rdi+0xd]
+0x4490e:	lea    rax,[rdi+0xd]
+0x4492f:	lea    eax,[rdi+0xe]
+0x4492e:	lea    rax,[rdi+0xe]
+0x44949:	lea    eax,[rdi+0xf]
+0x44948:	lea    rax,[rdi+0xf]
+0x4495c:	lea    eax,[rdi+0x10]
+0x4495b:	lea    rax,[rdi+0x10]
+0x44971:	lea    eax,[rdi+0x11]
+0x44970:	lea    rax,[rdi+0x11]
+0x4498f:	lea    eax,[rdi+0x12]
+0x4498e:	lea    rax,[rdi+0x12]
+0x449af:	lea    eax,[rdi+0x13]
+0x449ae:	lea    rax,[rdi+0x13]
+0x449d2:	lea    eax,[rdi+0x14]
+0x449d1:	lea    rax,[rdi+0x14]
+0x449f1:	lea    eax,[rdi+0x15]
+0x449f0:	lea    rax,[rdi+0x15]
+0x44a11:	lea    eax,[rdi+0x16]
+0x44a10:	lea    rax,[rdi+0x16]
+0x44a31:	lea    eax,[rdi+0x17]
+0x44a30:	lea    rax,[rdi+0x17]
+0x44a54:	lea    eax,[rdi+0x18]
+0x44a53:	lea    rax,[rdi+0x18]
+0x44a79:	lea    eax,[rdi+0x19]
+0x44a78:	lea    rax,[rdi+0x19]
+0x44a97:	lea    eax,[rdi+0x1a]
+0x44a96:	lea    rax,[rdi+0x1a]
+0x44ab7:	lea    eax,[rdi+0x1b]
+0x44ab6:	lea    rax,[rdi+0x1b]
+0x44ad3:	lea    eax,[rdi+0x1c]
+0x44ad2:	lea    rax,[rdi+0x1c]
+0x44af3:	lea    eax,[rdi+0x1d]
+0x44af2:	lea    rax,[rdi+0x1d]
+0x44b13:	lea    eax,[rdi+0x1e]
+0x44b12:	lea    rax,[rdi+0x1e]
+0x44b33:	lea    eax,[rdi+0x1f]
+0x44b32:	lea    rax,[rdi+0x1f]
+0x44bc1:	xor    eax,eax
+0x44bc0:	xor    rax,rax
+0x44c0a:	lea    eax,[rdi+0x7]
+0x44c09:	lea    rax,[rdi+0x7]
+0x44c38:	lea    eax,[rdi+0x3]
+0x44c37:	lea    rax,[rdi+0x3]
+0x44c91:	lea    eax,[rdi+0xf]
+0x44c90:	lea    rax,[rdi+0xf]
+0x44cd7:	lea    eax,[rdi+0xb]
+0x44cd6:	lea    rax,[rdi+0xb]
+0x44d1d:	lea    eax,[rdi+0x7]
+0x44d1c:	lea    rax,[rdi+0x7]
+0x44d70:	lea    eax,[rdi+0xf]
+0x44d6f:	lea    rax,[rdi+0xf]
+0x44d81:	lea    eax,[rdi]
+0x44d80:	lea    rax,[rdi]
+0x44d91:	lea    eax,[rdi+0x1]
+0x44d90:	lea    rax,[rdi+0x1]
+0x44da1:	lea    eax,[rdi+0x2]
+0x44da0:	lea    rax,[rdi+0x2]
+0x44db1:	lea    eax,[rdi+0x3]
+0x44db0:	lea    rax,[rdi+0x3]
+0x44dc1:	lea    eax,[rdi+0x4]
+0x44dc0:	lea    rax,[rdi+0x4]
+0x44dd1:	lea    eax,[rdi+0x5]
+0x44dd0:	lea    rax,[rdi+0x5]
+0x44de1:	lea    eax,[rdi+0x6]
+0x44de0:	lea    rax,[rdi+0x6]
+0x44df1:	lea    eax,[rdi+0x8]
+0x44df0:	lea    rax,[rdi+0x8]
+0x44e01:	lea    eax,[rdi+0x9]
+0x44e00:	lea    rax,[rdi+0x9]
+0x44e11:	lea    eax,[rdi+0xa]
+0x44e10:	lea    rax,[rdi+0xa]
+0x44e21:	lea    eax,[rdi+0xb]
+0x44e20:	lea    rax,[rdi+0xb]
+0x44e31:	lea    eax,[rdi+0xc]
+0x44e30:	lea    rax,[rdi+0xc]
+0x44e41:	lea    eax,[rdi+0xd]
+0x44e40:	lea    rax,[rdi+0xd]
+0x44e51:	lea    eax,[rdi+0xe]
+0x44e50:	lea    rax,[rdi+0xe]
+0x4606f:	sub    eax,edx
+0x46088:	sub    eax,edx
+0x46087:	lock sub eax,edx
+0x46086:	push   rsi; 	lock sub eax,edx
+0x46098:	sub    eax,edx
+0x46097:	icebp  ; 	sub    eax,edx
+0x46096:	push   rsi; 	icebp  ; 	sub    eax,edx
+0x460a8:	sub    eax,edx
+0x460a7:	repnz sub eax,edx
+0x460a6:	push   rsi; 	repnz sub eax,edx
+0x460b8:	sub    eax,edx
+0x460b7:	repz sub eax,edx
+0x460b6:	push   rsi; 	repz sub eax,edx
+0x460c8:	sub    eax,edx
+0x460c7:	hlt    ; 	sub    eax,edx
+0x460c6:	push   rsi; 	hlt    ; 	sub    eax,edx
+0x460d8:	sub    eax,edx
+0x460d7:	cmc    ; 	sub    eax,edx
+0x460d6:	push   rsi; 	cmc    ; 	sub    eax,edx
+0x460e8:	sub    eax,edx
+0x46123:	sub    eax,edx
+0x4639a:	xor    eax,eax
+0x46398:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x46447:	xor    eax,eax
+0x46445:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x46502:	xor    eax,eax
+0x46500:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x4659b:	xor    eax,eax
+0x46599:	jne    0x465b5; 	xor    eax,eax
+0x465b8:	fdivr  st,st(7)
+0x465b7:	sbb    eax,0xffffffff
+0x465c0:	xor    eax,eax
+0x465be:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x4665b:	shl    DWORD PTR [rsi+0xf],0xda
+0x466c2:	in     eax,dx
+0x466c1:	jne    0x466b0
+0x466c0:	leave  ; 	jne    0x466b0
+0x466bf:	test   cl,cl; 	jne    0x466b0
+0x466c4:	xor    eax,eax
+0x466c3:	ret    ; 	xor    eax,eax
+0x466c2:	in     eax,dx; 	ret    ; 	xor    eax,eax
+0x4671f:	shl    DWORD PTR [rsi+0xf],0xda
+0x46772:	in     eax,dx
+0x46771:	jne    0x46760
+0x46770:	leave  ; 	jne    0x46760
+0x4676f:	test   cl,cl; 	jne    0x46760
+0x46774:	xor    eax,eax
+0x46773:	ret    ; 	xor    eax,eax
+0x46772:	in     eax,dx; 	ret    ; 	xor    eax,eax
+0x46779:	clc    
+0x46778:	mov    eax,edi
+0x46777:	mov    rax,rdi
+0x46776:	ret    ; 	mov    rax,rdi
+0x467ac:	outs   dx,DWORD PTR ds:[rsi]
+0x468e4:	lea    eax,[rcx-0x1]
+0x468e3:	lea    rax,[rcx-0x1]
+0x468ef:	add    BYTE PTR [rcx+0x1],cl
+0x46937:	outs   dx,DWORD PTR ds:[rsi]
+0x46a34:	sub    eax,0x1
+0x46a33:	sub    rax,0x1
+0x46a60:	xor    eax,eax
+0x46a5e:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x46b04:	sub    eax,edx
+0x46b03:	sub    rax,rdx
+0x46ba4:	movsxd eax,ecx
+0x46ba3:	movsxd rax,ecx
+0x46bfd:	sub    eax,esi
+0x46bfc:	sub    rax,rsi
+0x46bfb:	clc    ; 	sub    rax,rsi
+0x46c3e:	sub    eax,esi
+0x46c3d:	sub    rax,rsi
+0x46cce:	adc    DWORD PTR [rsi-0x1],edx
+0x46ccd:	adc    QWORD PTR [rsi-0x1],rdx
+0x46cef:	adc    DWORD PTR [rsi-0x1],edx
+0x46cee:	adc    QWORD PTR [rsi-0x1],rdx
+0x46d02:	adc    DWORD PTR [rsi-0x1],edx
+0x46d01:	adc    QWORD PTR [rsi-0x1],rdx
+0x46d2c:	clc    
+0x46d2b:	rex.RX clc 
+0x46d3b:	cld    
+0x46d3a:	rex.WRX cld 
+0x46d39:	mov    DWORD PTR [rsi-0x4],ecx
+0x46d46:	mov    DWORD PTR [rsi-0x2],ecx
+0x46d45:	mov    WORD PTR [rsi-0x2],cx
+0x46d4f:	mov    BYTE PTR [rdi],cl
+0x46d4d:	jb     0x46d51; 	mov    BYTE PTR [rdi],cl
+0x46dd7:	adc    DWORD PTR [rsi-0x1],edx
+0x46dd6:	adc    QWORD PTR [rsi-0x1],rdx
+0x46e2f:	adc    DWORD PTR [rsi+0x3],edx
+0x46e2e:	adc    QWORD PTR [rsi+0x3],rdx
+0x46ecc:	adc    DWORD PTR [rsi+0x7],edx
+0x46ecb:	adc    QWORD PTR [rsi+0x7],rdx
+0x46f03:	adc    DWORD PTR [rdi+rdx*1-0x10],ecx
+0x46f57:	movs   BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x46f56:	rep movs BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x46f55:	add    esi,ebx; 	movs   BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x46f54:	jb     0x46f59; 	rep movs BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x46f66:	cld    
+0x46f65:	movs   BYTE PTR es:[rdi],BYTE PTR ds:[rsi]; 	cld    
+0x46f64:	rep movs BYTE PTR es:[rdi],BYTE PTR ds:[rsi]; 	cld    
+0x46f63:	std    ; 	rep movs BYTE PTR es:[rdi],BYTE PTR ds:[rsi]; 	cld    
+0x46f9b:	adc    DWORD PTR [rdi+rdx*1-0x10],ecx
+0x46fc5:	movs   BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x46fc4:	rep movs BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x46fc2:	mov    ecx,edx; 	rep movs BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x46fdb:	mov    BYTE PTR [rdi],cl
+0x46fd9:	mov    dh,0xe; 	mov    BYTE PTR [rdi],cl
+0x46fec:	mov    DWORD PTR [rdi],esi
+0x46feb:	mov    QWORD PTR [rdi],rsi
+0x46fea:	clc    ; 	mov    QWORD PTR [rdi],rsi
+0x46ff9:	mov    DWORD PTR [rdi],esi
+0x46ff8:	cld    ; 	mov    DWORD PTR [rdi],esi
+0x4700a:	mov    DWORD PTR [rdi],esi
+0x47009:	mov    WORD PTR [rdi],si
+0x47067:	adc    DWORD PTR [rdi+rdx*1-0x40],edi
+0x4708a:	adc    DWORD PTR [rdi+rdx*1-0x20],ebx
+0x47121:	adc    DWORD PTR [rbx],esp
+0x47120:	movups XMMWORD PTR [rbx],xmm4
+0x4711f:	movups XMMWORD PTR [r11],xmm4
+0x471a8:	adc    DWORD PTR [rbx],eax
+0x471a7:	movups XMMWORD PTR [rbx],xmm0
+0x471a6:	movups XMMWORD PTR [r11],xmm8
+0x4720f:	adc    DWORD PTR [rbx],esp
+0x4720e:	movups XMMWORD PTR [rbx],xmm4
+0x4720d:	movups XMMWORD PTR [r11],xmm4
+0x47276:	adc    DWORD PTR [rbx],eax
+0x47275:	movups XMMWORD PTR [rbx],xmm0
+0x47274:	movups XMMWORD PTR [r11],xmm8
+0x472bb:	vzeroupper 
+0x472f7:	vzeroupper 
+0x47320:	movs   BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x4731f:	rep movs BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x4731d:	mov    ecx,edx; 	rep movs BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x4733b:	mov    BYTE PTR [rdi],cl
+0x47339:	mov    dh,0xe; 	mov    BYTE PTR [rdi],cl
+0x47361:	mov    DWORD PTR [rdi],esi
+0x47360:	mov    QWORD PTR [rdi],rsi
+0x4735f:	clc    ; 	mov    QWORD PTR [rdi],rsi
+0x4736e:	mov    DWORD PTR [rdi],esi
+0x4736d:	cld    ; 	mov    DWORD PTR [rdi],esi
+0x4737f:	mov    DWORD PTR [rdi],esi
+0x4737e:	mov    WORD PTR [rdi],si
+0x473fb:	vzeroupper 
+0x47429:	vzeroupper 
+0x474dd:	vzeroupper 
+0x47584:	vzeroupper 
+0x47610:	vzeroupper 
+0x476a0:	vzeroupper 
+0x476f6:	vzeroupper 
+0x47742:	vzeroupper 
+0x4776b:	movs   BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x4776a:	rep movs BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x47768:	mov    ecx,edx; 	rep movs BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0x4778b:	mov    BYTE PTR [rdi],cl
+0x47789:	mov    dh,0xe; 	mov    BYTE PTR [rdi],cl
+0x477a2:	vzeroupper 
+0x477c9:	mov    DWORD PTR [rdi],esi
+0x477c8:	mov    QWORD PTR [rdi],rsi
+0x477c7:	clc    ; 	mov    QWORD PTR [rdi],rsi
+0x477d6:	mov    DWORD PTR [rdi],esi
+0x477d5:	cld    ; 	mov    DWORD PTR [rdi],esi
+0x477e7:	mov    DWORD PTR [rdi],esi
+0x477e6:	mov    WORD PTR [rdi],si
+0x47883:	vzeroupper 
+0x47882:	cld    ; 	vzeroupper 
+0x478c1:	vzeroupper 
+0x47998:	vzeroupper 
+0x47a5e:	vzeroupper 
+0x47b31:	vzeroupper 
+0x47c04:	vzeroupper 
+0x47c6c:	jg     0x47c75
+0x47c6b:	movq   QWORD PTR [rdi],mm0
+0x47c6a:	movdqu XMMWORD PTR [rdi],xmm0
+0x47c8d:	mov    eax,edx
+0x47c8c:	mov    rax,rdx
+0x47c8b:	stos   BYTE PTR es:[rdi],al; 	mov    rax,rdx
+0x47cbc:	jg     0x47cc5
+0x47cbb:	movq   QWORD PTR [rdi],mm0
+0x47cba:	movdqu XMMWORD PTR [rdi],xmm0
+0x47d3e:	in     al,0xf3
+0x47d57:	mov    BYTE PTR [rdi],cl
+0x47d55:	jb     0x47d59; 	mov    BYTE PTR [rdi],cl
+0x47d60:	mov    DWORD PTR [rdi],ecx
+0x47d5f:	mov    QWORD PTR [rdi],rcx
+0x47d5e:	clc    ; 	mov    QWORD PTR [rdi],rcx
+0x47d67:	mov    DWORD PTR [rdi],ecx
+0x47d66:	cld    ; 	mov    DWORD PTR [rdi],ecx
+0x47d70:	mov    DWORD PTR [rdi],ecx
+0x47d6f:	mov    WORD PTR [rdi],cx
+0x47dc6:	vzeroupper 
+0x47de0:	mov    eax,edx
+0x47ddf:	mov    rax,rdx
+0x47dde:	stos   BYTE PTR es:[rdi],al; 	mov    rax,rdx
+0x47e16:	vzeroupper 
+0x47e41:	vzeroupper 
+0x47ea6:	vzeroupper 
+0x47ec7:	vzeroupper 
+0x47ec6:	pextrw edi,mm0,0x77
+0x47ed5:	vzeroupper 
+0x47ee1:	vzeroupper 
+0x47ee0:	pextrw edi,mm0,0x77
+0x47eeb:	vzeroupper 
+0x47eea:	pextrw edi,mm0,0x77
+0x47ef7:	vzeroupper 
+0x47ef6:	pextrw edi,mm0,0x77
+0x47f53:	vzeroupper 
+0x47f70:	mov    eax,edx
+0x47f6f:	mov    rax,rdx
+0x47f6e:	stos   BYTE PTR es:[rdi],al; 	mov    rax,rdx
+0x47fb3:	vzeroupper 
+0x47fe6:	vzeroupper 
+0x48069:	vzeroupper 
+0x4808f:	vzeroupper 
+0x4808e:	pextrw edi,mm0,0x77
+0x4809d:	vzeroupper 
+0x480ab:	vzeroupper 
+0x480b7:	vzeroupper 
+0x480b6:	pextrw edi,mm0,0x77
+0x480c1:	vzeroupper 
+0x480c0:	pextrw edi,mm0,0x77
+0x480cd:	vzeroupper 
+0x480cc:	pextrw edi,mm0,0x77
+0x48132:	pop    rbx
+0x48130:	xor    eax,eax; 	pop    rbx
+0x4816f:	pop    rbx
+0x4816c:	cmove  eax,edx; 	pop    rbx
+0x48182:	pop    rbx
+0x48180:	add    eax,DWORD PTR [rax]; 	pop    rbx
+0x4817f:	cld    ; 	add    eax,DWORD PTR [rax]; 	pop    rbx
+0x481a7:	pop    rbx
+0x481a4:	cmove  eax,ecx; 	pop    rbx
+0x481b3:	pop    rbx
+0x481b1:	mov    dh,0xc1; 	pop    rbx
+0x481b0:	movzx  eax,cl; 	pop    rbx
+0x481cd:	pop    rbx
+0x481cb:	inc    DWORD PTR [rbx]; 	pop    rbx
+0x481ca:	cld    ; 	inc    DWORD PTR [rbx]; 	pop    rbx
+0x481ff:	pop    rbx
+0x481fc:	cmovne eax,edx; 	pop    rbx
+0x48222:	pop    rbx
+0x48220:	add    BYTE PTR [rax],al; 	pop    rbx
+0x48229:	pop    rbx
+0x48227:	add    BYTE PTR [rax],al; 	pop    rbx
+0x48230:	pop    rbx
+0x4822e:	add    BYTE PTR [rax],al; 	pop    rbx
+0x48237:	pop    rbx
+0x48235:	add    BYTE PTR [rax],al; 	pop    rbx
+0x4823e:	pop    rbx
+0x4823c:	add    BYTE PTR [rax],al; 	pop    rbx
+0x48245:	pop    rbx
+0x48243:	add    BYTE PTR [rax],al; 	pop    rbx
+0x4824c:	pop    rbx
+0x4824a:	add    BYTE PTR [rax],al; 	pop    rbx
+0x48262:	mov    eax,eax
+0x48261:	pop    rbx; 	mov    eax,eax
+0x48260:	icebp  ; 	pop    rbx; 	mov    eax,eax
+0x48268:	pop    rbx
+0x48266:	mov    eax,edx; 	pop    rbx
+0x48265:	mov    rax,rdx; 	pop    rbx
+0x4827a:	mov    eax,eax
+0x48279:	icebp  ; 	mov    eax,eax
+0x48278:	div    ecx; 	mov    eax,eax
+0x483ab:	pop    rbp
+0x483aa:	pop    r13
+0x483a9:	pop    rsp; 	pop    r13
+0x483a8:	pop    r12; 	pop    r13
+0x483c0:	xor    eax,eax
+0x483be:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x486dd:	pop    rdi
+0x486dc:	pop    r15
+0x486db:	pop    rsi; 	pop    r15
+0x486da:	pop    r14; 	pop    r15
+0x48710:	xor    eax,eax
+0x4870e:	je     0x48718; 	xor    eax,eax
+0x48717:	add    cl,ch
+0x4875e:	loope  0x48753
+0x4875c:	mov    dh,BYTE PTR [rcx+riz*8-0xd]
+0x487e0:	pop    rbx
+0x48845:	pop    rbx
+0x48842:	add    esp,0x20; 	pop    rbx
+0x48a5e:	pop    rbp
+0x48a5d:	pop    rdi; 	pop    rbp
+0x48a5c:	pop    r15; 	pop    rbp
+0x48a5b:	pop    rsi; 	pop    r15; 	pop    rbp
+0x48b90:	pop    rbp
+0x48b8f:	pop    rbx; 	pop    rbp
+0x48b8e:	or     BYTE PTR [rbx+0x5d],bl
+0x48c8a:	pop    rbp
+0x48c89:	pop    r13
+0x48c88:	pop    rsp; 	pop    r13
+0x48c87:	pop    r12; 	pop    r13
+0x48e59:	dec    DWORD PTR [rax-0x39]
+0x48e92:	pop    rdi
+0x48e91:	pop    r15
+0x48e90:	pop    rsi; 	pop    r15
+0x48e8f:	pop    r14; 	pop    r15
+0x48fc6:	add    BYTE PTR [rax+0x39],cl
+0x48fc5:	add    BYTE PTR es:[rax+0x39],cl
+0x4904d:	jae    0x49050
+0x4904c:	push   QWORD PTR [rbx+0x1]
+0x4905d:	or     eax,0xffffffff
+0x4905c:	or     rax,0xffffffffffffffff
+0x49120:	dec    DWORD PTR [rax-0x77]
+0x4911f:	sti    ; 	dec    DWORD PTR [rax-0x77]
+0x491b4:	pop    rbp
+0x491b3:	pop    rdi; 	pop    rbp
+0x491b2:	pop    r15; 	pop    rbp
+0x491b1:	pop    rsi; 	pop    r15; 	pop    rbp
+0x492cf:	leave  
+0x4930a:	pop    rbp
+0x49309:	pop    r13
+0x49308:	pop    rsp; 	pop    r13
+0x49307:	pop    r12; 	pop    r13
+0x495cd:	jae    0x495d0
+0x495cc:	push   QWORD PTR [rbx+0x1]
+0x495dd:	or     eax,0xffffffff
+0x495dc:	or     rax,0xffffffffffffffff
+0x4962a:	add    esp,0x28
+0x49629:	add    rsp,0x28
+0x4965c:	add    esi,ebx
+0x4974c:	add    esp,0x68
+0x4974b:	add    rsp,0x68
+0x4985c:	pop    rax
+0x4985a:	add    esp,0x58
+0x49859:	add    rsp,0x58
+0x49905:	pop    rsp
+0x49904:	pop    r12
+0x49903:	pop    rbp; 	pop    r12
+0x49902:	pop    rbx; 	pop    rbp; 	pop    r12
+0x4994b:	add    al,0xf3
+0x499d8:	pop    rsp
+0x499d7:	pop    r12
+0x499d6:	pop    rbp; 	pop    r12
+0x499d5:	pop    rbx; 	pop    rbp; 	pop    r12
+0x49a1e:	or     ebx,esi
+0x49a4e:	or     ebx,esi
+0x49adf:	add    esp,0x78
+0x49ade:	add    rsp,0x78
+0x49bea:	add    esp,0x68
+0x49be9:	add    rsp,0x68
+0x49c92:	pop    rbx
+0x49c8f:	add    esp,0x10; 	pop    rbx
+0x49cce:	or     ebx,esi
+0x49d8d:	pop    rdi
+0x49d8c:	pop    r15
+0x49d8b:	pop    rsi; 	pop    r15
+0x49d8a:	pop    r14; 	pop    r15
+0x4a2ff:	dec    DWORD PTR [rax-0x77]
+0x4a2fe:	std    ; 	dec    DWORD PTR [rax-0x77]
+0x4a427:	or     bl,dh
+0x4a4a3:	add    BYTE PTR [rax-0x39],cl
+0x4a4b3:	pop    rbp
+0x4a4b2:	pop    rbx; 	pop    rbp
+0x4a4b1:	fcomp  DWORD PTR [rbx+0x5d]
+0x4a4b0:	mov    eax,ebx; 	pop    rbx; 	pop    rbp
+0x4a4cd:	pop    rbp
+0x4a4cc:	pop    rbx; 	pop    rbp
+0x4a4cb:	fcomp  DWORD PTR [rbx+0x5d]
+0x4a4ca:	mov    eax,ebx; 	pop    rbx; 	pop    rbp
+0x4a4d5:	fmul   DWORD PTR [rax+0x39]
+0x4a4eb:	add    dh,bl
+0x4a559:	add    esp,0x28
+0x4a558:	add    rsp,0x28
+0x4a5c4:	pop    rdi
+0x4a5c3:	pop    r15
+0x4a5c2:	pop    rsi; 	pop    r15
+0x4a5c1:	pop    r14; 	pop    r15
+0x4a65d:	jae    0x4a660
+0x4a65c:	push   QWORD PTR [rbx+0x1]
+0x4a66d:	or     eax,0xffffffff
+0x4a66c:	or     rax,0xffffffffffffffff
+0x4a68d:	jae    0x4a690
+0x4a68c:	push   QWORD PTR [rbx+0x1]
+0x4a69d:	or     eax,0xffffffff
+0x4a69c:	or     rax,0xffffffffffffffff
+0x4a6bd:	jae    0x4a6c0
+0x4a6bc:	push   QWORD PTR [rbx+0x1]
+0x4a6cd:	or     eax,0xffffffff
+0x4a6cc:	or     rax,0xffffffffffffffff
+0x4a906:	or     BYTE PTR [rcx-0xa],al
+0x4a905:	pop    rdi; 	or     BYTE PTR [rcx-0xa],al
+0x4aa6b:	lahf   
+0x4aacf:	pop    rdi
+0x4aace:	pop    r15
+0x4aacd:	pop    rsi; 	pop    r15
+0x4aacc:	pop    r14; 	pop    r15
+0x4ac42:	or     BYTE PTR [rax-0x7d],cl
+0x4ac65:	pop    rbp
+0x4ac64:	pop    r13
+0x4ac63:	pop    rsp; 	pop    r13
+0x4ac62:	pop    r12; 	pop    r13
+0x4ad39:	pop    rbp
+0x4ad38:	pop    rdi; 	pop    rbp
+0x4ad37:	pop    r15; 	pop    rbp
+0x4ad36:	pop    rsi; 	pop    r15; 	pop    rbp
+0x4ae83:	add    DWORD PTR [rcx+0x9],ecx
+0x4b285:	pop    rbp
+0x4b284:	pop    rbx; 	pop    rbp
+0x4b283:	or     BYTE PTR [rbx+0x5d],bl
+0x4b28f:	add    bl,dh
+0x4b28d:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x4b30f:	push   rbx
+0x4b30e:	std    ; 	push   rbx
+0x4b30d:	rex.WRX std ; 	push   rbx
+0x4b500:	pop    rdi
+0x4b4ff:	pop    r15
+0x4b4fe:	pop    rsi; 	pop    r15
+0x4b4fd:	pop    r14; 	pop    r15
+0x4b666:	add    BYTE PTR [rax-0x77],cl
+0x4b674:	add    BYTE PTR [rax+0x39],cl
+0x4b6a0:	dec    DWORD PTR [rax-0x7f]
+0x4b800:	pop    rbp
+0x4b7ff:	pop    rdi; 	pop    rbp
+0x4b7fe:	pop    r15; 	pop    rbp
+0x4b7fd:	pop    rsi; 	pop    r15; 	pop    rbp
+0x4bb9e:	pop    rsi
+0x4bb9d:	pop    r14
+0x4bb9c:	pop    rbp; 	pop    r14
+0x4bb9b:	pop    r13; 	pop    r14
+0x4bc34:	pop    rbp
+0x4bc33:	pop    rbx; 	pop    rbp
+0x4bc32:	add    BYTE PTR [rbx+0x5d],bl
+0x4bc31:	add    BYTE PTR [rax],al; 	pop    rbx; 	pop    rbp
+0x4bcc4:	pop    rbp
+0x4bcc3:	pop    rbx; 	pop    rbp
+0x4bcc2:	add    BYTE PTR [rbx+0x5d],bl
+0x4bcc1:	add    BYTE PTR [rax],al; 	pop    rbx; 	pop    rbp
+0x4bcdd:	cmove  eax,edx
+0x4bd34:	pop    rbp
+0x4bd33:	pop    rbx; 	pop    rbp
+0x4bd32:	or     BYTE PTR [rbx+0x5d],bl
+0x4bd3f:	add    bl,dh
+0x4bd3d:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x4bd60:	jae    0x4bd63
+0x4bd5f:	push   QWORD PTR [rbx+0x1]
+0x4bd70:	or     eax,0xffffffff
+0x4bd6f:	or     rax,0xffffffffffffffff
+0x4bd8d:	jae    0x4bd90
+0x4bd8c:	push   QWORD PTR [rbx+0x1]
+0x4bd9d:	or     eax,0xffffffff
+0x4bd9c:	or     rax,0xffffffffffffffff
+0x4bdec:	setae  al
+0x4bdeb:	cli    ; 	setae  al
+0x4be16:	pop    rdx
+0x4be15:	pop    r10
+0x4be14:	pop    rdx; 	pop    r10
+0x4be13:	lock pop rdx; 	pop    r10
+0x4be3a:	pop    rsi
+0x4be39:	pop    rdx; 	pop    rsi
+0x4be37:	syscall ; 	pop    rdx; 	pop    rsi
+0x4be47:	add    BYTE PTR [rcx-0x77],al
+0x4be4e:	add    al,BYTE PTR [rcx+0x39]
+0x4be4d:	retf   ; 	add    al,BYTE PTR [rcx+0x39]
+0x4be69:	je     0x4be6c
+0x4beaf:	add    BYTE PTR [rcx-0x77],al
+0x4becd:	je     0x4bed0
+0x4bfbf:	add    bl,dh
+0x4c025:	mov    DWORD PTR [rax+0x8],edx
+0x4c024:	mov    QWORD PTR [rax+0x8],rdx
+0x4c02f:	add    bl,dh
+0x4c02d:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x4c08c:	sub    BYTE PTR [rcx],al
+0x4c08b:	sub    BYTE PTR [rcx],al
+0x4c08a:	mov    BYTE PTR [rax+0x28],0x1
+0x4c0a2:	jo     0x4c0c4
+0x4c0a1:	mov    DWORD PTR [rax+0x20],esi
+0x4c0a0:	mov    QWORD PTR [rax+0x20],rsi
+0x4c0ba:	sub    BYTE PTR [rcx],al
+0x4c0b9:	sub    BYTE PTR [rcx],al
+0x4c0b8:	mov    BYTE PTR [rax+0x28],0x1
+0x4c0bf:	add    bl,dh
+0x4c257:	pop    rdi
+0x4c256:	pop    r15
+0x4c255:	pop    rsi; 	pop    r15
+0x4c254:	pop    r14; 	pop    r15
+0x4c515:	add    DWORD PTR [rcx-0x7d],ecx
+0x4c514:	ret    ; 	add    DWORD PTR [rcx-0x7d],ecx
+0x4c727:	add    bl,dh
+0x4c921:	pop    rdi
+0x4c920:	pop    r15
+0x4c91f:	pop    rsi; 	pop    r15
+0x4c91e:	pop    r14; 	pop    r15
+0x4d262:	pop    rbp
+0x4d261:	pop    r13
+0x4d260:	pop    rsp; 	pop    r13
+0x4d25f:	pop    r12; 	pop    r13
+0x4d292:	pop    rbp
+0x4d291:	pop    r13
+0x4d290:	pop    rsp; 	pop    r13
+0x4d28f:	pop    r12; 	pop    r13
+0x4d45c:	add    BYTE PTR [rcx],bh
+0x4d46c:	pop    rbx
+0x4d47d:	sar    BYTE PTR [rcx],cl
+0x4d47b:	add    BYTE PTR [rcx],dh; 	sar    BYTE PTR [rcx],cl
+0x4d4bf:	add    bl,dh
+0x4d4bd:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x4d59e:	pop    rdi
+0x4d59d:	pop    r15
+0x4d59c:	pop    rsi; 	pop    r15
+0x4d59b:	pop    r14; 	pop    r15
+0x4dcb6:	ror    BYTE PTR [rdi],0x85
+0x4e0f8:	pop    rsp
+0x4e0f7:	pop    r12
+0x4e0f6:	pop    rbp; 	pop    r12
+0x4e0f5:	pop    rbx; 	pop    rbp; 	pop    r12
+0x4e115:	pop    rsp
+0x4e114:	pop    r12
+0x4e113:	pop    rbp; 	pop    r12
+0x4e112:	loopne 0x4e171; 	pop    r12
+0x4e329:	pop    rbp
+0x4e328:	pop    rdi; 	pop    rbp
+0x4e327:	pop    r15; 	pop    rbp
+0x4e326:	pop    rsi; 	pop    r15; 	pop    rbp
+0x4e867:	pop    rdi
+0x4e866:	pop    r15
+0x4e865:	pop    rsi; 	pop    r15
+0x4e864:	pop    r14; 	pop    r15
+0x4e8ee:	pop    rdi
+0x4e8ed:	pop    r15
+0x4e8ec:	pop    rsi; 	pop    r15
+0x4e8eb:	pop    r14; 	pop    r15
+0x4e8f3:	add    BYTE PTR [rax],al
+0x4e8f1:	or     BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x4e982:	cmp    ecx,DWORD PTR [rax-0x7d]
+0x4e9e5:	pop    rbp
+0x4e9e4:	pop    rbx; 	pop    rbp
+0x4e9e3:	or     BYTE PTR [rbx+0x5d],bl
+0x4f022:	test   BYTE PTR [rbp+rcx*4+0x3c],cl
+0x4f174:	xchg   DWORD PTR [rbp+rcx*4+0x34],ecx
+0x4f2cc:	pop    rbp
+0x4f2cb:	pop    rdi; 	pop    rbp
+0x4f2ca:	pop    r15; 	pop    rbp
+0x4f2c9:	pop    rsi; 	pop    r15; 	pop    rbp
+0x4f488:	add    BYTE PTR [rax-0x7d],cl
+0x4f59e:	pop    rbp
+0x4f59d:	pop    rbx; 	pop    rbp
+0x4f59c:	or     BYTE PTR [rbx+0x5d],bl
+0x4f61e:	pop    rsp
+0x4f61d:	pop    r12
+0x4f61c:	pop    rbp; 	pop    r12
+0x4f61b:	pop    rbx; 	pop    rbp; 	pop    r12
+0x4f7c5:	pop    rdi
+0x4f7c4:	pop    r15
+0x4f7c3:	pop    rsi; 	pop    r15
+0x4f7c2:	pop    r14; 	pop    r15
+0x4fac6:	push   rsi
+0x4fac4:	add    al,ch; 	push   rsi
+0x4fada:	pop    rsi
+0x4fad9:	pop    r14
+0x4fad8:	pop    rbp; 	pop    r14
+0x4fad7:	pop    r13; 	pop    r14
+0x4fb16:	and    BYTE PTR [rax-0x7d],cl
+0x4fb3b:	pop    rdi
+0x4fb3a:	pop    r15
+0x4fb39:	pop    rsi; 	pop    r15
+0x4fb38:	pop    r14; 	pop    r15
+0x4fc84:	pop    rbp
+0x4fc83:	pop    rdi; 	pop    rbp
+0x4fc82:	pop    r15; 	pop    rbp
+0x4fc81:	pop    rsi; 	pop    r15; 	pop    rbp
+0x4fc94:	add    DWORD PTR [rax-0x7d],ecx
+0x4fc93:	rex.RXB add DWORD PTR [r8-0x7d],r9d
+0x4fd9f:	xchg   ebp,eax
+0x5002d:	pop    rbp
+0x5002c:	pop    rdi; 	pop    rbp
+0x5002b:	pop    r15; 	pop    rbp
+0x5002a:	pop    rsi; 	pop    r15; 	pop    rbp
+0x50229:	add    DWORD PTR [rax-0x7d],ecx
+0x505d3:	push   rcx
+0x506ae:	pop    rbp
+0x506ad:	pop    rdi; 	pop    rbp
+0x506ac:	pop    r15; 	pop    rbp
+0x506ab:	pop    rsi; 	pop    r15; 	pop    rbp
+0x50ae4:	push   rsp
+0x50ae3:	push   rax; 	push   rsp
+0x50ae2:	mov    DWORD PTR [rax+0x54],edx
+0x50ae1:	push   rax; 	mov    DWORD PTR [rax+0x54],edx
+0x50bac:	cmovs  eax,edx
+0x50d4f:	fimul  WORD PTR [rax+0x1]
+0x50e77:	pop    rdi
+0x50e76:	pop    r15
+0x50e75:	pop    rsi; 	pop    r15
+0x50e74:	pop    r14; 	pop    r15
+0x50e7f:	add    BYTE PTR [rax-0x77],cl
+0x5135e:	pop    rdi
+0x5135d:	pop    r15
+0x5135c:	pop    rsi; 	pop    r15
+0x5135b:	pop    r14; 	pop    r15
+0x51876:	pop    rdi
+0x51875:	pop    r15
+0x51874:	pop    rsi; 	pop    r15
+0x51873:	pop    r14; 	pop    r15
+0x51df0:	pop    rdi
+0x51def:	pop    r15
+0x51dee:	pop    rsi; 	pop    r15
+0x51ded:	pop    r14; 	pop    r15
+0x51e7a:	add    cl,BYTE PTR [rcx-0x7d]
+0x51e79:	add    cl,BYTE PTR [rcx-0x7d]
+0x52449:	pop    rdi
+0x52448:	pop    r15
+0x52447:	pop    rsi; 	pop    r15
+0x52446:	pop    r14; 	pop    r15
+0x5254e:	inc    DWORD PTR [rcx-0x77]
+0x5254d:	cli    ; 	inc    DWORD PTR [rcx-0x77]
+0x5259e:	and    al,0xf6
+0x52711:	pop    rdi
+0x52710:	pop    r15
+0x5270f:	pop    rsi; 	pop    r15
+0x5270e:	pop    r14; 	pop    r15
+0x52c3e:	xor    al,0xf6
+0x52c3c:	add    BYTE PTR [rsp+rsi*1-0xa],dh
+0x531d7:	pop    rdi
+0x531d6:	pop    r15
+0x531d5:	pop    rsi; 	pop    r15
+0x531d4:	pop    r14; 	pop    r15
+0x54207:	pop    rdi
+0x54206:	pop    r15
+0x54205:	pop    rsi; 	pop    r15
+0x54204:	pop    r14; 	pop    r15
+0x543a8:	sbb    BYTE PTR [rcx-0x77],al
+0x55097:	fisttp DWORD PTR [rcx-0x7d]
+0x551ae:	add    cl,BYTE PTR [rax+0x39]
+0x551ad:	rex.X add cl,BYTE PTR [rax+0x39]
+0x5520f:	add    BYTE PTR [rax+0x39],cl
+0x5532c:	pop    rdi
+0x5532b:	pop    r15
+0x5532a:	pop    rsi; 	pop    r15
+0x55329:	pop    r14; 	pop    r15
+0x55359:	add    BYTE PTR [rax+0x39],cl
+0x55475:	add    cl,ch
+0x55473:	add    BYTE PTR [rax],al; 	add    cl,ch
+0x55586:	add    DWORD PTR [rax+0x39],ecx
+0x557f0:	pop    rsp
+0x557ee:	add    al,ch; 	pop    rsp
+0x5589e:	and    al,0xf6
+0x559d4:	add    BYTE PTR [rcx-0x77],al
+0x55a14:	pop    rdi
+0x55a13:	pop    r15
+0x55a12:	pop    rsi; 	pop    r15
+0x55a11:	pop    r14; 	pop    r15
+0x55f82:	jbe    0x55f7a
+0x55f80:	add    BYTE PTR [rsi+rsi*2-0xa],dh
+0x5653d:	add    cl,BYTE PTR [rax+0x39]
+0x5653c:	rex.X add cl,BYTE PTR [rax+0x39]
+0x565af:	pop    rdi
+0x565ae:	pop    r15
+0x565ad:	pop    rsi; 	pop    r15
+0x565ac:	pop    r14; 	pop    r15
+0x566af:	or     al,0xe9
+0x566ad:	jl     0x566d3; 	or     al,0xe9
+0x56808:	add    cl,BYTE PTR [rax+0x39]
+0x56807:	rex.X add cl,BYTE PTR [rax+0x39]
+0x5687f:	add    cl,BYTE PTR [rax+0x39]
+0x5687e:	rex.X add cl,BYTE PTR [rax+0x39]
+0x56ade:	and    al,0xf6
+0x56c18:	add    BYTE PTR [rcx-0x77],al
+0x56c5c:	pop    rdi
+0x56c5b:	pop    r15
+0x56c5a:	pop    rsi; 	pop    r15
+0x56c59:	pop    r14; 	pop    r15
+0x571c2:	jp     0x571ba
+0x571c0:	add    BYTE PTR [rdx+rdi*2-0xa],dh
+0x57331:	add    DWORD PTR [rax+0x39],ecx
+0x57330:	rex.RX add DWORD PTR [rax+0x39],r9d
+0x5734f:	add    cl,BYTE PTR [rax+0x39]
+0x5734e:	rex.RX add r9b,BYTE PTR [rax+0x39]
+0x5736d:	add    ecx,DWORD PTR [rax+0x39]
+0x5736c:	rex.RX add r9d,DWORD PTR [rax+0x39]
+0x5775c:	pop    rdi
+0x5775b:	pop    r15
+0x5775a:	pop    rsi; 	pop    r15
+0x57759:	pop    r14; 	pop    r15
+0x577e7:	add    BYTE PTR [rax-0x77],cl
+0x577e6:	add    BYTE PTR [rax-0x77],cl
+0x57881:	add    BYTE PTR [rax-0x77],cl
+0x578d8:	shr    BYTE PTR [rcx],cl
+0x57b8e:	pop    rsp
+0x57b8d:	pop    r12
+0x57b8c:	pop    rbx; 	pop    r12
+0x57b8b:	add    BYTE PTR [rbx+0x41],bl; 	pop    rsp
+0x57d28:	pop    rdi
+0x57d27:	pop    r15
+0x57d26:	pop    rsi; 	pop    r15
+0x57d25:	pop    r14; 	pop    r15
+0x57df1:	pop    rdi
+0x57df0:	pop    r15
+0x57def:	pop    rsi; 	pop    r15
+0x57dee:	pop    r14; 	pop    r15
+0x57f2b:	pop    rbp
+0x57f2a:	pop    rdi; 	pop    rbp
+0x57f29:	pop    r15; 	pop    rbp
+0x57f28:	pop    rsi; 	pop    r15; 	pop    rbp
+0x58776:	add    esi,DWORD PTR [rdi+rax*1-0xd]
+0x587b9:	pop    rbx
+0x587b7:	add    BYTE PTR [rax],al; 	pop    rbx
+0x587ca:	pop    rbx
+0x587c7:	mov    DWORD PTR [rbx+0x8],eax; 	pop    rbx
+0x588e9:	pop    rsp
+0x588e8:	pop    r12
+0x588e7:	pop    rbp; 	pop    r12
+0x588e6:	pop    rbx; 	pop    rbp; 	pop    r12
+0x5890f:	pop    rsp
+0x5890e:	pop    r12
+0x5890d:	pop    rbp; 	pop    r12
+0x5890c:	pop    rbx; 	pop    rbp; 	pop    r12
+0x5898e:	pop    rsp
+0x5898d:	pop    r12
+0x5898c:	pop    rbp; 	pop    r12
+0x5898b:	pop    rbx; 	pop    rbp; 	pop    r12
+0x58ae9:	pop    rdi
+0x58ae8:	pop    r15
+0x58ae7:	pop    rsi; 	pop    r15
+0x58ae6:	pop    r14; 	pop    r15
+0x58d68:	pop    rdi
+0x58d67:	pop    r15
+0x58d66:	pop    rsi; 	pop    r15
+0x58d65:	pop    r14; 	pop    r15
+0x592a7:	add    BYTE PTR [rax-0x7d],cl
+0x592a6:	add    BYTE PTR [rax-0x7d],cl
+0x596ad:	pop    rbp
+0x596ac:	pop    rdi; 	pop    rbp
+0x596ab:	pop    r15; 	pop    rbp
+0x596aa:	pop    rsi; 	pop    r15; 	pop    rbp
+0x59717:	add    BYTE PTR [rax+0x63],cl
+0x599ec:	dec    DWORD PTR [rax-0x7d]
+0x599eb:	rex dec DWORD PTR [rax-0x7d]
+0x59da7:	add    bl,dh
+0x59da5:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x59e33:	pop    rdi
+0x59e32:	pop    r15
+0x59e31:	pop    rsi; 	pop    r15
+0x59e30:	pop    r14; 	pop    r15
+0x59e67:	pop    rdi
+0x59e66:	pop    r15
+0x59e65:	pop    rsi; 	pop    r15
+0x59e64:	pop    r14; 	pop    r15
+0x5a1a0:	pop    rbp
+0x5a19f:	pop    rdi; 	pop    rbp
+0x5a19e:	pop    r15; 	pop    rbp
+0x5a19d:	pop    rsi; 	pop    r15; 	pop    rbp
+0x5a6c4:	pop    rbp
+0x5a6c3:	pop    rdi; 	pop    rbp
+0x5a6c2:	pop    r15; 	pop    rbp
+0x5a6c1:	pop    rsi; 	pop    r15; 	pop    rbp
+0x5a8b7:	add    BYTE PTR [rax-0x7d],cl
+0x5ab8f:	or     bl,dh
+0x5ab8d:	add    BYTE PTR [rax+rcx*1-0xd],dh
+0x5abb7:	mov    DWORD PTR [rdx],eax
+0x5abb6:	mov    QWORD PTR [rdx],rax
+0x5abb5:	mov    QWORD PTR fs:[rdx],rax
+0x5abd4:	add    BYTE PTR [rax],al
+0x5abee:	add    BYTE PTR [rax],al
+0x5abec:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x5ac0e:	add    BYTE PTR [rax],al
+0x5ac0c:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x5ac2e:	add    BYTE PTR [rax],al
+0x5ac2c:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x5ac8d:	mov    DWORD PTR [rdx],eax
+0x5ac8c:	mov    QWORD PTR [rdx],rax
+0x5ac8b:	mov    QWORD PTR fs:[rdx],rax
+0x5acd2:	add    esp,0x18
+0x5acd1:	add    rsp,0x18
+0x5ad62:	pop    rbx
+0x5ad60:	xor    eax,eax; 	pop    rbx
+0x5ad5f:	rex xor eax,eax; 	pop    rbx
+0x5af1e:	add    BYTE PTR [rax],al
+0x5afb4:	or     esi,ebx
+0x5b1a9:	and    BYTE PTR [rax+0x1],cl
+0x5b5c6:	pop    rdi
+0x5b5c5:	pop    r15
+0x5b5c4:	pop    rsi; 	pop    r15
+0x5b5c3:	pop    r14; 	pop    r15
+0x5b60d:	ret    0x3948
+0x5b60c:	xchg   ebx,eax; 	ret    0x3948
+0x5bf81:	adc    BYTE PTR [rcx-0x7d],cl
+0x5c2a5:	adc    cl,BYTE PTR [rcx-0x7d]
+0x5c3a2:	add    DWORD PTR [rcx+0x39],ecx
+0x5c499:	dec    DWORD PTR [rax-0x77]
+0x5c601:	pop    rbp
+0x5c600:	pop    rdi; 	pop    rbp
+0x5c5ff:	pop    r15; 	pop    rbp
+0x5c5fe:	pop    rsi; 	pop    r15; 	pop    rbp
+0x5c836:	pop    rsp
+0x5c835:	pop    r12
+0x5c834:	pop    rbp; 	pop    r12
+0x5c833:	pop    rbx; 	pop    rbp; 	pop    r12
+0x5c938:	pop    rbp
+0x5c937:	pop    r13
+0x5c936:	pop    rsp; 	pop    r13
+0x5c935:	pop    r12; 	pop    r13
+0x5ca1c:	add    esp,0x8
+0x5ca1b:	add    rsp,0x8
+0x5ca50:	xor    eax,eax
+0x5ca4f:	nop; 	xor    eax,eax
+0x5cad8:	pop    rdi
+0x5cad7:	pop    r15
+0x5cad6:	pop    rsi; 	pop    r15
+0x5cad5:	pop    r14; 	pop    r15
+0x5caff:	add    BYTE PTR [rax-0x7d],cl
+0x5cb36:	add    DWORD PTR [rax-0x7d],ecx
+0x5cbbb:	scas   eax,DWORD PTR es:[rdi]
+0x5cc2b:	add    BYTE PTR [rax-0x7d],cl
+0x5cf58:	xor    eax,eax
+0x5cf56:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x5d0c8:	pop    rdi
+0x5d0c7:	pop    r15
+0x5d0c6:	pop    rsi; 	pop    r15
+0x5d0c5:	pop    r14; 	pop    r15
+0x5d293:	pop    rdi
+0x5d292:	pop    r15
+0x5d291:	pop    rsi; 	pop    r15
+0x5d290:	pop    r14; 	pop    r15
+0x5d4b4:	pop    rdi
+0x5d4b3:	pop    r15
+0x5d4b2:	pop    rsi; 	pop    r15
+0x5d4b1:	pop    r14; 	pop    r15
+0x5d4df:	dec    DWORD PTR [rax+0x29]
+0x5d4de:	cli    ; 	dec    DWORD PTR [rax+0x29]
+0x5d6af:	pop    rbp
+0x5d6ae:	pop    r13
+0x5d6ad:	pop    rsp; 	pop    r13
+0x5d6ac:	pop    r12; 	pop    r13
+0x5d81c:	and    BYTE PTR [rax+0x1],cl
+0x5e017:	pop    rbp
+0x5e016:	pop    rdi; 	pop    rbp
+0x5e015:	pop    r15; 	pop    rbp
+0x5e014:	pop    rsi; 	pop    r15; 	pop    rbp
+0x5e13b:	or     al,0x83
+0x5e13a:	rex.RXB or al,0x83
+0x5e139:	mov    dh,0x47; 	or     al,0x83
+0x5e196:	add    BYTE PTR [rcx-0x7d],cl
+0x5e36e:	dec    DWORD PTR [rax-0x39]
+0x5e432:	lahf   
+0x5e430:	in     al,0xf; 	lahf   
+0x5e52c:	add    BYTE PTR [rax+0x39],cl
+0x5e6a7:	cmp    BYTE PTR [rax+0x39],cl
+0x5e6a6:	push   rcx; 	cmp    BYTE PTR [rax+0x39],cl
+0x5e717:	lahf   
+0x5e715:	in     al,0xf; 	lahf   
+0x5e796:	add    BYTE PTR [rax+0x39],cl
+0x5ea47:	add    BYTE PTR [rcx-0x77],cl
+0x5eb32:	add    BYTE PTR [rcx-0x77],cl
+0x5ef19:	cmp    BYTE PTR [rax+0x39],cl
+0x5ef5a:	add    BYTE PTR [rcx-0x77],al
+0x5f1cb:	dec    DWORD PTR [rax-0x77]
+0x5f1ca:	clc    ; 	dec    DWORD PTR [rax-0x77]
+0x5f363:	add    BYTE PTR [rcx-0x77],cl
+0x5f6d8:	dec    DWORD PTR [rax-0x77]
+0x5f6d7:	clc    ; 	dec    DWORD PTR [rax-0x77]
+0x5f7b5:	add    BYTE PTR [rax+0x63],cl
+0x5fbb4:	pop    rax
+0x5fd6d:	pop    rbp
+0x5fd6c:	pop    rdi; 	pop    rbp
+0x5fd6b:	pop    r15; 	pop    rbp
+0x5fd6a:	pop    rsi; 	pop    r15; 	pop    rbp
+0x601ef:	dec    DWORD PTR [rcx-0x7d]
+0x603e7:	dec    DWORD PTR [rcx-0x77]
+0x60483:	dec    DWORD PTR [rcx+0x39]
+0x617be:	dec    DWORD PTR [rcx+0x39]
+0x61a27:	dec    DWORD PTR [rcx-0x77]
+0x61a26:	clc    ; 	dec    DWORD PTR [rcx-0x77]
+0x6236c:	dec    DWORD PTR [rcx-0x77]
+0x6236b:	clc    ; 	dec    DWORD PTR [rcx-0x77]
+0x62f3f:	pop    rsi
+0x62f3e:	pop    r14
+0x62f3d:	pop    rbp; 	pop    r14
+0x62f3c:	pop    r13; 	pop    r14
+0x6304e:	pop    rbp
+0x6304d:	pop    rbx; 	pop    rbp
+0x6304b:	mov    eax,ebp; 	pop    rbx; 	pop    rbp
+0x63082:	pop    rbp
+0x63081:	pop    rbx; 	pop    rbp
+0x6307f:	mov    eax,ebp; 	pop    rbx; 	pop    rbp
+0x630ae:	pop    rbp
+0x630ad:	pop    rbx; 	pop    rbp
+0x630ab:	mov    eax,ebp; 	pop    rbx; 	pop    rbp
+0x630cd:	pop    rbp
+0x630cc:	pop    rbx; 	pop    rbp
+0x630ca:	mov    eax,ebp; 	pop    rbx; 	pop    rbp
+0x63214:	pop    rdi
+0x63213:	pop    r15
+0x63212:	pop    rsi; 	pop    r15
+0x63211:	pop    r14; 	pop    r15
+0x6323f:	dec    DWORD PTR [rax+0x29]
+0x6323e:	stc    ; 	dec    DWORD PTR [rax+0x29]
+0x63438:	outs   dx,DWORD PTR ds:[rsi]
+0x63435:	sbb    ah,BYTE PTR [rsi+0xf]; 	outs   dx,DWORD PTR ds:[rsi]
+0x6369f:	loopne 0x6362a
+0x6369d:	in     eax,0xdf; 	loopne 0x6362a
+0x63a1e:	and    al,0x83
+0x63aa1:	pop    rbp
+0x63aa0:	pop    rdi; 	pop    rbp
+0x63a9f:	pop    r15; 	pop    rbp
+0x63a9e:	pop    rsi; 	pop    r15; 	pop    rbp
+0x63f18:	add    BYTE PTR [rax-0x7d],cl
+0x65ec5:	mov    eax,ecx
+0x65ec4:	mov    eax,r9d
+0x65ec3:	fadd   QWORD PTR [rcx+rcx*4-0x38]
+0x65edc:	mov    eax,ecx
+0x65edb:	mov    eax,r9d
+0x65f92:	pop    rsp
+0x65f91:	pop    r12
+0x65f90:	pop    rbp; 	pop    r12
+0x65f8f:	rcr    BYTE PTR [rbp+0x41],1; 	pop    rsp
+0x65fe3:	mov    eax,edx
+0x65fe1:	add    BYTE PTR [rax],al; 	mov    eax,edx
+0x660a2:	pop    rsp
+0x660a1:	pop    r12
+0x660a0:	pop    rbp; 	pop    r12
+0x6609f:	rcr    BYTE PTR [rbp+0x41],1; 	pop    rsp
+0x660f3:	mov    eax,edx
+0x660f1:	add    BYTE PTR [rax],al; 	mov    eax,edx
+0x66197:	outs   dx,DWORD PTR ds:[rsi]
+0x666a2:	xchg   esp,eax
+0x6669f:	rol    BYTE PTR [rcx+0xf],0x94
+0x66d8b:	pop    rdi
+0x66d8a:	pop    r15
+0x66d89:	pop    rsi; 	pop    r15
+0x66d88:	pop    r14; 	pop    r15
+0x66dfa:	xchg   esp,eax
+0x66df7:	add    BYTE PTR [rcx+0xf],al; 	xchg   esp,eax
+0x67245:	add    BYTE PTR [rcx+0x29],cl
+0x67351:	xchg   esp,eax
+0x6734e:	add    BYTE PTR [rcx+0xf],al; 	xchg   esp,eax
+0x67559:	cmps   BYTE PTR ds:[rsi],BYTE PTR es:[rdi]
+0x6759a:	outs   dx,BYTE PTR ds:[rsi]
+0x675a1:	pop    rsi
+0x68138:	ror    BYTE PTR [rcx-0x77],cl
+0x6845a:	add    BYTE PTR [rax-0x7d],cl
+0x68571:	pop    rbp
+0x68570:	pop    r13
+0x6856f:	pop    rsp; 	pop    r13
+0x6856e:	pop    r12; 	pop    r13
+0x68596:	pop    rbp
+0x68595:	pop    r13
+0x68594:	pop    rsp; 	pop    r13
+0x68593:	pop    r12; 	pop    r13
+0x68693:	pop    rsi
+0x68692:	pop    r14
+0x68691:	pop    rbp; 	pop    r14
+0x68690:	pop    r13; 	pop    r14
+0x686c2:	add    BYTE PTR [rax],al
+0x686c0:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x68761:	pop    rbp
+0x68760:	pop    r13
+0x6875f:	pop    rsp; 	pop    r13
+0x6875e:	pop    r12; 	pop    r13
+0x68795:	add    BYTE PTR [rax],al
+0x68793:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x68846:	pop    rbx
+0x68844:	mov    eax,edx; 	pop    rbx
+0x68939:	add    BYTE PTR [rax],al
+0x68937:	fadd   DWORD PTR [rax]; 	add    BYTE PTR [rax],al
+0x68a37:	adc    BYTE PTR [rax-0x7d],cl
+0x68a6c:	pop    rdi
+0x68a6b:	pop    r15
+0x68a6a:	pop    rsi; 	pop    r15
+0x68a69:	pop    r14; 	pop    r15
+0x68b6a:	add    BYTE PTR [rax+0x29],cl
+0x68bac:	pop    rbp
+0x68bab:	pop    r13
+0x68baa:	pop    rsp; 	pop    r13
+0x68ba9:	pop    r12; 	pop    r13
+0x68d0e:	and    BYTE PTR [rax+0x1],cl
+0x69417:	pop    rbp
+0x69416:	pop    rdi; 	pop    rbp
+0x69415:	pop    r15; 	pop    rbp
+0x69414:	pop    rsi; 	pop    r15; 	pop    rbp
+0x6955d:	or     al,0x83
+0x6955c:	rex.RX or al,0x83
+0x6955b:	mov    dh,0x46; 	or     al,0x83
+0x697e6:	dec    DWORD PTR [rax-0x39]
+0x699be:	add    BYTE PTR [rax-0x7d],cl
+0x69a07:	dec    DWORD PTR [rax-0x77]
+0x69a06:	clc    ; 	dec    DWORD PTR [rax-0x77]
+0x69aa3:	cmp    BYTE PTR [rax+0x39],cl
+0x69aa2:	push   rbp; 	cmp    BYTE PTR [rax+0x39],cl
+0x6a5a2:	add    BYTE PTR [rax+0x39],cl
+0x6a843:	dec    DWORD PTR [rax-0x77]
+0x6a9a7:	cmp    BYTE PTR [rax+0x39],cl
+0x6a9a6:	push   rbp; 	cmp    BYTE PTR [rax+0x39],cl
+0x6ae44:	add    BYTE PTR [rax+0x39],cl
+0x6b286:	add    BYTE PTR [rax+0x63],cl
+0x6b325:	dec    DWORD PTR [rcx+0x63]
+0x6b5fe:	pop    rbp
+0x6b5fd:	pop    rdi; 	pop    rbp
+0x6b5fc:	pop    r15; 	pop    rbp
+0x6b5fb:	pop    rsi; 	pop    r15; 	pop    rbp
+0x6d087:	dec    DWORD PTR [rcx+0x39]
+0x6d7e8:	ret    0x3941
+0x6d7e7:	rex.WRB ret 0x3941
+0x6d80c:	dec    DWORD PTR [rcx+0x63]
+0x6e8d0:	pop    rsi
+0x6e8cf:	pop    r14
+0x6e8ce:	pop    rbp; 	pop    r14
+0x6e8cd:	pop    r13; 	pop    r14
+0x6e94e:	add    bl,dh
+0x6e94c:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x6ec27:	mov    BYTE PTR [rcx+0xf],0x4f
+0x6ed3f:	pop    rbp
+0x6ed3e:	pop    r13
+0x6ed3d:	pop    rsp; 	pop    r13
+0x6ed3c:	pop    r12; 	pop    r13
+0x6eddf:	pop    rbp
+0x6edde:	pop    r13
+0x6eddd:	pop    rsp; 	pop    r13
+0x6eddc:	pop    r12; 	pop    r13
+0x6f4e3:	pop    rbp
+0x6f4e2:	pop    r13
+0x6f4e1:	pop    rsp; 	pop    r13
+0x6f4e0:	pop    r12; 	pop    r13
+0x6f51b:	pop    rbp
+0x6f51a:	pop    r13
+0x6f519:	pop    rsp; 	pop    r13
+0x6f518:	pop    r12; 	pop    r13
+0x6fa70:	pop    rsp
+0x6fa6f:	pop    r12
+0x6fa6e:	pop    rbp; 	pop    r12
+0x6fa6d:	pop    rbx; 	pop    rbp; 	pop    r12
+0x6fab7:	add    BYTE PTR [rax-0x39],cl
+0x6fc0b:	pop    rbp
+0x6fc0a:	pop    r13
+0x6fc09:	pop    rsp; 	pop    r13
+0x6fc08:	pop    r12; 	pop    r13
+0x6fce1:	pop    rbp
+0x6fce0:	pop    rbx; 	pop    rbp
+0x6fcdf:	or     BYTE PTR [rbx+0x5d],bl
+0x6fe6f:	pop    rdi
+0x6fe6e:	pop    r15
+0x6fe6d:	pop    rsi; 	pop    r15
+0x6fe6c:	pop    r14; 	pop    r15
+0x6ff5a:	pop    rdi
+0x6ff59:	pop    r15
+0x6ff58:	pop    rsi; 	pop    r15
+0x6ff57:	pop    r14; 	pop    r15
+0x702f4:	pop    rdi
+0x702f3:	pop    r15
+0x702f2:	pop    rsi; 	pop    r15
+0x702f1:	pop    r14; 	pop    r15
+0x7034b:	pop    rdi
+0x7034a:	pop    r15
+0x70349:	pop    rsi; 	pop    r15
+0x70348:	pop    r14; 	pop    r15
+0x70469:	pop    rdi
+0x70468:	pop    r15
+0x70467:	pop    rsi; 	pop    r15
+0x70466:	pop    r14; 	pop    r15
+0x705a5:	cmp    BYTE PTR [rax+0x1],cl
+0x705a4:	push   rax; 	cmp    BYTE PTR [rax+0x1],cl
+0x7061d:	cmp    BYTE PTR [rax+0x1],cl
+0x70641:	pop    rdi
+0x70640:	pop    r15
+0x7063f:	pop    rsi; 	pop    r15
+0x7063e:	pop    r14; 	pop    r15
+0x706e5:	cmp    BYTE PTR [rax+0x1],cl
+0x706e4:	push   rax; 	cmp    BYTE PTR [rax+0x1],cl
+0x7075d:	cmp    BYTE PTR [rax+0x1],cl
+0x70781:	pop    rdi
+0x70780:	pop    r15
+0x7077f:	pop    rsi; 	pop    r15
+0x7077e:	pop    r14; 	pop    r15
+0x7085a:	pop    rdi
+0x70859:	pop    r15
+0x70858:	pop    rsi; 	pop    r15
+0x70857:	pop    r14; 	pop    r15
+0x70a7d:	mov    DWORD PTR [rax+0x40],ecx
+0x70a7c:	mov    QWORD PTR [rax+0x40],rcx
+0x70abd:	mov    DWORD PTR [rax+0x40],ecx
+0x70abc:	mov    QWORD PTR [rax+0x40],rcx
+0x70b0b:	pop    rbx
+0x70b08:	add    esp,0x20; 	pop    rbx
+0x70b95:	pop    rdi
+0x70b94:	pop    r15
+0x70b93:	pop    rsi; 	pop    r15
+0x70b92:	pop    r14; 	pop    r15
+0x70dd5:	pop    rbp
+0x70dd4:	pop    rbx; 	pop    rbp
+0x70dd3:	rcr    BYTE PTR [rbx+0x5d],1
+0x70dd2:	mov    eax,edx; 	pop    rbx; 	pop    rbp
+0x70fb6:	pop    rbp
+0x70fb5:	pop    rbx; 	pop    rbp
+0x70fb4:	or     BYTE PTR [rbx+0x5d],bl
+0x70fd9:	pop    rbp
+0x70fd8:	pop    rbx; 	pop    rbp
+0x70fd7:	or     BYTE PTR [rbx+0x5d],bl
+0x71163:	pop    rbp
+0x71162:	pop    rbx; 	pop    rbp
+0x71161:	or     BYTE PTR [rbx+0x5d],bl
+0x711d9:	pop    rbp
+0x711d8:	pop    rbx; 	pop    rbp
+0x711d7:	or     BYTE PTR [rbx+0x5d],bl
+0x714ac:	pop    rdi
+0x714ab:	pop    r15
+0x714aa:	pop    rsi; 	pop    r15
+0x714a9:	pop    r14; 	pop    r15
+0x714b0:	xor    eax,eax
+0x714af:	nop; 	xor    eax,eax
+0x714ae:	xchg   ax,ax; 	xor    eax,eax
+0x717ab:	pop    rdi
+0x717aa:	pop    r15
+0x717a9:	pop    rsi; 	pop    r15
+0x717a8:	pop    r14; 	pop    r15
+0x7195d:	add    dh,bl
+0x7195b:	add    BYTE PTR [rdx+rax*1-0xd],dh
+0x7197e:	pop    rsp
+0x7197d:	pop    r12
+0x7197c:	pop    rbp; 	pop    r12
+0x7197b:	pop    rbx; 	pop    rbp; 	pop    r12
+0x719b7:	pop    rsp
+0x719b6:	pop    r12
+0x719b5:	pop    rbp; 	pop    r12
+0x719b4:	pop    rbx; 	pop    rbp; 	pop    r12
+0x71a43:	pop    rsp
+0x71a42:	pop    r12
+0x71a41:	pop    rbp; 	pop    r12
+0x71a40:	pop    rbx; 	pop    rbp; 	pop    r12
+0x71abf:	pop    rbx
+0x71abd:	xor    eax,eax; 	pop    rbx
+0x71b41:	pop    rbx
+0x71b3f:	add    BYTE PTR [rax],al; 	pop    rbx
+0x71ba4:	pop    rbp
+0x71ba3:	pop    rbx; 	pop    rbp
+0x71ba2:	sbb    BYTE PTR [rbx+0x5d],bl
+0x71c00:	pop    rbp
+0x71bff:	pop    rbx; 	pop    rbp
+0x71bfe:	or     BYTE PTR [rbx+0x5d],bl
+0x71c8f:	add    al,0x3a
+0x71c8e:	lea    eax,[rdx+rdi*1]
+0x71c8d:	repnz lea eax,[rdx+rdi*1]
+0x71ca0:	lea    eax,[rax-0x1]
+0x71c9f:	lea    eax,[r8-0x1]
+0x71cf2:	pop    rbp
+0x71cf1:	pop    rbx; 	pop    rbp
+0x71cf0:	or     BYTE PTR [rbx+0x5d],bl
+0x71da5:	sub    eax,edx
+0x71dbb:	sub    eax,edx
+0x71efa:	pop    rbx
+0x71ef8:	add    BYTE PTR [rax],al; 	pop    rbx
+0x71eff:	add    bl,dh
+0x71efe:	add    bl,sil
+0x71f21:	cmove  eax,ecx
+0x71f20:	cmove  r8,rcx
+0x71f30:	xor    eax,eax
+0x71f2f:	nop; 	xor    eax,eax
+0x71f2e:	xchg   ax,ax; 	xor    eax,eax
+0x71f44:	mov    eax,DWORD PTR [rax+0x4c]
+0x71f43:	mov    rax,QWORD PTR [rax+0x4c]
+0x72019:	pop    rdi
+0x72018:	pop    r15
+0x72017:	pop    rsi; 	pop    r15
+0x72016:	pop    r14; 	pop    r15
+0x720f5:	pop    rbp
+0x720f4:	pop    r13
+0x720f3:	pop    rsp; 	pop    r13
+0x720f2:	pop    r12; 	pop    r13
+0x721fb:	pop    rdi
+0x721fa:	pop    r15
+0x721f9:	pop    rsi; 	pop    r15
+0x721f8:	pop    r14; 	pop    r15
+0x722d0:	pop    rbp
+0x722cf:	pop    rdi; 	pop    rbp
+0x722ce:	pop    r15; 	pop    rbp
+0x722cd:	pop    rsi; 	pop    r15; 	pop    rbp
+0x72328:	pop    rsp
+0x72327:	pop    r12
+0x72326:	pop    rbp; 	pop    r12
+0x72325:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7252b:	pop    rsi
+0x7252a:	pop    r14
+0x72529:	pop    rbp; 	pop    r14
+0x72528:	pop    r13; 	pop    r14
+0x725ea:	pop    rsp
+0x725e9:	pop    r12
+0x725e8:	pop    rbp; 	pop    r12
+0x725e7:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7262f:	pop    rsp
+0x7262e:	pop    r12
+0x7262d:	pop    rbp; 	pop    r12
+0x7262c:	pop    rbx; 	pop    rbp; 	pop    r12
+0x72646:	pop    rsp
+0x72645:	pop    r12
+0x72644:	pop    rbp; 	pop    r12
+0x72643:	pop    rbx; 	pop    rbp; 	pop    r12
+0x72661:	add    DWORD PTR [rax-0x77],ecx
+0x72697:	pop    rbp
+0x72696:	pop    rbx; 	pop    rbp
+0x72694:	xor    eax,eax; 	pop    rbx; 	pop    rbp
+0x72719:	pop    rdi
+0x72718:	pop    r15
+0x72717:	pop    rsi; 	pop    r15
+0x72716:	pop    r14; 	pop    r15
+0x72770:	dec    BYTE PTR [rax-0x77]
+0x7285f:	cmove  eax,edx
+0x7285e:	cmove  rax,rdx
+0x7288f:	cmove  eax,edx
+0x7288e:	cmove  rax,rdx
+0x728c1:	dec    DWORD PTR [rax+0x1]
+0x728c0:	clc    ; 	dec    DWORD PTR [rax+0x1]
+0x728ee:	pop    rsp
+0x728ed:	pop    r12
+0x728ec:	pop    rbp; 	pop    r12
+0x728eb:	pop    rbx; 	pop    rbp; 	pop    r12
+0x72904:	pop    rsp
+0x72903:	pop    r12
+0x72902:	pop    rbp; 	pop    r12
+0x72901:	pop    rbx; 	pop    rbp; 	pop    r12
+0x72b8d:	pop    rdi
+0x72b8c:	pop    r15
+0x72b8b:	pop    rsi; 	pop    r15
+0x72b8a:	pop    r14; 	pop    r15
+0x72f2c:	pop    rdi
+0x72f2b:	pop    r15
+0x72f2a:	pop    rsi; 	pop    r15
+0x72f29:	pop    r14; 	pop    r15
+0x7311c:	pop    rsi
+0x7311b:	pop    r14
+0x7311a:	pop    rbp; 	pop    r14
+0x73119:	pop    r13; 	pop    r14
+0x73146:	add    DWORD PTR [rax-0x7d],ecx
+0x73168:	add    BYTE PTR [rax-0x7d],cl
+0x7319a:	pop    rsi
+0x73199:	pop    r14
+0x73198:	pop    rbp; 	pop    r14
+0x73197:	pop    r13; 	pop    r14
+0x73218:	add    DWORD PTR [rax-0x7d],ecx
+0x73240:	add    DWORD PTR [rax-0x7d],ecx
+0x7325d:	pop    rsi
+0x7325c:	pop    r14
+0x7325b:	pop    rbp; 	pop    r14
+0x7325a:	pop    r13; 	pop    r14
+0x732dc:	clc    
+0x732db:	add    eax,edi
+0x732da:	add    rax,rdi
+0x732d9:	ror    BYTE PTR [rax+0x1],0xf8
+0x73316:	xlat   BYTE PTR ds:[rbx]
+0x7336a:	add    al,0x37
+0x73369:	lea    eax,[rdi+rsi*1]
+0x73368:	lea    rax,[rdi+rsi*1]
+0x733af:	outs   dx,DWORD PTR ds:[rsi]
+0x733ac:	xor    BYTE PTR [rsi+0xf],ah; 	outs   dx,DWORD PTR ds:[rsi]
+0x733e9:	outs   dx,DWORD PTR ds:[rsi]
+0x733e6:	shl    BYTE PTR [rsi+0xf],1; 	outs   dx,DWORD PTR ds:[rsi]
+0x7346e:	add    al,0x31
+0x7346d:	lea    eax,[rcx+rsi*1]
+0x7346c:	lea    rax,[rcx+rsi*1]
+0x73490:	xor    eax,eax
+0x73560:	clc    
+0x7355f:	add    eax,edi
+0x7355e:	add    rax,rdi
+0x73599:	xlat   BYTE PTR ds:[rbx]
+0x73598:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x73596:	retf   0xfdc5; 	xlat   BYTE PTR ds:[rbx]
+0x735f9:	xlat   BYTE PTR ds:[rbx]
+0x735f8:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x735f6:	rol    ch,cl; 	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x73646:	xlat   BYTE PTR ds:[rbx]
+0x73645:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x73643:	retf   0xfdc5; 	xlat   BYTE PTR ds:[rbx]
+0x73662:	xlat   BYTE PTR ds:[rbx]
+0x73661:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x7365f:	retf   0xfdc5; 	xlat   BYTE PTR ds:[rbx]
+0x7367e:	xlat   BYTE PTR ds:[rbx]
+0x7367d:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x7367b:	retf   0xfdc5; 	xlat   BYTE PTR ds:[rbx]
+0x7369a:	xlat   BYTE PTR ds:[rbx]
+0x73699:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x73697:	retf   0xfdc5; 	xlat   BYTE PTR ds:[rbx]
+0x736b9:	vzeroupper 
+0x736f9:	vzeroupper 
+0x7371e:	vzeroupper 
+0x73732:	vzeroupper 
+0x73746:	xor    eax,eax
+0x73745:	xor    rax,rax
+0x73744:	add    al,0x48; 	xor    eax,eax
+0x737e3:	bsf    eax,edx
+0x737e2:	bsf    rax,rdx
+0x7384f:	bsf    eax,edx
+0x7384e:	bsf    rax,rdx
+0x73860:	bsf    eax,edx
+0x7385f:	bsf    rax,rdx
+0x738af:	add    BYTE PTR [rcx+0x39],cl
+0x738ff:	clc    
+0x738fe:	sub    eax,edi
+0x738fd:	sub    rax,rdi
+0x738fc:	ror    BYTE PTR [rax+0x29],1; 	clc    
+0x73956:	clc    
+0x73955:	sub    eax,edi
+0x73954:	sub    rax,rdi
+0x73953:	ror    BYTE PTR [rax+0x29],1; 	clc    
+0x73986:	ror    BYTE PTR [rdi],0x85
+0x739eb:	vzeroupper 
+0x73b13:	vzeroupper 
+0x73b48:	vzeroupper 
+0x73b5f:	vzeroupper 
+0x73b83:	vzeroupper 
+0x73ba3:	vzeroupper 
+0x73bc3:	vzeroupper 
+0x73bd3:	vzeroupper 
+0x73be0:	xor    eax,eax
+0x73bde:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x73bfa:	vzeroupper 
+0x73c0e:	vzeroupper 
+0x73c2e:	vzeroupper 
+0x73c5e:	xlat   BYTE PTR ds:[rbx]
+0x73c5d:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x73c5b:	fcmovnb st,st(5); 	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x73c7c:	vzeroupper 
+0x73c9f:	cmove  eax,edx
+0x73c9e:	cmove  rax,rdx
+0x73cec:	add    esi,ebx
+0x73cea:	add    BYTE PTR [rbx+rax*1-0xd],dh
+0x73d0b:	cmove  eax,edx
+0x73d0a:	cmove  rax,rdx
+0x73dba:	pop    rsp
+0x73db9:	pop    r12
+0x73db8:	pop    rbp; 	pop    r12
+0x73db7:	pop    rbx; 	pop    rbp; 	pop    r12
+0x73fd1:	pop    rsp
+0x73fd0:	pop    r12
+0x73fcf:	pop    rbp; 	pop    r12
+0x73fce:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7405e:	add    BYTE PTR [rax+0x39],cl
+0x741fb:	pop    rdi
+0x741fa:	pop    r15
+0x741f9:	pop    rsi; 	pop    r15
+0x741f8:	pop    r14; 	pop    r15
+0x74316:	add    BYTE PTR [rax+0x39],cl
+0x74406:	xor    eax,eax
+0x74405:	xor    rax,rax
+0x74404:	add    al,0x48; 	xor    eax,eax
+0x744ab:	shr    eax,0x2
+0x744aa:	shr    rax,0x2
+0x74513:	shr    eax,0x2
+0x74512:	shr    rax,0x2
+0x74528:	shr    eax,0x2
+0x74527:	shr    rax,0x2
+0x7456f:	add    BYTE PTR [rcx+0x39],cl
+0x745c1:	shr    eax,0x2
+0x745c0:	shr    rax,0x2
+0x74618:	shr    eax,0x2
+0x74617:	shr    rax,0x2
+0x746a7:	add    bl,dh
+0x746aa:	xor    eax,eax
+0x746a9:	ret    ; 	xor    eax,eax
+0x746a8:	repz ret ; 	xor    eax,eax
+0x746b0:	add    BYTE PTR [rax],al
+0x746ae:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x746b6:	add    BYTE PTR [rax],al
+0x746b4:	add    al,BYTE PTR [rax]; 	add    BYTE PTR [rax],al
+0x748a0:	je     0x748c0
+0x7489f:	pcmpeqb mm3,QWORD PTR [rsi]
+0x7489e:	loope  0x748af; 	je     0x748c0
+0x748b8:	add    eax,0x2
+0x748b7:	add    rax,0x2
+0x748c1:	add    eax,0x1
+0x748c0:	add    rax,0x1
+0x748d1:	add    eax,0x3
+0x748d0:	add    rax,0x3
+0x748e1:	xor    eax,eax
+0x748e0:	xor    rax,rax
+0x748f5:	add    BYTE PTR [rax],al
+0x748f3:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x74905:	add    BYTE PTR [rax],al
+0x74903:	add    al,BYTE PTR [rax]; 	add    BYTE PTR [rax],al
+0x74915:	add    BYTE PTR [rax],al
+0x74913:	add    eax,DWORD PTR [rax]; 	add    BYTE PTR [rax],al
+0x74925:	add    BYTE PTR [rax],al
+0x74923:	add    al,0x0; 	add    BYTE PTR [rax],al
+0x74935:	add    BYTE PTR [rax],al
+0x74945:	add    BYTE PTR [rax],al
+0x74955:	add    BYTE PTR [rax],al
+0x749b6:	vzeroupper 
+0x74a6e:	vzeroupper 
+0x74a92:	vzeroupper 
+0x74ab2:	vzeroupper 
+0x74ade:	xlat   BYTE PTR ds:[rbx]
+0x74add:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x74adb:	fcmovnb st,st(5); 	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x74b00:	vzeroupper 
+0x74b9f:	vzeroupper 
+0x74cda:	vzeroupper 
+0x74d0c:	vzeroupper 
+0x74d23:	vzeroupper 
+0x74d47:	vzeroupper 
+0x74d67:	vzeroupper 
+0x74d87:	vzeroupper 
+0x74d97:	vzeroupper 
+0x74da0:	xor    eax,eax
+0x74d9e:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x74dbe:	vzeroupper 
+0x74de2:	vzeroupper 
+0x74e02:	vzeroupper 
+0x74e2e:	xlat   BYTE PTR ds:[rbx]
+0x74e2d:	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x74e2b:	fcmovnb st,st(5); 	std    ; 	xlat   BYTE PTR ds:[rbx]
+0x74e50:	vzeroupper 
+0x74e65:	syscall 
+0x74e63:	add    BYTE PTR [rax],al; 	syscall 
+0x74f61:	pop    rbp
+0x74f60:	pop    r13
+0x74f5f:	pop    rsp; 	pop    r13
+0x74f5e:	pop    r12; 	pop    r13
+0x750e1:	pop    rbp
+0x750e0:	pop    r13
+0x750df:	pop    rsp; 	pop    r13
+0x750de:	pop    r12; 	pop    r13
+0x75204:	pop    rbp
+0x75203:	pop    r13
+0x75202:	pop    rsp; 	pop    r13
+0x75201:	pop    r12; 	pop    r13
+0x753a2:	pop    rbp
+0x753a1:	pop    r13
+0x753a0:	pop    rsp; 	pop    r13
+0x7539f:	pop    r12; 	pop    r13
+0x75439:	pop    rbx
+0x75437:	add    BYTE PTR [rax],al; 	pop    rbx
+0x754b2:	pop    rdi
+0x754b1:	pop    r15
+0x754b0:	pop    rsi; 	pop    r15
+0x754af:	pop    r14; 	pop    r15
+0x7555a:	pop    rbp
+0x75559:	pop    rbx; 	pop    rbp
+0x75558:	add    BYTE PTR [rbx+0x5d],bl
+0x75557:	add    BYTE PTR [rax],al; 	pop    rbx; 	pop    rbp
+0x7559d:	jae    0x755a0
+0x7559c:	push   QWORD PTR [rbx+0x1]
+0x755ad:	or     eax,0xffffffff
+0x755ac:	or     rax,0xffffffffffffffff
+0x755c5:	syscall 
+0x755c3:	add    BYTE PTR [rax],al; 	syscall 
+0x755d5:	syscall 
+0x755d3:	add    BYTE PTR [rax],al; 	syscall 
+0x755e5:	syscall 
+0x755e3:	add    BYTE PTR [rax],al; 	syscall 
+0x755f5:	syscall 
+0x755f3:	add    BYTE PTR [rax],al; 	syscall 
+0x7561c:	add    esi,ebx
+0x75711:	add    esp,0x78
+0x75710:	add    rsp,0x78
+0x75821:	pop    rax
+0x7581f:	add    esp,0x58
+0x7581e:	add    rsp,0x58
+0x758a7:	pop    rax
+0x758a5:	add    esp,0x58
+0x758a4:	add    rsp,0x58
+0x75951:	add    esp,0x38
+0x75950:	add    rsp,0x38
+0x759af:	xor    eax,eax
+0x759ad:	mov    DWORD PTR [rax],edx; 	xor    eax,eax
+0x75a3f:	pop    rbp
+0x75a3e:	pop    r13
+0x75a3d:	pop    rsp; 	pop    r13
+0x75a3c:	pop    r12; 	pop    r13
+0x75a53:	pop    rbp
+0x75a52:	pop    r13
+0x75a51:	pop    rsp; 	pop    r13
+0x75a50:	pop    r12; 	pop    r13
+0x75a9c:	adc    ebx,esi
+0x75adf:	add    BYTE PTR [rax-0x77],cl
+0x75c59:	pop    rdi
+0x75c58:	pop    r15
+0x75c57:	pop    rsi; 	pop    r15
+0x75c56:	pop    r14; 	pop    r15
+0x75d7a:	leave  
+0x75d78:	xor    eax,eax; 	leave  
+0x75da8:	xor    eax,eax
+0x75da6:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x75e26:	leave  
+0x75e25:	add    cl,cl
+0x75e24:	add    BYTE PTR [rax],al; 	leave  
+0x75e23:	add    BYTE PTR [rax],al; 	add    cl,cl
+0x760a4:	pop    rbp
+0x760a3:	pop    rdi; 	pop    rbp
+0x760a2:	pop    r15; 	pop    rbp
+0x760a1:	pop    rsi; 	pop    r15; 	pop    rbp
+0x76167:	add    BYTE PTR [rax-0x7d],cl
+0x763ab:	dec    DWORD PTR [rax+0x39]
+0x763aa:	std    ; 	dec    DWORD PTR [rax+0x39]
+0x766f4:	pop    rbp
+0x766f3:	pop    rdi; 	pop    rbp
+0x766f2:	pop    r15; 	pop    rbp
+0x766f1:	pop    rsi; 	pop    r15; 	pop    rbp
+0x76753:	add    DWORD PTR [rax-0x7d],ecx
+0x769a7:	dec    DWORD PTR [rax+0x39]
+0x769a6:	clc    ; 	dec    DWORD PTR [rax+0x39]
+0x76c51:	pop    rbp
+0x76c50:	pop    rdi; 	pop    rbp
+0x76c4f:	pop    r15; 	pop    rbp
+0x76c4e:	pop    rsi; 	pop    r15; 	pop    rbp
+0x770c0:	fmul   DWORD PTR [rcx+0x21]
+0x77d33:	add    BYTE PTR [rax-0x7d],cl
+0x77d5e:	pop    rdi
+0x77d5d:	pop    r15
+0x77d5c:	pop    rsi; 	pop    r15
+0x77d5b:	pop    r14; 	pop    r15
+0x77fc7:	add    BYTE PTR [rax-0x7d],cl
+0x77fea:	dec    DWORD PTR [rax-0x7d]
+0x77fe9:	rex.RX dec DWORD PTR [rax-0x7d]
+0x7801e:	fisttp DWORD PTR [rax-0x7d]
+0x780b4:	pop    rdi
+0x780b3:	pop    r15
+0x780b2:	pop    rsi; 	pop    r15
+0x780b1:	pop    r14; 	pop    r15
+0x78127:	add    BYTE PTR [rax-0x7d],cl
+0x78150:	add    BYTE PTR [rax-0x7d],cl
+0x782a9:	dec    DWORD PTR [rax-0x7d]
+0x783b4:	pop    rbp
+0x783b3:	pop    r13
+0x783b2:	pop    rsp; 	pop    r13
+0x783b1:	pop    r12; 	pop    r13
+0x78643:	xor    BYTE PTR [rcx+0x29],cl
+0x78780:	pop    rdi
+0x7877f:	pop    r15
+0x7877e:	pop    rsi; 	pop    r15
+0x7877d:	pop    r14; 	pop    r15
+0x7881b:	pop    rdi
+0x7881a:	pop    r15
+0x78819:	pop    rsi; 	pop    r15
+0x78818:	pop    r14; 	pop    r15
+0x788c9:	pop    rdi
+0x788c8:	pop    r15
+0x788c7:	pop    rsi; 	pop    r15
+0x788c6:	pop    r14; 	pop    r15
+0x788d7:	xor    eax,eax
+0x78aec:	dec    DWORD PTR [rax-0x7d]
+0x78aeb:	clc    ; 	dec    DWORD PTR [rax-0x7d]
+0x78b93:	pop    rbp
+0x78b92:	pop    rdi; 	pop    rbp
+0x78b91:	pop    r15; 	pop    rbp
+0x78b90:	pop    rsi; 	pop    r15; 	pop    rbp
+0x78bc2:	dec    DWORD PTR [rax-0x77]
+0x78bc1:	clc    ; 	dec    DWORD PTR [rax-0x77]
+0x78c60:	pop    rbp
+0x78c5f:	pop    rdi; 	pop    rbp
+0x78c5e:	pop    r15; 	pop    rbp
+0x78c5d:	pop    rsi; 	pop    r15; 	pop    rbp
+0x78d96:	ror    BYTE PTR [rdi],0x84
+0x78dcb:	pop    rdi
+0x78dca:	pop    r15
+0x78dc9:	pop    rsi; 	pop    r15
+0x78dc8:	pop    r14; 	pop    r15
+0x7982d:	pop    rdi
+0x7982c:	pop    r15
+0x7982b:	pop    rsi; 	pop    r15
+0x7982a:	pop    r14; 	pop    r15
+0x7988a:	pop    rdi
+0x79889:	pop    r15
+0x79888:	pop    rsi; 	pop    r15
+0x79887:	pop    r14; 	pop    r15
+0x79b6a:	and    al,0x83
+0x7a228:	pop    rdi
+0x7a227:	pop    r15
+0x7a226:	pop    rsi; 	pop    r15
+0x7a225:	pop    r14; 	pop    r15
+0x7ad58:	pop    rdi
+0x7ad57:	pop    r15
+0x7ad56:	pop    rsi; 	pop    r15
+0x7ad55:	pop    r14; 	pop    r15
+0x7b655:	or     cl,ch
+0x7b6bb:	add    BYTE PTR [rax],al
+0x7b6b9:	or     BYTE PTR [rbx],al; 	add    BYTE PTR [rax],al
+0x7b6ea:	add    bl,dh
+0x7b6e8:	add    eax,DWORD PTR [rax]; 	add    bl,dh
+0x7b7b5:	pop    rbp
+0x7b7b4:	pop    rbx; 	pop    rbp
+0x7b7b3:	or     BYTE PTR [rbx+0x5d],bl
+0x7b9dd:	pop    rdi
+0x7b9dc:	pop    r15
+0x7b9db:	pop    rsi; 	pop    r15
+0x7b9da:	pop    r14; 	pop    r15
+0x7bb77:	add    esp,0x8
+0x7bb76:	add    rsp,0x8
+0x7bb87:	xor    eax,eax
+0x7bcd4:	pop    rbx
+0x7bcd2:	js     0x7bce2; 	pop    rbx
+0x7bcd1:	sar    BYTE PTR [rax+0xe],0x5b
+0x7bcdf:	add    bl,dh
+0x7bcdd:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x7c148:	dec    DWORD PTR [rcx-0x77]
+0x7c20f:	add    BYTE PTR [rax-0x7d],cl
+0x7c360:	adc    BYTE PTR [rax-0x7d],cl
+0x7c35f:	rex.XB adc BYTE PTR [r8-0x7d],cl
+0x7c3e0:	pop    rbp
+0x7c3df:	pop    rdi; 	pop    rbp
+0x7c3de:	pop    r15; 	pop    rbp
+0x7c3dd:	pop    rsi; 	pop    r15; 	pop    rbp
+0x7c7bf:	add    bl,dh
+0x7c8ea:	ror    BYTE PTR [rax+0x39],cl
+0x7ca6d:	dec    DWORD PTR [rcx-0x77]
+0x7cb57:	add    BYTE PTR [rax-0x7d],cl
+0x7d6c6:	xchg   ebp,eax
+0x7d6c4:	fisttp DWORD PTR [rdi]; 	xchg   ebp,eax
+0x7d747:	add    BYTE PTR [rcx-0x7d],cl
+0x7d801:	or     BYTE PTR [rax+0x1],cl
+0x7d800:	outs   dx,BYTE PTR ds:[rsi]; 	or     BYTE PTR [rax+0x1],cl
+0x7d850:	add    BYTE PTR [rax-0x7d],cl
+0x7d8b1:	dec    DWORD PTR [rax-0x77]
+0x7d95c:	pop    rbp
+0x7d95b:	pop    rdi; 	pop    rbp
+0x7d95a:	pop    r15; 	pop    rbp
+0x7d959:	pop    rsi; 	pop    r15; 	pop    rbp
+0x7df9d:	pop    rbp
+0x7df9c:	pop    rdi; 	pop    rbp
+0x7df9b:	pop    r15; 	pop    rbp
+0x7df9a:	pop    rsi; 	pop    r15; 	pop    rbp
+0x7e46a:	pop    rbp
+0x7e469:	pop    r13
+0x7e468:	pop    rsp; 	pop    r13
+0x7e467:	pop    r12; 	pop    r13
+0x7e52f:	add    BYTE PTR [rax],al
+0x7e52d:	fadd   DWORD PTR [rax]; 	add    BYTE PTR [rax],al
+0x7e5df:	add    BYTE PTR [rax],al
+0x7e5dd:	fadd   DWORD PTR [rax]; 	add    BYTE PTR [rax],al
+0x7e681:	add    BYTE PTR [rax],al
+0x7e67f:	fadd   DWORD PTR [rax]; 	add    BYTE PTR [rax],al
+0x7e6c9:	pop    rbp
+0x7e6c8:	pop    rbx; 	pop    rbp
+0x7e6c7:	rcr    BYTE PTR [rbx+0x5d],1
+0x7e6c6:	mov    eax,edx; 	pop    rbx; 	pop    rbp
+0x7e6f4:	pop    rbp
+0x7e6f3:	pop    rbx; 	pop    rbp
+0x7e6f2:	rcr    BYTE PTR [rbx+0x5d],1
+0x7e6f1:	mov    eax,edx; 	pop    rbx; 	pop    rbp
+0x7e76c:	mov    eax,DWORD PTR [rdx+0x4]
+0x7e76b:	lahf   ; 	mov    eax,DWORD PTR [rdx+0x4]
+0x7e7bc:	mov    eax,ecx
+0x7e7bb:	mov    rax,rcx
+0x7e7ba:	ds mov rax,rcx
+0x7e81c:	mov    eax,ecx
+0x7e81b:	mov    rax,rcx
+0x7e81a:	enter  0x8948,0xc8
+0x7eb72:	pop    rbp
+0x7eb71:	pop    rdi; 	pop    rbp
+0x7eb70:	pop    r15; 	pop    rbp
+0x7eb6f:	pop    rsi; 	pop    r15; 	pop    rbp
+0x7f25f:	pop    rsp
+0x7f25e:	pop    r12
+0x7f25d:	pop    rbp; 	pop    r12
+0x7f25c:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7f267:	add    bl,dh
+0x7f265:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x7f309:	and    eax,DWORD PTR [rax]
+0x7f3c8:	add    esp,0x8
+0x7f3c7:	add    rsp,0x8
+0x7f3fe:	and    eax,DWORD PTR [rax]
+0x7f3fd:	iret   ; 	and    eax,DWORD PTR [rax]
+0x7f3fc:	mov    al,0xcf; 	and    eax,DWORD PTR [rax]
+0x7f472:	mov    DWORD PTR [rsi],eax
+0x7f471:	mov    QWORD PTR [rsi],rax
+0x7f4b9:	scas   eax,DWORD PTR es:[rdi]
+0x7f522:	pop    rsp
+0x7f521:	pop    r12
+0x7f520:	pop    rbp; 	pop    r12
+0x7f51f:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7f538:	pop    rsp
+0x7f537:	pop    r12
+0x7f536:	pop    rbp; 	pop    r12
+0x7f535:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7f548:	pop    rsp
+0x7f547:	pop    r12
+0x7f546:	pop    rbp; 	pop    r12
+0x7f545:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7f5ab:	xchg   esp,eax
+0x7f5a9:	ror    BYTE PTR [rdi],0x94
+0x7f735:	pop    rdi
+0x7f734:	pop    r15
+0x7f733:	pop    rsi; 	pop    r15
+0x7f732:	pop    r14; 	pop    r15
+0x7f8b7:	add    al,ch
+0x7f8c0:	or     BYTE PTR [rax-0x77],cl
+0x7f8ff:	add    BYTE PTR [rax-0x7d],cl
+0x7f93e:	pop    rbp
+0x7f93d:	pop    r13
+0x7f93c:	pop    rsp; 	pop    r13
+0x7f93b:	pop    r12; 	pop    r13
+0x7f993:	cmove  eax,edx
+0x7f992:	cmove  rax,rdx
+0x7f9dd:	xor    eax,eax
+0x7f9dc:	movs   BYTE PTR es:[rdi],BYTE PTR ds:[rsi]; 	xor    eax,eax
+0x7f9db:	jae    0x7f981; 	xor    eax,eax
+0x7fa34:	pop    rsp
+0x7fa33:	pop    r12
+0x7fa32:	pop    rbp; 	pop    r12
+0x7fa31:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7fbe7:	pop    rsp
+0x7fbe6:	pop    r12
+0x7fbe5:	pop    rbp; 	pop    r12
+0x7fbe4:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7fc04:	pop    rsp
+0x7fc03:	pop    r12
+0x7fc02:	pop    rbp; 	pop    r12
+0x7fc01:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7fc41:	pop    rsp
+0x7fc40:	pop    r12
+0x7fc3f:	pop    rbp; 	pop    r12
+0x7fc3e:	pop    rbx; 	pop    rbp; 	pop    r12
+0x7fc91:	pop    rbp
+0x7fc90:	pop    rbx; 	pop    rbp
+0x7fc8f:	fcomp  DWORD PTR [rbx+0x5d]
+0x7fc8e:	mov    eax,ebx; 	pop    rbx; 	pop    rbp
+0x7fd7d:	pop    rbx
+0x7fd7b:	add    BYTE PTR [rcx],al; 	pop    rbx
+0x7fd85:	pop    rbx
+0x7fd83:	add    BYTE PTR [rax],al; 	pop    rbx
+0x7fd99:	mov    eax,DWORD PTR [rax]
+0x7fd98:	mov    eax,DWORD PTR fs:[rax]
+0x7fd97:	pop    rbx; 	mov    eax,DWORD PTR fs:[rax]
+0x7fee1:	add    BYTE PTR [rcx-0x77],cl
+0x80210:	xor    dl,dh
+0x80369:	add    BYTE PTR [rcx-0x77],cl
+0x80692:	xor    dl,dh
+0x80759:	add    BYTE PTR [rcx-0x77],cl
+0x80896:	xor    dl,dh
+0x808e2:	add    BYTE PTR [rcx-0x77],cl
+0x809a9:	add    BYTE PTR [rcx-0x77],cl
+0x80a69:	add    BYTE PTR [rcx-0x77],cl
+0x80b54:	pop    rdi
+0x80b53:	pop    r15
+0x80b52:	pop    rsi; 	pop    r15
+0x80b51:	pop    r14; 	pop    r15
+0x80b95:	pop    rdi
+0x80b94:	pop    r15
+0x80b93:	pop    rsi; 	pop    r15
+0x80b92:	pop    r14; 	pop    r15
+0x80ccc:	pop    rdi
+0x80ccb:	pop    r15
+0x80cca:	pop    rsi; 	pop    r15
+0x80cc9:	pop    r14; 	pop    r15
+0x80d7d:	dec    BYTE PTR [rax-0x7d]
+0x80dea:	dec    DWORD PTR [rax-0x77]
+0x80e37:	pop    rdi
+0x80e36:	pop    r15
+0x80e35:	pop    rsi; 	pop    r15
+0x80e34:	pop    r14; 	pop    r15
+0x80ec4:	pop    rbx
+0x80ec2:	add    BYTE PTR [rax],al; 	pop    rbx
+0x80f0e:	neg    eax
+0x80f94:	sub    eax,eax
+0x80f93:	sub    eax,r8d
+0x80f92:	inc    DWORD PTR [rcx+rbp*1-0x40]
+0x80fb3:	sub    eax,ecx
+0x80fb2:	ret    0xc829
+0x80fb9:	add    BYTE PTR [rax],al
+0x80fb7:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x81147:	pop    rbp
+0x81146:	pop    rdi; 	pop    rbp
+0x81145:	pop    r15; 	pop    rbp
+0x81144:	pop    rsi; 	pop    r15; 	pop    rbp
+0x815c4:	pop    rbp
+0x815c3:	pop    rdi; 	pop    rbp
+0x815c2:	pop    r15; 	pop    rbp
+0x815c1:	pop    rsi; 	pop    r15; 	pop    rbp
+0x81b24:	add    esp,0x8
+0x81b23:	add    rsp,0x8
+0x81b31:	mov    eax,DWORD PTR [rax+0x8]
+0x81b30:	mov    rax,QWORD PTR [rax+0x8]
+0x81b4b:	add    BYTE PTR [rax],al
+0x81b49:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x81c78:	pop    rbx
+0x81c77:	pop    rdx; 	pop    rbx
+0x81c76:	pop    rax; 	pop    rdx; 	pop    rbx
+0x81c75:	sbb    BYTE PTR [rax+0x5a],bl; 	pop    rbx
+0x81d00:	pop    rbx
+0x81cfd:	add    esp,0x20; 	pop    rbx
+0x81d43:	pop    rbx
+0x81d42:	pop    rdx; 	pop    rbx
+0x81d41:	pop    rax; 	pop    rdx; 	pop    rbx
+0x81d40:	adc    BYTE PTR [rax+0x5a],bl; 	pop    rbx
+0x81d84:	pop    rbx
+0x81d83:	pop    rdx; 	pop    rbx
+0x81d82:	pop    rax; 	pop    rdx; 	pop    rbx
+0x81d81:	adc    BYTE PTR [rax+0x5a],bl; 	pop    rbx
+0x81df8:	add    esp,0x38
+0x81df7:	add    rsp,0x38
+0x81eb8:	add    esp,0x68
+0x81eb7:	add    rsp,0x68
+0x82019:	add    esp,0x78
+0x82018:	add    rsp,0x78
+0x821dc:	pop    rsi
+0x821db:	pop    r14
+0x821da:	pop    rbp; 	pop    r14
+0x821d9:	pop    r13; 	pop    r14
+0x822e8:	add    esp,0x68
+0x822e7:	add    rsp,0x68
+0x82436:	pop    rsi
+0x82435:	pop    r14
+0x82434:	pop    rbp; 	pop    r14
+0x82433:	pop    r13; 	pop    r14
+0x8269e:	pop    rbx
+0x8269c:	add    BYTE PTR [rax],al; 	pop    rbx
+0x8271f:	pop    rsp
+0x8271e:	pop    r12
+0x8271d:	pop    rbp; 	pop    r12
+0x8271c:	pop    rbx; 	pop    rbp; 	pop    r12
+0x827bf:	sub    eax,0x1
+0x827c8:	xor    eax,eax
+0x827c6:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x829ce:	pop    rdi
+0x829cd:	pop    r15
+0x829cc:	pop    rsi; 	pop    r15
+0x829cb:	pop    r14; 	pop    r15
+0x82de9:	mov    DWORD PTR [rdi],ecx
+0x82de8:	mov    QWORD PTR [rdi],r9
+0x82de7:	loope  0x82e35; 	mov    DWORD PTR [rdi],ecx
+0x82e1c:	clc    
+0x82e1b:	rex.WRXB clc 
+0x82e1a:	mov    DWORD PTR [rdi-0x8],ecx
+0x82e19:	mov    QWORD PTR [rdi-0x8],r9
+0x82e42:	movs   DWORD PTR es:[rdi],DWORD PTR ds:[rsi]
+0x82e3f:	add    BYTE PTR [rbp+0xf],cl; 	movs   DWORD PTR es:[rdi],DWORD PTR ds:[rsi]
+0x82e7e:	movs   DWORD PTR es:[rdi],DWORD PTR ds:[rsi]
+0x82e8f:	mov    DWORD PTR [rdi-0x10],ecx
+0x82e8e:	mov    QWORD PTR [rdi-0x10],r9
+0x82ef3:	mov    DWORD PTR [rdi],ecx
+0x82ef2:	mov    QWORD PTR [rdi],r9
+0x82f24:	mov    DWORD PTR [rdi+0x8],ecx
+0x82f23:	mov    QWORD PTR [rdi+0x8],r9
+0x82f52:	lods   eax,DWORD PTR ds:[rsi]
+0x82f4f:	add    BYTE PTR [rbp+0xf],cl; 	lods   eax,DWORD PTR ds:[rsi]
+0x82f8e:	lods   eax,DWORD PTR ds:[rsi]
+0x82f9f:	mov    DWORD PTR [rdi+0x10],ecx
+0x82f9e:	mov    QWORD PTR [rdi+0x10],r9
+0x8305f:	pop    rbp
+0x8305e:	pop    rdi; 	pop    rbp
+0x8305d:	pop    r15; 	pop    rbp
+0x8305c:	pop    rsi; 	pop    r15; 	pop    rbp
+0x8309b:	add    BYTE PTR [rax+0x1],cl
+0x831f6:	or     BYTE PTR [rax-0x7d],cl
+0x83451:	fisttp DWORD PTR [rax-0x77]
+0x834ae:	adc    BYTE PTR [rax+0x1],cl
+0x834f7:	pop    rbx
+0x834f5:	mov    eax,edx; 	pop    rbx
+0x834f4:	mov    rax,rdx; 	pop    rbx
+0x8354e:	cmp    ecx,DWORD PTR [rax-0x7d]
+0x83572:	cmp    ecx,DWORD PTR [rax-0x7d]
+0x835ad:	pop    rdi
+0x835ac:	pop    r15
+0x835ab:	pop    rsi; 	pop    r15
+0x835aa:	pop    r14; 	pop    r15
+0x83751:	pop    rdi
+0x83750:	pop    r15
+0x8374f:	pop    rsi; 	pop    r15
+0x8374e:	pop    r14; 	pop    r15
+0x838ea:	add    DWORD PTR [rax+0x39],ecx
+0x83cd8:	pop    rdi
+0x83cd7:	pop    r15
+0x83cd6:	pop    rsi; 	pop    r15
+0x83cd5:	pop    r14; 	pop    r15
+0x83e6c:	pop    rdi
+0x83e6b:	pop    r15
+0x83e6a:	pop    rsi; 	pop    r15
+0x83e69:	pop    r14; 	pop    r15
+0x83f5d:	ror    DWORD PTR [rbp+rcx*4+0x14],cl
+0x8405d:	adc    BYTE PTR [rax+0x39],cl
+0x84323:	leave  
+0x84322:	cmp    ecx,ecx
+0x84321:	jne    0x8435e; 	leave  
+0x84320:	add    BYTE PTR [rbp+0x3b],dh; 	leave  
+0x843c9:	adc    eax,eax
+0x843c7:	mov    eax,ecx; 	adc    eax,eax
+0x844d0:	add    BYTE PTR [rax-0x7d],cl
+0x84509:	pop    rbx
+0x84508:	pop    rbp; 	pop    rbx
+0x84507:	rcr    BYTE PTR [rbp+0x5b],1
+0x84506:	adc    eax,edx; 	pop    rbp; 	pop    rbx
+0x84560:	add    BYTE PTR [rax],al
+0x8455e:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x8457b:	mov    DWORD PTR [rdi],esi
+0x8457a:	mov    QWORD PTR [rdi],rsi
+0x8459d:	add    BYTE PTR [rax],al
+0x8459b:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x84617:	add    BYTE PTR [rax],al
+0x84615:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x84635:	add    BYTE PTR [rax],al
+0x84633:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x84656:	add    BYTE PTR [rax],al
+0x84654:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x846fa:	add    BYTE PTR [rax],al
+0x846f8:	add    al,BYTE PTR [rax]; 	add    BYTE PTR [rax],al
+0x84714:	add    BYTE PTR [rax],al
+0x84712:	add    al,BYTE PTR [rax]; 	add    BYTE PTR [rax],al
+0x8475b:	add    BYTE PTR [rax],al
+0x84759:	add    al,BYTE PTR [rax]; 	add    BYTE PTR [rax],al
+0x84769:	add    BYTE PTR [rax],al
+0x84767:	add    al,BYTE PTR [rax]; 	add    BYTE PTR [rax],al
+0x847c4:	mov    eax,esi
+0x847c3:	mov    rax,rsi
+0x847c2:	in     eax,0x48; 	mov    eax,esi
+0x84848:	mov    eax,esi
+0x84847:	mov    rax,rsi
+0x848f2:	pop    rbx
+0x848ef:	add    esp,0x30; 	pop    rbx
+0x849e4:	add    esp,0x8
+0x849e3:	add    rsp,0x8
+0x849fc:	and    eax,DWORD PTR [rax]
+0x849fa:	push   0x76; 	and    eax,DWORD PTR [rax]
+0x84aac:	pop    rbp
+0x84aab:	pop    rbx; 	pop    rbp
+0x84aaa:	sbb    BYTE PTR [rbx+0x5d],bl
+0x84c80:	pop    rbx
+0x84c7e:	add    BYTE PTR [rax],al; 	pop    rbx
+0x84c7d:	add    BYTE PTR [rax],r8b; 	pop    rbx
+0x84d0f:	pop    rsp
+0x84d0e:	pop    r12
+0x84d0d:	pop    rbp; 	pop    r12
+0x84d0c:	pop    rbx; 	pop    rbp; 	pop    r12
+0x84e20:	add    esp,0x8
+0x84e1f:	add    rsp,0x8
+0x84eaf:	pop    rbx
+0x84ead:	mov    DWORD PTR [rdx],eax; 	pop    rbx
+0x84eac:	mov    QWORD PTR [rdx],rax; 	pop    rbx
+0x84ec3:	pop    rbx
+0x84ec1:	mov    DWORD PTR [rax],edx; 	pop    rbx
+0x84ec0:	mov    QWORD PTR [rax],rdx; 	pop    rbx
+0x84ecf:	pop    rbx
+0x84ecd:	mov    DWORD PTR [rax],edi; 	pop    rbx
+0x84ecc:	mov    QWORD PTR [rax],rdi; 	pop    rbx
+0x84f2d:	pop    rbx
+0x84f2b:	mov    DWORD PTR [rax],edx; 	pop    rbx
+0x84f2a:	mov    QWORD PTR [rax],rdx; 	pop    rbx
+0x84fb0:	add    esp,0x38
+0x84faf:	add    rsp,0x38
+0x8500e:	pop    rbx
+0x8500d:	pop    rdx; 	pop    rbx
+0x8500c:	pop    rax; 	pop    rdx; 	pop    rbx
+0x8500b:	sbb    BYTE PTR [rax+0x5a],bl; 	pop    rbx
+0x85093:	add    esp,0x38
+0x85092:	add    rsp,0x38
+0x850c7:	pop    rsp
+0x850c6:	pop    r12
+0x850c5:	pop    rbp; 	pop    r12
+0x850c4:	pop    rbx; 	pop    rbp; 	pop    r12
+0x85156:	cmovne eax,edx
+0x85155:	cmovne rax,rdx
+0x85191:	pop    rbp
+0x85190:	pop    rbx; 	pop    rbp
+0x8518f:	fcomp  DWORD PTR [rbx+0x5d]
+0x8518e:	mov    eax,ebx; 	pop    rbx; 	pop    rbp
+0x851ab:	pop    rbp
+0x851aa:	pop    rbx; 	pop    rbp
+0x851a9:	fcomp  DWORD PTR [rbx+0x5d]
+0x851a8:	mov    eax,ebx; 	pop    rbx; 	pop    rbp
+0x85244:	sub    eax,edx
+0x85243:	sub    rax,rdx
+0x85303:	sub    eax,eax
+0x85302:	sub    rax,r8
+0x85301:	clc    ; 	sub    rax,r8
+0x85375:	syscall 
+0x85373:	add    BYTE PTR [rax],al; 	syscall 
+0x853cb:	add    DWORD PTR [rdx+rax*2],0x1
+0x8551c:	pop    rbp
+0x8551b:	pop    r13
+0x8551a:	pop    rsp; 	pop    r13
+0x85519:	pop    r12; 	pop    r13
+0x85574:	and    eax,DWORD PTR [rax]
+0x855ca:	or     BYTE PTR [rax+0x1],cl
+0x85699:	pop    rbx
+0x85696:	add    esp,0x10; 	pop    rbx
+0x8587c:	pop    rbp
+0x8587b:	pop    r13
+0x8587a:	pop    rsp; 	pop    r13
+0x85879:	pop    r12; 	pop    r13
+0x858df:	sbb    BYTE PTR [rax-0x77],cl
+0x858eb:	pop    rbp
+0x858ea:	pop    r13
+0x858e9:	pop    rsp; 	pop    r13
+0x858e8:	pop    r12; 	pop    r13
+0x85911:	ror    DWORD PTR [rax-0x77],cl
+0x8593f:	add    bl,dh
+0x8593d:	add    BYTE PTR [rax],al; 	add    bl,dh
+0x85aaf:	pop    rdi
+0x85aae:	pop    r15
+0x85aad:	pop    rsi; 	pop    r15
+0x85aac:	pop    r14; 	pop    r15
+0x85bd9:	add    bl,ch
+0x85bd7:	add    BYTE PTR [rax],al; 	add    bl,ch
+0x85c3d:	pop    rbp
+0x85c3c:	pop    rbx; 	pop    rbp
+0x85c3b:	fcomp  DWORD PTR [rbx+0x5d]
+0x85c3a:	mov    eax,ebx; 	pop    rbx; 	pop    rbp
+0x85c4f:	pop    rbp
+0x85c4e:	pop    rbx; 	pop    rbp
+0x85c4d:	fcomp  DWORD PTR [rbx+0x5d]
+0x85c4c:	mov    eax,ebx; 	pop    rbx; 	pop    rbp
+0x85d73:	pop    rdi
+0x85d72:	pop    r15
+0x85d71:	pop    rsi; 	pop    r15
+0x85d70:	pop    r14; 	pop    r15
+0x863a4:	pop    rbp
+0x863a3:	pop    rdi; 	pop    rbp
+0x863a2:	pop    r15; 	pop    rbp
+0x863a1:	pop    rsi; 	pop    r15; 	pop    rbp
+0x86851:	pop    rbp
+0x86850:	pop    rbx; 	pop    rbp
+0x8684e:	xor    eax,eax; 	pop    rbx; 	pop    rbp
+0x868a3:	pop    rbp
+0x868a2:	pop    rbx; 	pop    rbp
+0x868a1:	add    BYTE PTR [rbx+0x5d],bl
+0x868a0:	add    BYTE PTR [rax],al; 	pop    rbx; 	pop    rbp
+0x86ce2:	fmul   QWORD PTR [rax-0x77]
+0x870bf:	add    BYTE PTR [rax-0x77],cl
+0x87147:	add    BYTE PTR [rax-0x7d],cl
+0x87337:	add    al,ch
+0x873b2:	pop    rbp
+0x873b1:	pop    rdi; 	pop    rbp
+0x873b0:	pop    r15; 	pop    rbp
+0x873af:	pop    rsi; 	pop    r15; 	pop    rbp
+0x8785d:	pop    rbx
+0x8785b:	jne    0x8785f; 	pop    rbx
+0x8785a:	add    BYTE PTR [rbp+0x2],dh; 	pop    rbx
+0x87916:	pop    rbp
+0x87915:	pop    rdi; 	pop    rbp
+0x87914:	pop    r15; 	pop    rbp
+0x87913:	pop    rsi; 	pop    r15; 	pop    rbp
+0x87bdd:	pop    rbp
+0x87bdc:	pop    rdi; 	pop    rbp
+0x87bdb:	pop    r15; 	pop    rbp
+0x87bda:	pop    rsi; 	pop    r15; 	pop    rbp
+0x87c09:	pop    rsp
+0x87c08:	pop    r12
+0x87c07:	pop    rbp; 	pop    r12
+0x87c06:	pop    rbx; 	pop    rbp; 	pop    r12
+0x87c58:	pop    rsp
+0x87c57:	pop    r12
+0x87c56:	pop    rbp; 	pop    r12
+0x87c55:	pop    rbx; 	pop    rbp; 	pop    r12
+0x87d87:	or     bl,dh
+0x87de1:	add    esp,0x8
+0x87de0:	add    rsp,0x8
+0x87fe4:	pop    rdi
+0x87fe3:	pop    r15
+0x87fe2:	pop    rsi; 	pop    r15
+0x87fe1:	pop    r14; 	pop    r15
+0x88159:	add    BYTE PTR [rax],al
+0x88157:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x88160:	xor    eax,eax
+0x881c9:	adc    eax,eax
+0x881c7:	mov    eax,ecx; 	adc    eax,eax
+0x882d0:	add    BYTE PTR [rax-0x7d],cl
+0x88309:	pop    rbx
+0x88308:	pop    rbp; 	pop    rbx
+0x88307:	rcr    BYTE PTR [rbp+0x5b],1
+0x88306:	adc    eax,edx; 	pop    rbp; 	pop    rbx
+0x8835f:	pop    rbx
+0x8835e:	pop    rdx; 	pop    rbx
+0x8835d:	pop    rax; 	pop    rdx; 	pop    rbx
+0x8835c:	adc    BYTE PTR [rax+0x5a],bl; 	pop    rbx
+0x883ee:	add    esp,0x38
+0x883ed:	add    rsp,0x38
+0x8843f:	neg    eax
+0x8843d:	mov    dh,0xc0; 	neg    eax
+0x88468:	pop    rbx
+0x88465:	mov    DWORD PTR [rbx+0x18],eax; 	pop    rbx
+0x884ff:	pop    rbx
+0x884fe:	rex pop rbx
+0x884fc:	add    esp,0x40; 	pop    rbx
+0x8853c:	pop    rbx
+0x88539:	mov    DWORD PTR [rbx+0x20],eax; 	pop    rbx
+0x885e6:	pop    rbx
+0x885e5:	push   rax; 	pop    rbx
+0x885e3:	add    esp,0x50; 	pop    rbx
+0x8860d:	jae    0x88610
+0x8860c:	push   QWORD PTR [rbx+0x1]
+0x8861d:	or     eax,0xffffffff
+0x8861c:	or     rax,0xffffffffffffffff
+0x88666:	pop    rbx
+0x88663:	mov    DWORD PTR [rbx+0x20],eax; 	pop    rbx
+0x886ab:	sbb    DWORD PTR [rax-0x7d],ecx
+0x886d5:	pop    rbp
+0x886d4:	pop    r13
+0x886d3:	pop    rsp; 	pop    r13
+0x886d2:	pop    r12; 	pop    r13
+0x88b42:	add    BYTE PTR [rax-0x7d],cl
+0x88ef0:	pop    rbp
+0x88eef:	pop    rdi; 	pop    rbp
+0x88eee:	pop    r15; 	pop    rbp
+0x88eed:	pop    rsi; 	pop    r15; 	pop    rbp
+0x8906f:	add    BYTE PTR [rax-0x39],cl
+0x8950b:	or     BYTE PTR [rax-0x77],cl
+0x8950a:	rex.RX or BYTE PTR [rax-0x77],r9b
+0x89879:	dec    DWORD PTR [rcx-0x7d]
+0x89886:	adc    DWORD PTR [rcx-0x7d],ecx
+0x898a6:	dec    DWORD PTR [rcx-0x7d]
+0x89b16:	pop    rdi
+0x89b15:	pop    r15
+0x89b14:	pop    rsi; 	pop    r15
+0x89b13:	pop    r14; 	pop    r15
+0x89bb7:	add    BYTE PTR [rax-0x7d],cl
+0x89c8f:	add    BYTE PTR [rax-0x7d],cl
+0x89ede:	add    BYTE PTR [rax+0x1],cl
+0x8a1bd:	pop    rdi
+0x8a1bc:	pop    r15
+0x8a1bb:	pop    rsi; 	pop    r15
+0x8a1ba:	pop    r14; 	pop    r15
+0x8a320:	xor    eax,eax
+0x8a31e:	add    BYTE PTR [rax],al; 	xor    eax,eax
+0x8a43d:	pop    rbp
+0x8a43c:	pop    r13
+0x8a43b:	pop    rsp; 	pop    r13
+0x8a43a:	pop    r12; 	pop    r13
+0x8a46c:	pop    rbp
+0x8a46b:	pop    r13
+0x8a46a:	pop    rsp; 	pop    r13
+0x8a469:	pop    r12; 	pop    r13
+0x8a49d:	pop    rbx
+0x8a49c:	pop    rdx; 	pop    rbx
+0x8a49b:	pop    rax; 	pop    rdx; 	pop    rbx
+0x8a49a:	add    ebx,DWORD PTR [rax+0x5a]; 	pop    rbx
+0x8a60e:	pop    rsp
+0x8a60d:	pop    r12
+0x8a60c:	pop    rbp; 	pop    r12
+0x8a60b:	pop    rbx; 	pop    rbp; 	pop    r12
+0x8a859:	pop    rsp
+0x8a858:	pop    r12
+0x8a857:	pop    rbp; 	pop    r12
+0x8a856:	pop    rbx; 	pop    rbp; 	pop    r12
+0x8aa4e:	add    esp,0x38
+0x8aa4d:	add    rsp,0x38
+0x8ab17:	add    esp,0x38
+0x8ab16:	add    rsp,0x38
+0x8abcf:	adc    BYTE PTR [rcx-0x77],cl
+0x8ac6b:	pop    rsi
+0x8ac6a:	pop    r14
+0x8ac69:	pop    rbx; 	pop    r14
+0x8ac68:	cmp    BYTE PTR [rbx+0x41],bl; 	pop    rsi
+0x8ad4f:	pop    rsi
+0x8ad4e:	pop    r14
+0x8ad4d:	pop    rbx; 	pop    r14
+0x8ad4c:	cmp    BYTE PTR [rbx+0x41],bl; 	pop    rsi
+0x8ae49:	fdiv   st,st(3)
+0x8aea4:	mov    DWORD PTR [rdx],eax
+0x8aea3:	mov    QWORD PTR [r10],r8
+0x8aec0:	mov    DWORD PTR [rdx],eax
+0x8aebf:	mov    QWORD PTR [r10],r8
+0x8afb8:	add    BYTE PTR [rax],al
+0x8afb6:	mov    al,0x0; 	add    BYTE PTR [rax],al
+0x8afcb:	xor    eax,eax
+0x8afc9:	jne    0x8afe8; 	xor    eax,eax
+0x8afd5:	add    BYTE PTR [rax],al
+0x8afe5:	add    BYTE PTR [rax],al
+0x8afe3:	test   al,0x0; 	add    BYTE PTR [rax],al
+0x8b0eb:	pop    rbp
+0x8b0ea:	pop    rdi; 	pop    rbp
+0x8b0e9:	pop    r15; 	pop    rbp
+0x8b0e8:	pop    rsi; 	pop    r15; 	pop    rbp
+0x8b177:	add    BYTE PTR [rax-0x7d],cl
+0x8b176:	add    BYTE PTR [rax-0x7d],cl
+0x8b287:	add    BYTE PTR [rax-0x7d],cl
+0x8b286:	add    BYTE PTR [rax-0x7d],cl
+0x8b2af:	add    BYTE PTR [rax-0x7d],cl
+0x8b307:	add    BYTE PTR [rax-0x7d],cl
+0x8b306:	add    BYTE PTR [rax-0x7d],cl
+0x8b34f:	add    BYTE PTR [rax-0x7d],cl
+0x8b34e:	add    BYTE PTR [rax-0x7d],cl
+0x8b397:	add    BYTE PTR [rax-0x7d],cl
+0x8b396:	add    BYTE PTR [rax-0x7d],cl
+0x8b3c7:	add    BYTE PTR [rax-0x7d],cl
+0x8b3c6:	add    BYTE PTR [rax-0x7d],cl
+0x8b3ef:	add    BYTE PTR [rax-0x7d],cl
+0x8b497:	add    BYTE PTR [rax-0x7d],cl
+0x8b496:	add    BYTE PTR [rax-0x7d],cl
+0x8b4f1:	fucomip st,st(1)
+0x8b507:	add    BYTE PTR [rax-0x7d],cl
+0x8b506:	add    BYTE PTR [rax-0x7d],cl
+0x8b547:	add    BYTE PTR [rax-0x7d],cl
+0x8b546:	add    BYTE PTR [rax-0x7d],cl
+0x8b5bf:	add    BYTE PTR [rax-0x7d],cl
+0x8b5be:	add    BYTE PTR [rax-0x7d],cl
+0x8b5ff:	add    BYTE PTR [rax-0x7d],cl
+0x8b62f:	add    BYTE PTR [rax-0x7d],cl
+0x8b62e:	add    BYTE PTR [rax-0x7d],cl
+0x8b697:	add    BYTE PTR [rax-0x7d],cl
+0x8b696:	add    BYTE PTR [rax-0x7d],cl
+0x8b727:	add    BYTE PTR [rax-0x7d],cl
+0x8b726:	add    BYTE PTR [rax-0x7d],cl
+0x8b77f:	add    BYTE PTR [rax-0x7d],cl
+0x8b77e:	add    BYTE PTR [rax-0x7d],cl
+0x8b7f7:	add    BYTE PTR [rax-0x7d],cl
+0x8b7f6:	add    BYTE PTR [rax-0x7d],cl
+0x8b85f:	add    BYTE PTR [rax-0x7d],cl
+0x8b85e:	add    BYTE PTR [rax-0x7d],cl
+0x8b8d7:	add    BYTE PTR [rax-0x7d],cl
+0x8b8d6:	add    BYTE PTR [rax-0x7d],cl
+0x8b8ff:	add    BYTE PTR [rax-0x7d],cl
+0x8b93e:	push   rbx
+0x8b9e5:	add    BYTE PTR [rax],cl
+0x8bb2f:	add    BYTE PTR [rax-0x7d],cl
+0x8bb2e:	add    BYTE PTR [rax-0x7d],cl
+0x8bbaf:	add    ecx,DWORD PTR [rax-0x7d]
+0x8bbc2:	add    ecx,DWORD PTR [rax-0x7d]
+0x8bc09:	dec    DWORD PTR [rax-0x77]
+0x8bc3a:	pop    rdi
+0x8bc39:	pop    r15
+0x8bc38:	pop    rsi; 	pop    r15
+0x8bc37:	pop    r14; 	pop    r15
+0x8bcaf:	add    BYTE PTR [rax-0x7d],cl
+0x8bd38:	pop    rdi
+0x8bd37:	pop    r15
+0x8bd36:	pop    rsi; 	pop    r15
+0x8bd35:	pop    r14; 	pop    r15
+0x8bd5a:	pop    rdi
+0x8bd59:	pop    r15
+0x8bd58:	pop    rsi; 	pop    r15
+0x8bd57:	pop    r14; 	pop    r15
+0x8c00f:	add    BYTE PTR [rax-0x7d],cl
+0x8c144:	pop    rdi
+0x8c143:	pop    r15
+0x8c142:	pop    rsi; 	pop    r15
+0x8c141:	pop    r14; 	pop    r15
+0x8c23c:	sub    BYTE PTR [rax-0x77],cl
+0x8c73f:	shr    cl,cl
+0x8ca1c:	fisttp WORD PTR [rax-0x7d]
+0x8ca68:	pop    rdi
+0x8ca67:	pop    r15
+0x8ca66:	pop    rsi; 	pop    r15
+0x8ca65:	pop    r14; 	pop    r15
+0x8cd5e:	pop    rbp
+0x8cd5d:	pop    r13
+0x8cd5c:	pop    rsp; 	pop    r13
+0x8cd5b:	pop    r12; 	pop    r13
+0x8ce46:	pop    rbp
+0x8ce45:	pop    rbx; 	pop    rbp
+0x8ce44:	or     BYTE PTR [rbx+0x5d],bl
+0x8ce70:	pop    rbp
+0x8ce6f:	pop    rbx; 	pop    rbp
+0x8ce6e:	or     BYTE PTR [rbx+0x5d],bl
+0x8cf1f:	pop    rbp
+0x8cf1e:	pop    r13
+0x8cf1d:	pop    rsp; 	pop    r13
+0x8cf1c:	pop    r12; 	pop    r13
+0x8cffc:	pop    rdi
+0x8cffb:	pop    r15
+0x8cffa:	pop    rsi; 	pop    r15
+0x8cff9:	pop    r14; 	pop    r15
+0x8d154:	add    esp,0x18
+0x8d153:	add    rsp,0x18
+0x8d16b:	add    esp,0x18
+0x8d16a:	add    rsp,0x18
+0x8d1a3:	add    esp,0x18
+0x8d1a2:	add    rsp,0x18
+0x8d1e3:	mov    eax,DWORD PTR [rax]
+0x8d1e2:	mov    rax,QWORD PTR [rax]
+0x8d1f9:	fcomi  st,st(3)
+0x8d1f7:	add    BYTE PTR [rbx+rbx*8-0xd],dh
+0x8d215:	add    BYTE PTR [rax],al
+0x8d23d:	adc    al,0xf7
+0x8d23c:	mov    DWORD PTR [rdi+rsi*8],edx
+0x8d23b:	mov    QWORD PTR [rdi+rsi*8],rdx
+0x8d252:	mov    DWORD PTR [rax],edx
+0x8d251:	mov    QWORD PTR [rax],rdx
+0x8d250:	add    al,0x48; 	mov    DWORD PTR [rax],edx
+0x8d265:	add    BYTE PTR [rax],al
+0x8d285:	add    BYTE PTR [rax],al
+0x8d295:	add    BYTE PTR [rax],al
+0x8d2a5:	add    BYTE PTR [rax],al
+0x8d2b5:	add    BYTE PTR [rax],al
+0x8d2db:	add    esp,0x28
+0x8d2da:	add    rsp,0x28
+0x8d2f5:	add    BYTE PTR [rax],al
+0x8d2f3:	mov    al,0x0; 	add    BYTE PTR [rax],al
+0x8d305:	add    BYTE PTR [rax],al
+0x8d303:	test   al,0x0; 	add    BYTE PTR [rax],al
+0x8d40e:	pop    rbp
+0x8d40d:	pop    rbx; 	pop    rbp
+0x8d40b:	mov    eax,ebp; 	pop    rbx; 	pop    rbp
+0x8d41a:	pop    rbp
+0x8d419:	pop    rbx; 	pop    rbp
+0x8d417:	xor    eax,eax; 	pop    rbx; 	pop    rbp
+0x8d41c:	nop    DWORD PTR [rax+0x0]
+0x8d5b4:	leave  
+0x8d5b3:	clc    ; 	leave  
+0x8d5b2:	jge    0x8d5ac; 	leave  
+0x8d5b1:	mov    edi,DWORD PTR [rbp-0x8]; 	leave  
+0x8d738:	int3   
+0x8d737:	mov    esp,ecx
+0x8d736:	mov    rsp,rcx
+0x8d735:	add    BYTE PTR [rax-0x77],cl; 	int3   
+0x8d87e:	leave  
+0x8d87d:	clc    ; 	leave  
+0x8d87c:	jge    0x8d876; 	leave  
+0x8d87b:	mov    edi,DWORD PTR [rbp-0x8]; 	leave  
+0x8d8d0:	int3   
+0x8d8cf:	mov    esp,ecx
+0x8d8ce:	mov    rsp,rcx
+0x8d8cd:	add    BYTE PTR [rax-0x77],cl; 	int3   
+0x8da5f:	int3   
+0x8da5e:	mov    esp,ecx
+0x8da5d:	mov    rsp,rcx
+0x8da5c:	add    BYTE PTR [rax-0x77],cl; 	int3   
+0x8dbb9:	leave  
+0x8dbb8:	clc    ; 	leave  
+0x8dbb7:	jge    0x8dbb1; 	leave  
+0x8dbb6:	mov    edi,DWORD PTR [rbp-0x8]; 	leave  
+0x8dc10:	int3   
+0x8dc0f:	mov    esp,ecx
+0x8dc0e:	mov    rsp,rcx
+0x8dc0d:	add    BYTE PTR [rax-0x77],cl; 	int3   
+0x8dc37:	add    bl,dh
+0x8dcca:	pop    rbp
+0x8dcc9:	pop    rdi; 	pop    rbp
+0x8dcc8:	pop    r15; 	pop    rbp
+0x8dcc7:	pop    rsi; 	pop    r15; 	pop    rbp
+0x8ddad:	pop    rdi
+0x8ddac:	pop    r15
+0x8ddab:	pop    rsi; 	pop    r15
+0x8ddaa:	pop    r14; 	pop    r15
+0x8ddde:	or     BYTE PTR [rax-0x77],cl
+0x8dddd:	rex.X or BYTE PTR [rax-0x77],cl
+0x8de69:	pop    rdi
+0x8de68:	pop    r15
+0x8de67:	pop    rsi; 	pop    r15
+0x8de66:	pop    r14; 	pop    r15
+0x8dec4:	mov    DWORD PTR [rdx],eax
+0x8dec3:	mov    QWORD PTR [r10],r8
+0x8dee0:	mov    DWORD PTR [rdx],eax
+0x8dedf:	mov    QWORD PTR [r10],r8
+0x8dfe4:	pop    rbp
+0x8dfe3:	pop    rbx; 	pop    rbp
+0x8dfe2:	sbb    BYTE PTR [rbx+0x5d],bl
+0x8e068:	dec    DWORD PTR [rax-0x7d]
+0x8e0a6:	pop    rbp
+0x8e0a5:	pop    rbx; 	pop    rbp
+0x8e0a4:	sbb    BYTE PTR [rbx+0x5d],bl
+0x8e105:	sbb    dh,bl
+0x8e113:	add    BYTE PTR [rax],al
+0x8e111:	add    al,BYTE PTR [rax]; 	add    BYTE PTR [rax],al
+0x8e129:	add    BYTE PTR [rax],al
+0x8e127:	or     BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0x8e152:	mov    eax,DWORD PTR [rsi+0x10]
+0x8e151:	mov    rax,QWORD PTR [rsi+0x10]
+0x8e16b:	xor    eax,eax
+0x8e169:	jne    0x8e17e; 	xor    eax,eax
+0x8e171:	mov    eax,DWORD PTR [rsi+0x8]
+0x8e170:	mov    rax,QWORD PTR [rsi+0x8]
+0x8e213:	pop    rsi
+0x8e212:	pop    r14
+0x8e211:	pop    rbp; 	pop    r14
+0x8e210:	pop    r13; 	pop    r14
+0x8e38c:	pop    rdi
+0x8e38b:	pop    r15
+0x8e38a:	pop    rsi; 	pop    r15
+0x8e389:	pop    r14; 	pop    r15
+0x8e3e3:	pop    rdi
+0x8e3e2:	pop    r15
+0x8e3e1:	pop    rsi; 	pop    r15
+0x8e3e0:	pop    r14; 	pop    r15
+0x8e4c1:	pop    rbp
+0x8e4c0:	pop    r13
+0x8e4bf:	pop    rsp; 	pop    r13
+0x8e4be:	pop    r12; 	pop    r13
+0x8e63a:	pop    rdi
+0x8e639:	pop    r15
+0x8e638:	pop    rsi; 	pop    r15
+0x8e637:	pop    r14; 	pop    r15
+0x8e712:	pop    rdi
+0x8e711:	pop    r15
+0x8e710:	pop    rsi; 	pop    r15
+0x8e70f:	pop    r14; 	pop    r15
+0x8e8d8:	pop    rdi
+0x8e8d7:	pop    r15
+0x8e8d6:	pop    rsi; 	pop    r15
+0x8e8d5:	pop    r14; 	pop    r15
+0x8e917:	add    BYTE PTR [rax+0x1],cl
+0x8e97f:	adc    BYTE PTR [rax-0x7d],cl
+0x8eacb:	dec    DWORD PTR [rax-0x77]
+0x8eaca:	clc    ; 	dec    DWORD PTR [rax-0x77]
+0x8ead4:	dec    DWORD PTR [rax-0x9]
+0x8ec29:	add    BYTE PTR [rax+0x39],cl
+0x8ec7a:	or     BYTE PTR [rax-0x7d],cl
+0x8ed74:	or     BYTE PTR [rax-0x7d],cl
+0x8efb2:	mov    eax,DWORD PTR [rsi+0x10]
+0x8efb1:	mov    rax,QWORD PTR [rsi+0x10]
+0x8efcb:	xor    eax,eax
+0x8efc9:	jne    0x8efde; 	xor    eax,eax
+0x8efd1:	mov    eax,DWORD PTR [rsi+0x8]
+0x8efd0:	mov    rax,QWORD PTR [rsi+0x8]
+0x8f12d:	pop    rdi
+0x8f12c:	pop    r15
+0x8f12b:	pop    rsi; 	pop    r15
+0x8f12a:	pop    r14; 	pop    r15
+0x8f14f:	pop    rdi
+0x8f14e:	pop    r15
+0x8f14d:	pop    rsi; 	pop    r15
+0x8f14c:	pop    r14; 	pop    r15
+0x8f52b:	add    al,0xf3
+0x8f538:	add    BYTE PTR [rax],al
+0x8f536:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x8f54f:	push   rbx
+0x8f585:	or     dh,bl
+0x8f63b:	add    al,0xf3
+0x8f648:	add    BYTE PTR [rax],al
+0x8f646:	add    DWORD PTR [rax],eax; 	add    BYTE PTR [rax],al
+0x8f73f:	pop    rsp
+0x8f73e:	pop    r12
+0x8f73d:	pop    rbp; 	pop    r12
+0x8f73c:	pop    rbx; 	pop    rbp; 	pop    r12
+0x8f778:	pop    rsp
+0x8f777:	pop    r12
+0x8f776:	pop    rbp; 	pop    r12
+0x8f775:	pop    rbx; 	pop    rbp; 	pop    r12
+0x8f7b5:	or     dh,bl
+0x8f87e:	pop    rdi
+0x8f87d:	pop    r15
+0x8f87c:	pop    rsi; 	pop    r15
+0x8f87b:	pop    r14; 	pop    r15
+0x8fa3b:	xor    eax,eax
+0x8fa39:	jne    0x8fa58; 	xor    eax,eax
+0x8fac4:	mov    DWORD PTR [rdx],eax
+0x8fac3:	mov    QWORD PTR [r10],r8
+0x8fae0:	mov    DWORD PTR [rdx],eax
+0x8fadf:	mov    QWORD PTR [r10],r8
+0x8fbdd:	pop    rdi
+0x8fbdc:	pop    r15
+0x8fbdb:	pop    rsi; 	pop    r15
+0x8fbda:	pop    r14; 	pop    r15
+0x8fbf7:	pop    rdi
+0x8fbf6:	pop    r15
+0x8fbf5:	pop    rsi; 	pop    r15
+0x8fbf4:	pop    r14; 	pop    r15
+0x8ff49:	pop    rdi
+0x8ff48:	pop    r15
+0x8ff47:	pop    rsi; 	pop    r15
+0x8ff46:	pop    r14; 	pop    r15
+0x9000c:	pop    rbp
+0x9000b:	pop    rbx; 	pop    rbp
+0x9000a:	or     BYTE PTR [rbx+0x5d],bl
+0x90057:	pop    rbp
+0x90056:	pop    rbx; 	pop    rbp
+0x90055:	or     BYTE PTR [rbx+0x5d],bl
+0x90197:	pop    rbx
+0x90196:	loope  0x901f3
+0x90195:	jne    0x90178; 	pop    rbx
+0x90194:	add    BYTE PTR [rbp-0x1f],dh; 	pop    rbx
+0x90203:	add    DWORD PTR [rax-0x7d],ecx
+0x902a8:	pop    rsp
+0x902a7:	pop    r12
+0x902a6:	pop    rbp; 	pop    r12
+0x902a5:	pop    rbx; 	pop    rbp; 	pop    r12
+0x90459:	pop    rbp
+0x90458:	pop    r13
+0x90457:	pop    rsp; 	pop    r13
+0x90456:	pop    r12; 	pop    r13
+0x9062f:	add    bl,dh
+0x90667:	add    bl,dh
+0x906c3:	add    esp,0x8
+0x906c2:	add    rsp,0x8
+0x90db7:	add    BYTE PTR [rax-0x7d],cl
+0x90e13:	add    BYTE PTR [rax+0x39],cl
+0x90e62:	pop    rsp
+0x90e61:	pop    r12
+0x90e60:	pop    rbp; 	pop    r12
+0x90e5f:	pop    rbx; 	pop    rbp; 	pop    r12
+0x90f48:	add    esp,0x8
+0x90f47:	add    rsp,0x8
+0x90fc9:	push   rbx
+0x90fc8:	clc    ; 	push   rbx
+0x90fc7:	icebp  ; 	clc    ; 	push   rbx
+0x90fe8:	pop    rbp
+0x90fe7:	pop    rbx; 	pop    rbp
+0x90fe6:	or     BYTE PTR [rbx+0x5d],bl
+0x91030:	pop    rbp
+0x9102f:	pop    rbx; 	pop    rbp
+0x9102d:	xor    eax,eax; 	pop    rbx; 	pop    rbp
+0x91457:	or     al,ch
+0x9159d:	dec    DWORD PTR [rax-0x7d]
+0x916ef:	pop    rdi
+0x916ee:	pop    r15
+0x916ed:	pop    rsi; 	pop    r15
+0x916ec:	pop    r14; 	pop    r15
+0x91eb2:	or     BYTE PTR [rax-0x77],cl
+0x91eb1:	or     BYTE PTR [rax-0x77],cl
+0x921f3:	or     BYTE PTR [rbp-0x77],cl
+0x921f2:	pop    rax; 	or     BYTE PTR [rbp-0x77],cl
+0x9239c:	and    BYTE PTR [rbp-0x77],cl
+0x92515:	add    esp,0x8
+0x92514:	add    rsp,0x8
+0x944d3:	jmp    QWORD PTR [rax]
+0x944d2:	stc    ; 	jmp    QWORD PTR [rax]
+0x94514:	nop
+0x94511:	sar    cl,0xff; 	nop
+0x983aa:	add    BYTE PTR [rax],al
+0x987aa:	add    BYTE PTR [rax],al
+0x989aa:	add    BYTE PTR [rax],al
+0x98daa:	add    BYTE PTR [rax],al
+0x9e382:	add    BYTE PTR [rax],al
+0x9e45a:	add    BYTE PTR [rax],al
+0x9e876:	add    BYTE PTR [rax],al
+0x9e9ca:	add    BYTE PTR [rax],al
+0x9edca:	add    BYTE PTR [rax],al
+0x9edc8:	ror    BYTE PTR [rax+rax*1],0x0
+0x9f1ca:	add    BYTE PTR [rax],al
+0x9f1c9:	sldt   WORD PTR [rax]
+0x9fffe:	add    BYTE PTR [rax],al
+0x9fffc:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0xa04ee:	add    BYTE PTR [rax],al
+0xa04ec:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0xa0ff6:	add    BYTE PTR [rax],al
+0xa0ff4:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0xa178e:	add    BYTE PTR [rax],al
+0xa178c:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0xa60e6:	add    BYTE PTR [rax],al
+0xa62a0:	rol    cl,0xc2
+0xa6605:	sbb    bl,BYTE PTR [rsi]
+0xa6642:	cld    
+0xa67e6:	push   rsi
+0xa67e5:	jrcxz  0xa683d
+0xa67e4:	mov    ah,bl; 	push   rsi
+0xa69ea:	mov    ah,0x13
+0xa6b31:	outs   dx,DWORD PTR ds:[rsi]
+0xa6e91:	movs   DWORD PTR es:[rdi],DWORD PTR ds:[rsi]
+0xa6e90:	mov    ah,0xa5
+0xa6fd9:	xchg   esp,eax
+0xa6fd8:	xchg   edi,eax; 	xchg   esp,eax
+0xa6fd7:	test   al,0x97; 	xchg   esp,eax
+0xa6fd6:	cld    ; 	test   al,0x97; 	xchg   esp,eax
+0xa7885:	jnp    0xa7840
+0xa7884:	stc    ; 	jnp    0xa7840
+0xa7883:	sar    ecx,1; 	jnp    0xa7840
+0xa7a0a:	sti    
+0xa7a09:	addr32 sti 
+0xa7a08:	shl    DWORD PTR [rdi-0x5],1
+0xa7b6a:	xor    al,0xd8
+0xa7b68:	je     0xa7b2f; 	xor    al,0xd8
+0xa7cc6:	mov    edi,DWORD PTR [rdx]
+0xa7cc4:	mov    bh,0xb4; 	mov    edi,DWORD PTR [rdx]
+0xa8c99:	ret    
+0xa8c98:	fcmovb st,st(3)
+0xa8c97:	out    dx,al; 	fcmovb st,st(3)
+0xa8c96:	mov    al,0xee; 	fcmovb st,st(3)
+0xa8fec:	stos   DWORD PTR es:[rdi],eax
+0xa9124:	int    0x6b
+0xa9122:	sub    edi,esi; 	int    0x6b
+0xa986b:	stos   DWORD PTR es:[rdi],eax
+0xa986a:	mov    ch,0xab
+0xa9869:	cmc    ; 	mov    ch,0xab
+0xa9868:	out    0xf5,eax; 	mov    ch,0xab
+0xa9a19:	fcomp  DWORD PTR [rdx+0x21]
+0xacc47:	add    ch,BYTE PTR [rsi+rcx*1+0x8]
+0xad17a:	jae    0xad186
+0xad179:	add    dh,BYTE PTR [rbx+0xa]
+0xad178:	or     eax,DWORD PTR [rdx]; 	jae    0xad186
+0xaf0fa:	pop    rdx
+0xaf0f8:	add    DWORD PTR [rdx],0x5a
+0xb31a4:	add    DWORD PTR [rdx],0x4a
+0xb3fb2:	add    ecx,DWORD PTR [rbx+0x3]
+0xb3fc3:	or     al,BYTE PTR [rcx]
+0xb3fc1:	add    eax,DWORD PTR [rbx]; 	or     al,BYTE PTR [rcx]
+0xb3fe6:	add    ebx,DWORD PTR [rbx+0x3]
+0xb3ff7:	cld    
+0xb3ff6:	add    bh,ah
+0xb3ff5:	add    eax,DWORD PTR [rdx]; 	cld    
+0xb402b:	movs   BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0xb4029:	add    eax,DWORD PTR [rdx]; 	movs   BYTE PTR es:[rdi],BYTE PTR ds:[rsi]
+0xb5bf0:	add    DWORD PTR [rdx],0x76
+0xb5c36:	push   rbp
+0xb5c34:	add    DWORD PTR [rdx],0x55
+0xb5c50:	add    DWORD PTR [rdx],0x76
+0xb66b6:	add    BYTE PTR [rax],al
+0xb66b4:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0xb67b6:	add    BYTE PTR [rax],al
+0xb67b4:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0xb69b6:	add    BYTE PTR [rax],al
+0xb69b4:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0xb6ab6:	add    BYTE PTR [rax],al
+0xb6ab4:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0xb6bb6:	add    BYTE PTR [rax],al
+0xb6bb4:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0xb7078:	in     eax,dx
+0xb7077:	add    ch,ch
+0xb7076:	add    BYTE PTR [rax],al; 	in     eax,dx
+0xb7075:	add    BYTE PTR [rax],al; 	add    ch,ch
+0xb7178:	in     eax,dx
+0xb7177:	add    ch,ch
+0xb7176:	add    BYTE PTR [rax],al; 	in     eax,dx
+0xb7175:	add    BYTE PTR [rax],al; 	add    ch,ch
+0xb7278:	in     eax,dx
+0xb7277:	add    ch,ch
+0xb7276:	add    BYTE PTR [rax],al; 	in     eax,dx
+0xb7275:	add    BYTE PTR [rax],al; 	add    ch,ch
+0xb820e:	add    BYTE PTR [rax],al
+0xb820c:	add    BYTE PTR [rax],al; 	add    BYTE PTR [rax],al
+0xbba44:	xchg   ebx,eax
+0xbba42:	je     0xbba44; 	xchg   ebx,eax
+0xbba41:	fs je  0xbba44; 	xchg   ebx,eax

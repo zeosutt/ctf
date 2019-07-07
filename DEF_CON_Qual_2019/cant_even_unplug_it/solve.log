@@ -1,0 +1,36 @@
+```You know, we had this up and everything. Prepped nice HTML5, started deploying on a military-grade-secrets.dev subdomain, got the certificate, the whole shabang. Boss-man got moody and wanted another name, we set up the new names and all. Finally he got scared and unplugged the server. Can you believe it? Unplugged. Like that can keep it secret…```
+
+
+```Hint: these are HTTPS sites. Who is publicly and transparently logging the info you need?
+
+Just in case: all info is freely accessible, no subscriptions are necessary. The names cannot really be guessed.```
+
+
+証明書関連の話・・・だよね？
+
+
+Let's Encryptかなー
+
+
+やっぱり！
+https://crt.sh/?q=%25.military-grade-secrets.dev
+crt.sh
+crt.sh | %.military-grade-secrets.dev
+Free CT Log Certificate Search Tool from Sectigo (formerly Comodo CA)
+
+
+ドメインが分かれば後はウェブアーカイブでおしまい
+https://web.archive.org/web/20190511000519/http://secret-storage.military-grade-secrets.dev/ (edited)
+
+
+`OOO{DAMNATIO_MEMORIAE}`
+
+
+勉強になった。
+幾つか挙げとく。
+
+https://ja.wikipedia.org/wiki/Let%27s_Encrypt
+> 全てのACMEトランザクションを公開し（たとえば Certificate Transparency などにより）
+
+http://knqyf263.hatenablog.com/entry/2018/03/09/144550
+> crt.shというところがCTのログサーバからデータを貯めておいてくれているようです

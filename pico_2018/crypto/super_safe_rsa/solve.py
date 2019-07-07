@@ -1,0 +1,13 @@
+from Crypto.Util.number import *
+import Crypto.PublicKey.RSA as RSA
+
+c = 23195191111783127564588059228564164175508571215129673322965937313832177028720822
+p = 161355450315362067226342002190833380887
+q = 151966092448039435015228448066566079232563
+e = 65537
+
+n = p * q
+d = inverse(e, (p - 1) * (q - 1))
+rsa = RSA.construct((n, e, d))
+
+print(long_to_bytes(rsa.decrypt(c)))

@@ -1,0 +1,7 @@
+&(hoge=hoge)(gn=$)
+&(hoge=hoge)(gn=*)(piyo=aaa)
+
+|(&(hoge=hoge)(gn=$))(piyo=aaa)
+|(&(hoge=hoge)(gn=*))(|(objectclass=*))(piyo=aaa)
+
+*))(|(objectclass=*

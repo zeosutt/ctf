@@ -1,0 +1,3 @@
+#!/bin/bash
+fakecron
+su ctf

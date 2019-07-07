@@ -1,0 +1,10 @@
+Package: com.yourcompany.whyos
+Name: whyOS
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: whyOS
+Maintainer: CSAW
+Author: CSAW
+Section: Tweaks
+Version: 4.2.0-28+debug
+Installed-Size: 248

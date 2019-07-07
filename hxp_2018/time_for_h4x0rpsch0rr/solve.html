@@ -1,0 +1,9 @@
+<script src="mqtt.min.js"></script>
+<script>
+	var client = mqtt.connect('ws://159.69.212.240:60805')
+	client.subscribe('$internal/admin/webcam')
+
+	client.on('message', function (topic, payload) {
+		location.href = window.URL.createObjectURL(new Blob([payload], {type: 'image/jpeg'}));
+	});
+</script>

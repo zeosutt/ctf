@@ -1,0 +1,2 @@
+# sshpass -p sourcelocker ssh source@source.wpictf.xyz -p 31337
+# aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

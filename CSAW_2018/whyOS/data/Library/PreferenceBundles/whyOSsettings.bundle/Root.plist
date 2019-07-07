@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+            <string>Put the flag{} content here</string>
+		</dict>
+		<dict>
+            <key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.yourcompany.whyos</string>
+			<key>key</key>
+			<string>flag</string>
+			<key>label</key>
+			<string>flag content</string>
+		</dict>
+        <dict>
+            <key>action</key>
+            <string>setflag</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+            <string>Set flag</string>
+        </dict>
+	</array>
+	<key>title</key>
+	<string>whyOS Settings</string>
+</dict>
+</plist>

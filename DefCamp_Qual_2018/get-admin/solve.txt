@@ -1,0 +1,161 @@
+mitsuru@debian:/media/sf_GoogleDrive/CTF/D-CTF_Quals_2018/passport$
+mitsuru@debian:/media/sf_GoogleDrive/CTF/D-CTF_Quals_2018/passport$ php -a
+Interactive mode enabled
+
+php > $a = ['id' => 123, 'username' => 'hoge男÷id¡1÷checksum¡3441564344', 'email' => 'hoge@hoge.com'];
+php > $b = $a;
+php > function compress($arr) {
+php {     return implode('÷', array_map(function ($v, $k) { return $k.'¡'.$v; }, $arr, array_keys($arr) ));
+php { }
+php >
+php > function decompress($cookie) {
+php {     if(preg_match('/[^\x00-\x7F]+\ *(?:[^\x00-\x7F]| )*/im',$cookie, $m) == 0) {
+php {         echo('Decryption error (1).');
+php {         return false;
+php {     }
+php {
+php {     var_dump($cookie);
+php {
+php {     $t = explode("÷", $cookie);
+php {
+php {     $arr = [];
+php {     foreach($t as $el) {
+php {         $el = explode("¡", $el);
+php {         $arr[$el[0]] = $el[1];
+php {     }
+php {
+php {     var_dump($arr);
+php {
+php {     if(!isset($arr['checksum'])) {
+php {         echo('Decryption error (2).');
+php {         return false;
+php {     }
+php {
+php {     $checksum = intval($arr['checksum']);
+php {     unset($arr['checksum']);
+php {     $cookie = compress($arr);
+php {     if($checksum != crc32($cookie)) {
+php {         echo('Decryption error (3).');
+php {         return false;
+php {     }
+php {
+php {     return $arr;
+php { }
+php > $b['checksum'] = crc32(compress($a));
+php > var_dump($a);
+array(3) {
+  ["id"]=>
+  int(123)
+  ["username"]=>
+  string(36) "hoge男÷id¡1÷checksum¡3441564344"
+  ["email"]=>
+  string(13) "hoge@hoge.com"
+}
+php > var_dump($b);
+array(4) {
+  ["id"]=>
+  int(123)
+  ["username"]=>
+  string(36) "hoge男÷id¡1÷checksum¡3441564344"
+  ["email"]=>
+  string(13) "hoge@hoge.com"
+  ["checksum"]=>
+  int(3950357040)
+}
+php > var_dump(decompress(substr(compress($b), 0, -22)));
+string(77) "id¡123÷username¡hoge男÷id¡1÷checksum¡3441564344÷email¡hoge@hoge.com"
+array(4) {
+  ["id"]=>
+  string(1) "1"
+  ["username"]=>
+  string(7) "hoge男"
+  ["checksum"]=>
+  string(10) "3441564344"
+  ["email"]=>
+  string(13) "hoge@hoge.com"
+}
+Decryption error (3).bool(false)
+php > var_dump(decompress(substr(compress($b), 0, -22)));
+string(77) "id¡123÷username¡hoge男÷id¡1÷checksum¡3441564344÷email¡hoge@hoge.com"
+array(4) {
+  ["id"]=>
+  string(1) "1"
+  ["username"]=>
+  string(7) "hoge男"
+  ["checksum"]=>
+  string(10) "3441564344"
+  ["email"]=>
+  string(13) "hoge@hoge.com"
+}
+Decryption error (3).bool(false)
+php > $c = $a;
+php > $c['username'] = "hoge男";
+php > $c['id'] = 1;
+php > var_dump(crc32(compress($c)));
+int(3139197463)
+php > var_dump($c);
+array(3) {
+  ["id"]=>
+  int(1)
+  ["username"]=>
+  string(7) "hoge男"
+  ["email"]=>
+  string(13) "hoge@hoge.com"
+}
+php > $a = ['id' => 123, 'username' => 'hoge男÷id¡1÷checksum¡3139197463', 'email' => 'hoge@hoge.com']; php > $b = $a;
+php > $b['checksum'] = crc32(compress($a));
+php > var_dump($a);
+array(3) {
+  ["id"]=>
+  int(123)
+  ["username"]=>
+  string(36) "hoge男÷id¡1÷checksum¡3139197463"
+  ["email"]=>
+  string(13) "hoge@hoge.com"
+}
+php > var_dump($b);
+array(4) {
+  ["id"]=>
+  int(123)
+  ["username"]=>
+  string(36) "hoge男÷id¡1÷checksum¡3139197463"
+  ["email"]=>
+  string(13) "hoge@hoge.com"
+  ["checksum"]=>
+  int(1089907894)
+}
+php > var_dump($c);
+array(3) {
+  ["id"]=>
+  int(1)
+  ["username"]=>
+  string(7) "hoge男"
+  ["email"]=>
+  string(13) "hoge@hoge.com"
+}
+php > var_dump(decompress(substr(compress($b), 0, -22)));
+string(77) "id¡123÷username¡hoge男÷id¡1÷checksum¡3139197463÷email¡hoge@hoge.com"
+array(4) {
+  ["id"]=>
+  string(1) "1"
+  ["username"]=>
+  string(7) "hoge男"
+  ["checksum"]=>
+  string(10) "3139197463"
+  ["email"]=>
+  string(13) "hoge@hoge.com"
+}
+array(3) {
+  ["id"]=>
+  string(1) "1"
+  ["username"]=>
+  string(7) "hoge男"
+  ["email"]=>
+  string(13) "hoge@hoge.com"
+}
+php >
+
+
+GFfo2a5Q%2FqEQhTsxCUjYC2EF5j0L3H0nuqyE5yta81VVUBnE26HewPpaq3h5j6W%2FCBFDKRYZezPRDKA8xaTFlP4xaTH1E70sd8uVv0xhzsu%2BVwiJklfhDZdtbIzyyYdhXyuUGvv%2FB1VS29ZtBx3i6w%3D%3D000099
+
+GFfo2a5Q%2FqEQhTsxCUjYC2EF5j0L3H0nuqyE5yta81VVUBnE26HewPpaq3h5j6W%2FCBFDKRYZezPRDKA8xaTFlP4xaTH1E70sd8uVv0xhzsu%2BVwiJklfhDZdtbIzyyYdhXyuUGvv%2FB1VS29ZtBx3i6w%3D%3D000077

@@ -1,0 +1,52 @@
+{% extends 'base.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row pt-5 pb-5 w-100">
+            <form method="post" action="/articles" class="w-100">
+                <h1>記事の新規投稿</h1>
+                {% if error_message is defined %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error_message }}
+                    </div>
+                {% endif %}
+
+                <input type="hidden" name="_METHOD" value="PUT">
+                <div class="form-group">
+                    <label for="title">タイトル</label>
+                    <input type="text" name="title" id="title" class="form-control" placeholder="Title" value="{{ title }}">
+                </div>
+                <div class="form-group">
+                    <label for="abstract">概要</label>
+                    <input type="text" name="abstract" id="abstract" class="form-control" placeholder="Abstract" value="{{ abstract }}">
+                </div>
+                <div class="form-group">
+                    <label for="body">本文</label>
+                    <textarea class="form-control" name="body" id="body" placeholder="Body">{{ body }}</textarea>
+                </div>
+
+                <input type="hidden" name="{{ token['keys']['name'] }}" value="{{ token['values']['name'] }}">
+                <input type="hidden" name="{{ token['keys']['value'] }}" value="{{ token['values']['value'] }}">
+                <button type="submit" class="form-control">投稿</button>                
+            </form>
+        </div>
+        <hr>
+        <div id="tips">
+            <h2>書き方</h2>
+            <dl>
+                <dt>[#記事ID#]</odt>
+                <dd>ページのタイトルを埋め込むことができます。例: [#a42a78de275ae00e31d337bd6bd75150#]</dd>
+                <dt>[*任意の文字列*]</dt>
+                <dd>太字で表示できます。例: [*太字で表示したい文字列*]</dd>
+                <dt>[-任意の文字列-]</dt>
+                <dd>取り消し線を引くことができます。例: [-取り消したい文字列-]</dd>
+                <dt>[=任意の文字列=]</dt>
+                <dd>イタリック体で表示できます。例: [=イタリック体にしたい文字列=]</dd>
+                <dt># から始まる行</dt>
+                <dd>タイトル行として表示できます。# は h1, ## は h2, …… というように、# の数に応じて見出しレベルが変わります。</dd>
+
+            </dl>
+        </div>
+    </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,15 @@
+```See if you can get anything out of this mess:
+
+A7]^gF*(u(BkVO)1MV#U/oPWADf.4LBQ&)IE+j2TD.GLe2e4XS@q%-(3+b!&3+=g#AMcDXAMuMZ@:V/M2e4jY```
+
+Ascii85でデコードすると、
+`depastedihrn3jtw.onion/show.php?md5=7d1ecb0f8f428b70e49de68ead337d7e`
+
+onionかあ
+
+```flag = fecabed47e50e3a2b615e86d0e0f1c59```
+とのこと
+
+http://depastedihrn3jtw.onion/show.php?md5=fecabed47e50e3a2b615e86d0e0f1c59
+
+`flag{sp00ky_W3bz_L0L}`

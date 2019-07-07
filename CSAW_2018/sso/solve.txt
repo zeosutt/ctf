@@ -1,0 +1,5 @@
+curl web.chal.csaw.io:9000/oauth2/authorize -v --data 'response_type=code&redirect_uri=hoge'
+
+curl web.chal.csaw.io:9000/oauth2/token -v --data 'grant_type=authorization_code&code=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWRpcmVjdF91cmkiOiJob2dlIiwiaWF0IjoxNTM3MTAwMTk2LCJleHAiOjE1MzcxMDA3OTZ9.ZwowCtweY3T4RFP8rG1hA-zVjLzk8nej_8YLyl23zew&redirect_uri=hoge'
+
+curl web.chal.csaw.io:9000/protected -v -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoidXNlciIsInNlY3JldCI6InVmb3VuZG1lISIsImlhdCI6MTUzNzEwMzgxOCwiZXhwIjoxNTM3MTA0NDE4fQ.I5DJWL7iNi4rUAN4BvKN2WGg1rq0A09aFXPYcKazp6w'

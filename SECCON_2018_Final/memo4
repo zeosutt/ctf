@@ -1,0 +1,1 @@
+curl 'http://matsushima.pwn.ja.seccon/draw' --data 'change=0&game_id=424913865370908'

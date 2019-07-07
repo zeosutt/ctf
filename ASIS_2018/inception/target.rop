@@ -1,0 +1,28 @@
+0x84b:	add    esp,0x8
+0x84a:	add    rsp,0x8
+0x96f:	add    bl,dh
+0x9a8:	pop    rbp
+0x9a6:	add    BYTE PTR [rax],al; 	pop    rbp
+0x9a5:	add    BYTE PTR [rax],r8b; 	pop    rbp
+0x9e8:	pop    rbp
+0x9e5:	nop    DWORD PTR [rax]; 	pop    rbp
+0xa09:	pop    rbp
+0xa07:	add    BYTE PTR [rcx],al; 	pop    rbp
+0xa0f:	add    bl,dh
+0xa90:	pop    rbp
+0xa8f:	nop; 	pop    rbp
+0xb55:	leave  
+0xb54:	nop; 	leave  
+0xc7f:	leave  
+0xc7e:	add    cl,cl
+0xc7d:	add    BYTE PTR [rax],al; 	leave  
+0xc7c:	add    BYTE PTR [rax],al; 	add    cl,cl
+0xcdc:	fmul   QWORD PTR [rax-0x7d]
+0xcf3:	pop    rdi
+0xcf2:	pop    r15
+0xcf1:	pop    rsi; 	pop    r15
+0xcf0:	pop    r14; 	pop    r15
+0xcff:	add    bl,dh
+0xcfd:	add    BYTE PTR [rax],al; 	add    bl,dh
+0xd09:	add    esp,0x8
+0xd08:	add    rsp,0x8

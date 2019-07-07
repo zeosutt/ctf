@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun May 12 17:47:17 2019
+Invocation: foremost redacted-puzzle.gif 
+Output directory: /media/sf_GoogleDrive/CTF/DEF_CON_CTF_Qual_2019/redacted-puzzle/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: redacted-puzzle.gif
+Start: Sun May 12 17:47:17 2019
+Length: 78 KB (79996 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.gif 	      57 KB 	          0 	  (1280 x 720)
+Finish: Sun May 12 17:47:17 2019
+
+1 FILES EXTRACTED
+	
+gif:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sun May 12 17:47:17 2019

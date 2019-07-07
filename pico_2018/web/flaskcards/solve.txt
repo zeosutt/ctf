@@ -1,0 +1,3 @@
+Jinja2のSSTI問。
+
+{{config['SECRET_KEY']}} を表示するだけ。

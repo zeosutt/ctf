@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Jun  9 15:06:14 2019
+Invocation: foremost dem_shingles.jpg 
+Output directory: /media/sf_GoogleDrive/CTF/BCA_I/foren/study-of-roofs/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: dem_shingles.jpg
+Start: Sun Jun  9 15:06:14 2019
+Length: 1 MB (1580771 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	       1 MB 	          0 	 
+1:	00003052.jpg 	      17 KB 	    1562983 	 
+Finish: Sun Jun  9 15:06:14 2019
+
+2 FILES EXTRACTED
+	
+jpg:= 2
+------------------------------------------------------------------
+
+Foremost finished at Sun Jun  9 15:06:14 2019

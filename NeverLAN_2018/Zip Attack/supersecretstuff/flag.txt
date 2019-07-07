@@ -1,0 +1,1 @@
+flag{plaintext-attacks-are-cool!}

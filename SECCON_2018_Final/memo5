@@ -1,0 +1,5 @@
+$ curl 'http://matsushima.pwn.ja.seccon/draw' --data 'change=0&change=1&change=4&change=7&change=8&game_id=424913865370908'
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to target URL: <a href="/MarinaBaySandsNo1Fhaimakaisoutyudayo">/MarinaBaySandsNo1Fhaimakaisoutyudayo</a>.  If not click the link.m

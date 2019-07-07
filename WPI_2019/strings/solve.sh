@@ -1,0 +1,1 @@
+grep -ao WPI{.*} strings

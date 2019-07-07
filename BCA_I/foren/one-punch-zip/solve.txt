@@ -1,0 +1,5 @@
+$ strings opm.png > dict
+$ sudo fcrackzip -u -D -p ./dict superSecure.zip
+
+
+PASSWORD FOUND!!!!: pw == w\8VH"$.

